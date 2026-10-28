@@ -135,6 +135,10 @@
       "status": "reference",
       "sources": [
         {
+          "title": "小米官方支持 KA-06513：Mi TV / Mi Box 开发者选项和 ADB",
+          "url": "https://www.mi.com/ph/support/article/KA-06513/"
+        },
+        {
           "title": "小米旧版开发者文档",
           "url": "https://dev.mi.com/docs/mitv/user_guide/"
         },
@@ -144,12 +148,13 @@
         }
       ],
       "steps": [
-        "在普通设置的账户与安全中查找 ADB 调试。",
-        "若无该项，社区资料提示部分机型可在关于页选中产品型号并多次按确认键，随后返回账户与安全查看。"
+        "在设置的关于页面选中产品型号，按确认键七次，观察实际开发者提示。",
+        "返回设置，在账户与安全中查找 ADB 调试，选择允许。"
       ],
       "limitations": [
-        "小米官方旧文有 ADB 设置；连续按键及具体适用机型来自社区参考。",
-        "不需要为开启 ADB 同时打开未知来源。"
+        "小米官方 KA-06513 明确描述 Mi TV / Mi Box 的产品型号七次点击及账户与安全开关；该文未给出完整型号和固件范围。",
+        "Redmi 的适用性仍只有所列社区资料支持，不能统一标成官方验证。",
+        "不同系统和地区可能使用其他菜单；不需要为查找调试开关同时修改未知来源设置。"
       ],
       "transport": "unknown",
       "reviewed_at": "2026-10-28"
@@ -190,7 +195,7 @@
         "Amazon Fire TV"
       ],
       "title": "Fire TV 开发者选项",
-      "scope": "部分 Fire TV / Fire OS；实际界面为准",
+      "scope": "运行 Fire OS 且实际有 ADB Debugging 的 Fire TV；不包含 Vega OS",
       "models": [],
       "evidence": "official",
       "status": "reference",
@@ -201,12 +206,14 @@
         }
       ],
       "steps": [
-        "打开 Settings、My Fire TV、Developer Options。",
-        "找到 ADB Debugging 并开启；若开发者选项隐藏，查看官方文档中对应系统版本的说明。"
+        "打开 Settings、Device 或 My Fire TV，进入 Developer Options。",
+        "若该选项隐藏，官方说明部分版本可在 My Fire TV、About 中选中设备名称，按确认键七次，再返回查看。",
+        "找到 ADB Debugging 并开启；只有确实出现连接授权弹窗时，才由本人允许当前电脑。"
       ],
       "limitations": [
         "这是 Amazon 官方 Fire TV 路径，不代表所有 Android 电视均相同。",
-        "不需要开启安装未知应用；实际连接方式以设备页面为准。"
+        "不需要开启安装未知应用；实际连接方式以设备页面为准。",
+        "只适用于所引 Fire OS 文档；Fire TV 品牌也有采用 Vega OS 的设备，Vega 开发者模式使用不同工具。"
       ],
       "transport": "unknown",
       "reviewed_at": "2026-10-28"
@@ -567,6 +574,58 @@
       "limitations": [
         "品牌名称不能证明操作系统或 ADB 支持情况。",
         "先查看关于页面系统名称；其他系统的开发者功能不等于 Android ADB。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "nvidia-shield-usb",
+      "brands": [
+        "NVIDIA SHIELD"
+      ],
+      "title": "NVIDIA SHIELD TV：官方有线 USB 说明",
+      "scope": "NVIDIA 支持文章 4367 所述带可切换 USB 端口的 SHIELD TV；文章更新于 2021-09-29，具体硬件和固件范围未逐型号列出",
+      "models": [],
+      "evidence": "official",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "NVIDIA 支持：How to Use the New SHIELD TV in MTP or ADB mode",
+          "url": "https://nvidia.custhelp.com/app/answers/detail/a_id/4367"
+        }
+      ],
+      "steps": [
+        "在设置的 About 页面选中 Build，按确认键七次，观察开发者提示。",
+        "在实际出现的 Developer Options 中开启 USB debugging。"
+      ],
+      "limitations": [
+        "官方文章描述的是有线 USB 调试，不能推断所有 SHIELD 机型或网络调试均适用。",
+        "原文还要求核对特定 USB 端口及设备模式，必须按对应硬件的官方说明连接；不要将普通电视任意 USB 口直接连接电脑。",
+        "调试可能占用该端口，恢复普通外设用途需要返回相应默认设置；本项目未真机验证。"
+      ],
+      "transport": "usb",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "fire-tv-vega-check",
+      "brands": [
+        "Amazon Fire TV"
+      ],
+      "title": "Fire TV 的 Vega OS：开发者模式不等于 Android ADB",
+      "scope": "实际运行 Vega OS 的 Fire TV；先核实设备系统，不按 Fire TV 品牌套用 Fire OS 路径",
+      "models": [],
+      "evidence": "official",
+      "status": "unresolved",
+      "sources": [
+        {
+          "title": "Amazon Vega 官方文档：Enable Developer Mode（0.24）",
+          "url": "https://developer.amazon.com/docs/vega/0.24/developer-mode"
+        }
+      ],
+      "steps": [],
+      "limitations": [
+        "官方资料使用 Vega CLI 和 VDA 进行开发者访问，并要求开发者账户认证；不能把开发者模式当成 Android ADB 已开启。",
+        "认证启用后设备会重启，本资料库不提供该系统的 ADB 开启步骤；请查阅对应系统的官方开发文档。"
       ],
       "transport": "unknown",
       "reviewed_at": "2026-10-28"
