@@ -1152,6 +1152,1449 @@
       ],
       "transport": "unknown",
       "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-benq-e55-735",
+      "brands": [
+        "明基"
+      ],
+      "title": "明基 E55-735：Google TV 14 的配对差异",
+      "scope": "仅对应所引原始记录的机型和固件；不同地区、升级版本不能直接套用",
+      "models": [
+        "E55-735"
+      ],
+      "context": {
+        "system": "Google TV 14",
+        "firmware": "UKNV.260506.001",
+        "region": "台湾"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "CleanYourTV 原仓库机型用户记录（固定版本 ab7a89e7）",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/benq-e55-735/debloat.txt"
+        }
+      ],
+      "steps": [
+        "在实际开发者选项中开启 Wireless debugging（无线调试）。",
+        "若页面显示配对码，使用当前配对页与本人电脑配对，再以无线调试主页显示的信息连接。"
+      ],
+      "limitations": [
+        "原用户报告首次只开 USB 调试不能直连，先无线配对可用；重启后的表现不同，不依此承诺固定端口。",
+        "来源描述的是外部用户的设备记录，本资料库没有独立实测；不要照抄原文件中与调试入口无关的系统修改。"
+      ],
+      "transport": "wireless",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-benq-e55-750",
+      "brands": [
+        "明基"
+      ],
+      "title": "明基 E55-750：Google TV 11 的调试记录",
+      "scope": "仅对应所引原始记录的机型和固件；不同地区、升级版本不能直接套用",
+      "models": [
+        "E55-750"
+      ],
+      "context": {
+        "system": "Google TV / Android 11",
+        "firmware": "RTM8.240401.136",
+        "region": "台湾"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "CleanYourTV 原仓库机型用户记录（固定版本 ab7a89e7）",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/benq-e55-750/debloat.txt"
+        },
+        {
+          "title": "Google Android TV 普通设置参考（仅用于菜单相符的设备）",
+          "url": "https://developer.android.com/training/tv/get-started/create#run-tv-apps"
+        }
+      ],
+      "steps": [
+        "如实际菜单为标准 Android TV / Google TV，可按关于页 Build 的开发者提示查看开发者选项。",
+        "在实际选项中按本次需要开启 USB 调试，再观察实际连接和授权结果。"
+      ],
+      "limitations": [
+        "原用户报告所列固件只开 USB 调试即可网络连接，没有无线调试开关；不能从同平台名称推断 E55-735 同样适用。",
+        "来源描述的是外部用户的设备记录，本资料库没有独立实测；不要照抄原文件中与调试入口无关的系统修改。",
+        "显示开发者选项的菜单路径是平台通用参考，原机型文档不一定逐步列出。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-benq-gv32",
+      "brands": [
+        "明基"
+      ],
+      "title": "明基 GV32 投影：无线配对记录",
+      "scope": "仅对应所引原始记录的机型和固件；不同地区、升级版本不能直接套用",
+      "models": [
+        "GV32"
+      ],
+      "context": {
+        "system": "Google TV 14",
+        "firmware": "UKNV.260626.001",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "CleanYourTV 原仓库机型用户记录（固定版本 ab7a89e7）",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/benq-gv32/debloat.txt"
+        }
+      ],
+      "steps": [
+        "在实际开发者选项中开启 Wireless debugging（无线调试）。",
+        "若页面显示配对码，使用当前配对页与本人电脑配对，再以无线调试主页显示的信息连接。"
+      ],
+      "limitations": [
+        "原用户报告只提供 TLS 无线调试；不采纳后续切换常驻传统端口的方式。",
+        "来源描述的是外部用户的设备记录，本资料库没有独立实测；不要照抄原文件中与调试入口无关的系统修改。"
+      ],
+      "transport": "wireless",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-google-chromecast-gtv-4k",
+      "brands": [
+        "Google"
+      ],
+      "title": "Chromecast with Google TV 4K：Android 14 配对",
+      "scope": "仅对应所引原始记录的机型和固件；不同地区、升级版本不能直接套用",
+      "models": [
+        "Chromecast with Google TV 4K"
+      ],
+      "context": {
+        "system": "Google TV 14",
+        "firmware": "UTTC.250917.004 (14193937)",
+        "region": "含加拿大用户记录"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "CleanYourTV 原仓库机型用户记录（固定版本 ab7a89e7）",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/google-chromecast-gtv-4k/debloat.txt"
+        }
+      ],
+      "steps": [
+        "在实际开发者选项中开启 Wireless debugging（无线调试）。",
+        "若页面显示配对码，使用当前配对页与本人电脑配对，再以无线调试主页显示的信息连接。"
+      ],
+      "limitations": [
+        "原记录说明所列固件需先无线配对；不同系统版本可能不同。",
+        "来源描述的是外部用户的设备记录，本资料库没有独立实测；不要照抄原文件中与调试入口无关的系统修改。"
+      ],
+      "transport": "wireless",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-google-chromecast-gtv-hd",
+      "brands": [
+        "Google"
+      ],
+      "title": "Chromecast with Google TV HD：Android 14 配对",
+      "scope": "仅对应所引原始记录的机型和固件；不同地区、升级版本不能直接套用",
+      "models": [
+        "Chromecast with Google TV HD"
+      ],
+      "context": {
+        "system": "Google TV 14",
+        "firmware": "UTTC.250917.004 (14193937)",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "CleanYourTV 原仓库机型用户记录（固定版本 ab7a89e7）",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/google-chromecast-gtv-hd/debloat.txt"
+        }
+      ],
+      "steps": [
+        "在实际开发者选项中开启 Wireless debugging（无线调试）。",
+        "若页面显示配对码，使用当前配对页与本人电脑配对，再以无线调试主页显示的信息连接。"
+      ],
+      "limitations": [
+        "原用户报告重启后无线调试会关闭，需要回到实际页面重开；本库不建议为旧工具强制常驻传统端口。",
+        "来源描述的是外部用户的设备记录，本资料库没有独立实测；不要照抄原文件中与调试入口无关的系统修改。"
+      ],
+      "transport": "wireless",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-google-tv-streamer-4k-kirkwood",
+      "brands": [
+        "Google"
+      ],
+      "title": "Google TV Streamer 4K GZRNL：无线调试记录",
+      "scope": "仅对应所引原始记录的机型和固件；不同地区、升级版本不能直接套用",
+      "models": [
+        "GZRNL"
+      ],
+      "context": {
+        "system": "Google TV 14",
+        "firmware": "UTTK.260317.003",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "CleanYourTV 原仓库机型用户记录（固定版本 ab7a89e7）",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/google-tv-streamer-4k-kirkwood/debloat.txt"
+        }
+      ],
+      "steps": [
+        "在实际开发者选项中开启 Wireless debugging（无线调试）。",
+        "若页面显示配对码，使用当前配对页与本人电脑配对，再以无线调试主页显示的信息连接。"
+      ],
+      "limitations": [
+        "仅针对原记录的系统构建；不把配对方式推广到所有 Google TV 设备。",
+        "来源描述的是外部用户的设备记录，本资料库没有独立实测；不要照抄原文件中与调试入口无关的系统修改。"
+      ],
+      "transport": "wireless",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-hisense-65d62qh",
+      "brands": [
+        "海信"
+      ],
+      "title": "海信 65D62QH：JuUI 固件与授权风险",
+      "scope": "仅对应所引原始记录的机型和固件；不同地区、升级版本不能直接套用",
+      "models": [
+        "65D62QH"
+      ],
+      "context": {
+        "system": "Android 11 / JuUI",
+        "firmware": "9.0.10.845 / RP1A.200720.011",
+        "region": "中国大陆"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "CleanYourTV 原仓库机型用户记录（固定版本 ab7a89e7）",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/hisense-65d62qh/debloat.txt"
+        },
+        {
+          "title": "Google Android TV 普通设置参考（仅用于菜单相符的设备）",
+          "url": "https://developer.android.com/training/tv/get-started/create#run-tv-apps"
+        }
+      ],
+      "steps": [
+        "如实际菜单为标准 Android TV / Google TV，可按关于页 Build 的开发者提示查看开发者选项。",
+        "在实际选项中按本次需要开启 USB 调试，再观察实际连接和授权结果。"
+      ],
+      "limitations": [
+        "原用户报告该固件开启后不显示电脑授权弹窗，家庭网络其他设备也可能连接；仅在可控制的可信网络按需处理，结束后关闭电视端调试。不能将该表现套用所有海信电视。",
+        "来源描述的是外部用户的设备记录，本资料库没有独立实测；不要照抄原文件中与调试入口无关的系统修改。",
+        "显示开发者选项的菜单路径是平台通用参考，原机型文档不一定逐步列出。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-hisense-hg9",
+      "brands": [
+        "海信"
+      ],
+      "title": "海信 HG9：独立网络调试开关",
+      "scope": "仅对应所引原始记录的机型和固件；不同地区、升级版本不能直接套用",
+      "models": [
+        "HG9"
+      ],
+      "context": {
+        "system": "Android TV 9",
+        "firmware": "PTMR.190127.037",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "CleanYourTV 原仓库机型用户记录（固定版本 ab7a89e7）",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/hisense-hg9/debloat.txt"
+        }
+      ],
+      "steps": [
+        "在实际开发者选项中查找独立的 Network/Wireless debugging（网络/无线调试）开关；只有 USB 调试不足以采用此记录。",
+        "只按本次需要开启，并在发起连接后核对实际授权提示。"
+      ],
+      "limitations": [
+        "原用户报告只开 USB 调试不开放网络入口，还需实际的网络/无线开关；该次记录中重启后生效，不表示必须反复重启。",
+        "来源描述的是外部用户的设备记录，本资料库没有独立实测；不要照抄原文件中与调试入口无关的系统修改。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-hisense-hismarttv-a4-android11",
+      "brands": [
+        "海信"
+      ],
+      "title": "海信 75A53FUA：A4 平台 Android 11 用户记录",
+      "scope": "仅对应所引原始记录的机型和固件；不同地区、升级版本不能直接套用",
+      "models": [
+        "75A53FUA"
+      ],
+      "context": {
+        "system": "Android TV 11",
+        "firmware": "RTT2.221108.001 / 00.00.01.18",
+        "region": "美国（原文第二台设备）"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "CleanYourTV 原仓库机型用户记录（固定版本 ab7a89e7）",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/hisense-hismarttv-a4-android11/debloat.txt"
+        },
+        {
+          "title": "Google Android TV 普通设置参考（仅用于菜单相符的设备）",
+          "url": "https://developer.android.com/training/tv/get-started/create#run-tv-apps"
+        }
+      ],
+      "steps": [
+        "如实际菜单为标准 Android TV / Google TV，可按关于页 Build 的开发者提示查看开发者选项。",
+        "在实际选项中按本次需要开启 USB 调试，再观察实际连接和授权结果。"
+      ],
+      "limitations": [
+        "原文明确列出该零售型号的第二台记录；来源同平台记录称 USB 开启后可网络连接并出现授权，不能推广至该品牌所有固件。",
+        "来源描述的是外部用户的设备记录，本资料库没有独立实测；不要照抄原文件中与调试入口无关的系统修改。",
+        "显示开发者选项的菜单路径是平台通用参考，原机型文档不一定逐步列出。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-hisense-smarttv-4k-ffm",
+      "brands": [
+        "海信"
+      ],
+      "title": "海信 U9DG：Android TV 10 固件线索",
+      "scope": "仅对应所引原始记录的机型和固件；不同地区、升级版本不能直接套用",
+      "models": [
+        "U9DG"
+      ],
+      "context": {
+        "system": "Android TV 10",
+        "firmware": "QTG3.200902.001",
+        "region": "美国；另含拉美平台记录"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "CleanYourTV 原仓库机型用户记录（固定版本 ab7a89e7）",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/hisense-smarttv-4k-ffm/debloat.txt"
+        },
+        {
+          "title": "Google Android TV 普通设置参考（仅用于菜单相符的设备）",
+          "url": "https://developer.android.com/training/tv/get-started/create#run-tv-apps"
+        }
+      ],
+      "steps": [
+        "如实际菜单为标准 Android TV / Google TV，可按关于页 Build 的开发者提示查看开发者选项。",
+        "在实际选项中按本次需要开启 USB 调试，再观察实际连接和授权结果。"
+      ],
+      "limitations": [
+        "原文将美国 U9DG 与同构建的 FFM 平台记录并列，称开启 USB 后可网络连接；仅是该来源的型号关联，不是本库实测。",
+        "来源描述的是外部用户的设备记录，本资料库没有独立实测；不要照抄原文件中与调试入口无关的系统修改。",
+        "显示开发者选项的菜单路径是平台通用参考，原机型文档不一定逐步列出。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-nvidia-shield-tv-2019",
+      "brands": [
+        "NVIDIA SHIELD"
+      ],
+      "title": "NVIDIA SHIELD TV 2019 P3430：网络调试",
+      "scope": "仅对应所引原始记录的机型和固件；不同地区、升级版本不能直接套用",
+      "models": [
+        "P3430"
+      ],
+      "context": {
+        "system": "Android TV 11 / SHIELD Experience 9.2.4",
+        "firmware": "RQ1A.210105.003.7825199_4387.0822",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "CleanYourTV 原仓库机型用户记录（固定版本 ab7a89e7）",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/nvidia-shield-tv-2019/debloat.txt"
+        }
+      ],
+      "steps": [
+        "在实际开发者选项中查找明确的 Network debugging（网络调试）开关。",
+        "只按本次需要开启，并在发起连接后核对实际授权提示。"
+      ],
+      "limitations": [
+        "原记录说明该圆筒机型没有 USB 端口，使用 Network debugging；不要套用有线 USB 教程。",
+        "来源描述的是外部用户的设备记录，本资料库没有独立实测；不要照抄原文件中与调试入口无关的系统修改。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-nvidia-shield-tv-pro-2019",
+      "brands": [
+        "NVIDIA SHIELD"
+      ],
+      "title": "NVIDIA SHIELD TV Pro 2019 P2897：网络调试",
+      "scope": "仅对应所引原始记录的机型和固件；不同地区、升级版本不能直接套用",
+      "models": [
+        "P2897"
+      ],
+      "context": {
+        "system": "Android TV 11 / SHIELD Experience 9.2.4",
+        "firmware": "RQ1A.210105.003.7825230_4387.0822",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "CleanYourTV 原仓库机型用户记录（固定版本 ab7a89e7）",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/nvidia-shield-tv-pro-2019/debloat.txt"
+        }
+      ],
+      "steps": [
+        "在实际开发者选项中查找明确的 Network debugging（网络调试）开关。",
+        "只按本次需要开启，并在发起连接后核对实际授权提示。"
+      ],
+      "limitations": [
+        "原用户记录 Network debugging 开关开放网络入口；本库不依据作者的平台相似性推测扩大至其他年代型号。",
+        "来源描述的是外部用户的设备记录，本资料库没有独立实测；不要照抄原文件中与调试入口无关的系统修改。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-onn-4k-plus-2025",
+      "brands": [
+        "onn."
+      ],
+      "title": "onn. 4K Plus 2025：该固件无需配对的记录",
+      "scope": "仅对应所引原始记录的机型和固件；不同地区、升级版本不能直接套用",
+      "models": [
+        "onn. 4K Plus Streaming 2025"
+      ],
+      "context": {
+        "system": "Google TV 14",
+        "firmware": "URO4.260304.011.B1.15051976",
+        "region": "美国"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "CleanYourTV 原仓库机型用户记录（固定版本 ab7a89e7）",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/onn-4k-plus-2025/debloat.txt"
+        },
+        {
+          "title": "Google Android TV 普通设置参考（仅用于菜单相符的设备）",
+          "url": "https://developer.android.com/training/tv/get-started/create#run-tv-apps"
+        }
+      ],
+      "steps": [
+        "如实际菜单为标准 Android TV / Google TV，可按关于页 Build 的开发者提示查看开发者选项。",
+        "在实际选项中按本次需要开启 USB 调试，再观察实际连接和授权结果。"
+      ],
+      "limitations": [
+        "原用户报告 USB 开启后即可网络连接，不需要无线配对；不能将 Android 14 一律写成先配对。",
+        "来源描述的是外部用户的设备记录，本资料库没有独立实测；不要照抄原文件中与调试入口无关的系统修改。",
+        "显示开发者选项的菜单路径是平台通用参考，原机型文档不一定逐步列出。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-onn-4k-streaming-box-2023",
+      "brands": [
+        "onn."
+      ],
+      "title": "onn. 4K Streaming Box 2023：调试记录",
+      "scope": "仅对应所引原始记录的机型和固件；不同地区、升级版本不能直接套用",
+      "models": [
+        "onn. 4K Streaming Box 2023"
+      ],
+      "context": {
+        "system": "Google TV 14",
+        "firmware": "URO4.260304.011.B1.15051976",
+        "region": "美国；另有越南用户记录"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "CleanYourTV 原仓库机型用户记录（固定版本 ab7a89e7）",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/onn-4k-streaming-box-2023/debloat.txt"
+        },
+        {
+          "title": "Google Android TV 普通设置参考（仅用于菜单相符的设备）",
+          "url": "https://developer.android.com/training/tv/get-started/create#run-tv-apps"
+        }
+      ],
+      "steps": [
+        "如实际菜单为标准 Android TV / Google TV，可按关于页 Build 的开发者提示查看开发者选项。",
+        "在实际选项中按本次需要开启 USB 调试，再观察实际连接和授权结果。"
+      ],
+      "limitations": [
+        "原文记录该构建 USB 开启后可网络连接；不采纳原文的局域网扫描建议。",
+        "来源描述的是外部用户的设备记录，本资料库没有独立实测；不要照抄原文件中与调试入口无关的系统修改。",
+        "显示开发者选项的菜单路径是平台通用参考，原机型文档不一定逐步列出。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-panasonic-4ktv-0su",
+      "brands": [
+        "松下"
+      ],
+      "title": "松下 4KTV-0SU：独立网络开关",
+      "scope": "仅对应所引原始记录的机型和固件；不同地区、升级版本不能直接套用",
+      "models": [
+        "4KTV-0SU"
+      ],
+      "context": {
+        "system": "Android TV 10",
+        "firmware": "QTG3.200617.002",
+        "region": "海湾地区"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "CleanYourTV 原仓库机型用户记录（固定版本 ab7a89e7）",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/panasonic-4ktv-0su/debloat.txt"
+        }
+      ],
+      "steps": [
+        "在实际开发者选项中查找明确的 Network debugging（网络调试）开关。",
+        "只按本次需要开启，并在发起连接后核对实际授权提示。"
+      ],
+      "limitations": [
+        "原用户报告只开 USB 不足以连接，需要独立网络开关；该次记录还报告重启后才生效，不保证其他版本行为。",
+        "来源描述的是外部用户的设备记录，本资料库没有独立实测；不要照抄原文件中与调试入口无关的系统修改。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-philips-50pud7406",
+      "brands": [
+        "飞利浦"
+      ],
+      "title": "飞利浦 50PUD7406/43：USB 调试与网络入口",
+      "scope": "仅对应所引原始记录的机型和固件；不同地区、升级版本不能直接套用",
+      "models": [
+        "50PUD7406/43"
+      ],
+      "context": {
+        "system": "Android TV 11",
+        "firmware": "TPM215L_R.105.000.097.000 / RTM2.210929.098",
+        "region": "智利"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "CleanYourTV 原仓库机型用户记录（固定版本 ab7a89e7）",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/philips-50pud7406/debloat.txt"
+        },
+        {
+          "title": "Google Android TV 普通设置参考（仅用于菜单相符的设备）",
+          "url": "https://developer.android.com/training/tv/get-started/create#run-tv-apps"
+        }
+      ],
+      "steps": [
+        "如实际菜单为标准 Android TV / Google TV，可按关于页 Build 的开发者提示查看开发者选项。",
+        "在实际选项中按本次需要开启 USB 调试，再观察实际连接和授权结果。"
+      ],
+      "limitations": [
+        "原用户报告 USB 开启后可网络连接并出现授权；不同市场的系统版本与菜单要另核对。",
+        "来源描述的是外部用户的设备记录，本资料库没有独立实测；不要照抄原文件中与调试入口无关的系统修改。",
+        "显示开发者选项的菜单路径是平台通用参考，原机型文档不一定逐步列出。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-philips-55pus7503",
+      "brands": [
+        "飞利浦"
+      ],
+      "title": "飞利浦 55PUS7503/12：旧款 Android TV 8",
+      "scope": "仅对应所引原始记录的机型和固件；不同地区、升级版本不能直接套用",
+      "models": [
+        "55PUS7503/12"
+      ],
+      "context": {
+        "system": "Android TV 8.0",
+        "firmware": "OC / 4718",
+        "region": "欧洲"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "CleanYourTV 原仓库机型用户记录（固定版本 ab7a89e7）",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/philips-55pus7503/debloat.txt"
+        },
+        {
+          "title": "Google Android TV 普通设置参考（仅用于菜单相符的设备）",
+          "url": "https://developer.android.com/training/tv/get-started/create#run-tv-apps"
+        }
+      ],
+      "steps": [
+        "如实际菜单为标准 Android TV / Google TV，可按关于页 Build 的开发者提示查看开发者选项。",
+        "在实际选项中按本次需要开启 USB 调试，再观察实际连接和授权结果。"
+      ],
+      "limitations": [
+        "原用户报告 USB 开启后可网络连接；与同品牌的 Google TV 14 无线调试路径不同。",
+        "来源描述的是外部用户的设备记录，本资料库没有独立实测；不要照抄原文件中与调试入口无关的系统修改。",
+        "显示开发者选项的菜单路径是平台通用参考，原机型文档不一定逐步列出。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-philips-65pus8102",
+      "brands": [
+        "飞利浦"
+      ],
+      "title": "飞利浦 65PUS8102/12：TPM171E 固件记录",
+      "scope": "仅对应所引原始记录的机型和固件；不同地区、升级版本不能直接套用",
+      "models": [
+        "65PUS8102/12"
+      ],
+      "context": {
+        "system": "Android TV 8.0",
+        "firmware": "TPM171E_R.107.001.143.000",
+        "region": "欧洲"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "CleanYourTV 原仓库机型用户记录（固定版本 ab7a89e7）",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/philips-65pus8102/debloat.txt"
+        },
+        {
+          "title": "Google Android TV 普通设置参考（仅用于菜单相符的设备）",
+          "url": "https://developer.android.com/training/tv/get-started/create#run-tv-apps"
+        }
+      ],
+      "steps": [
+        "如实际菜单为标准 Android TV / Google TV，可按关于页 Build 的开发者提示查看开发者选项。",
+        "在实际选项中按本次需要开启 USB 调试，再观察实际连接和授权结果。"
+      ],
+      "limitations": [
+        "原用户报告 USB 调试开放网络入口，但首次授权未立即出现；没有授权时不能宣称已连接，不要求强制断电。",
+        "来源描述的是外部用户的设备记录，本资料库没有独立实测；不要照抄原文件中与调试入口无关的系统修改。",
+        "显示开发者选项的菜单路径是平台通用参考，原机型文档不一定逐步列出。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-philips-r8g-google-tv",
+      "brands": [
+        "飞利浦"
+      ],
+      "title": "飞利浦 R8G：两个调试开关的固件记录",
+      "scope": "仅对应所引原始记录的机型和固件；不同地区、升级版本不能直接套用",
+      "models": [
+        "R8G"
+      ],
+      "context": {
+        "system": "Google TV 14",
+        "firmware": "UKRE.260524.058",
+        "region": "美国"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "CleanYourTV 原仓库机型用户记录（固定版本 ab7a89e7）",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/philips-r8g-google-tv/debloat.txt"
+        }
+      ],
+      "steps": [
+        "仅在实际开发者选项中同时存在 USB debugging 和 Wireless debugging 时，参考该固件记录开启这两个开关。",
+        "原用户报告该次连接不要求配对码；若你的电视显示配对页面，则以实际页面为准，不能跳过配对或授权。"
+      ],
+      "limitations": [
+        "原用户报告开启 USB 与无线调试后无需配对码可连接；只有实际页面存在所述开关时才参考，不推广至同版本全部设备。",
+        "来源描述的是外部用户的设备记录，本资料库没有独立实测；不要照抄原文件中与调试入口无关的系统修改。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-redmi-mitv-mftp0",
+      "brands": [
+        "Redmi"
+      ],
+      "title": "Redmi MiTV-MFTP0：国内固件入口记录",
+      "scope": "仅对应所引原始记录的机型和固件；不同地区、升级版本不能直接套用",
+      "models": [
+        "MiTV-MFTP0"
+      ],
+      "context": {
+        "system": "Android 9 / 国内固件",
+        "firmware": "23.2.10.6129",
+        "region": "中国大陆"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "CleanYourTV 原仓库机型用户记录（固定版本 ab7a89e7）",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/redmi-mitv-mftp0/debloat.txt"
+        }
+      ],
+      "steps": [
+        "在实际设置的关于页面选中产品型号，按确认键七次，观察开发者提示。",
+        "返回账户与安全，找到明确的 ADB 调试选项并按需要开启。"
+      ],
+      "limitations": [
+        "原记录明确使用产品型号七次点击、账户与安全中的 ADB 调试；重启后调试可能关闭。",
+        "来源描述的是外部用户的设备记录，本资料库没有独立实测；不要照抄原文件中与调试入口无关的系统修改。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-haier-h32s80efx",
+      "brands": [
+        "海尔"
+      ],
+      "title": "海尔 H32S80EFX：泰国版 USB 与网络调试记录",
+      "scope": "只对应来源所述型号、系统和固件；不按品牌推断其他设备适用",
+      "models": [
+        "H32S80EFX"
+      ],
+      "context": {
+        "system": "Google TV 14",
+        "firmware": "UKNV.260302.001",
+        "region": "泰国"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "型号原始记录或原作者资料",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/haier-h32s80efx/debloat.txt"
+        },
+        {
+          "title": "Android TV 平台菜单参考（不代表该机型实测）",
+          "url": "https://developer.android.com/training/tv/get-started/create#run-tv-apps"
+        }
+      ],
+      "steps": [
+        "仅当实际设置符合标准 Android TV/Google TV 菜单时，在设置的关于页面对版本号按确认键七次，观察开发者提示。",
+        "返回开发者选项，按需开启实际存在的 USB 调试；找不到时停止，不进入工厂菜单。"
+      ],
+      "limitations": [
+        "原用户报告 USB 调试打开后网络入口可用，并有调试授权；不能推广到海尔国内定制系统。",
+        "原型号资料说明调试行为但没有完整逐级菜单；这里的菜单仅是平台通用参考，找不到时不能证明该机不支持。",
+        "来源中的操作由外部作者报告，本资料库未独立实测；不采用原文中无关的系统修改。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-haier-hr9216eu",
+      "brands": [
+        "海尔"
+      ],
+      "title": "海尔 HR9216EU：无线配对与重启差异",
+      "scope": "只对应来源所述型号、系统和固件；不按品牌推断其他设备适用",
+      "models": [
+        "HR9216EU"
+      ],
+      "context": {
+        "system": "Google TV 14",
+        "firmware": "UKN6.260116.152",
+        "region": "欧洲"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "型号原始记录或原作者资料",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/haier-hr9216eu/debloat.txt"
+        },
+        {
+          "title": "Android TV 平台菜单参考（不代表该机型实测）",
+          "url": "https://developer.android.com/training/tv/get-started/create#run-tv-apps"
+        }
+      ],
+      "steps": [
+        "在实际开发者选项中打开 Wireless debugging（无线调试）；若入口被隐藏，先查询对应系统的开发者设置说明。",
+        "若电视显示“使用配对码配对”，使用电视当次显示的配对码和端口；连接端口与配对端口可能不同。"
+      ],
+      "limitations": [
+        "原用户报告无线调试可通过 mDNS 再发现；传统固定端口不会保持。本库不采用另行改变端口的命令。",
+        "原型号资料说明调试行为但没有完整逐级菜单；这里的菜单仅是平台通用参考，找不到时不能证明该机不支持。",
+        "来源中的操作由外部作者报告，本资料库未独立实测；不采用原文中无关的系统修改。"
+      ],
+      "transport": "wireless",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-chiq-gtvu65",
+      "brands": [
+        "长虹",
+        "CHiQ"
+      ],
+      "title": "CHiQ GTVU65：Google TV 14 调试记录",
+      "scope": "只对应来源所述型号、系统和固件；不按品牌推断其他设备适用",
+      "models": [
+        "GTVU65"
+      ],
+      "context": {
+        "system": "Google TV 14",
+        "firmware": "UKN2.241219.138.A1",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "型号原始记录或原作者资料",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/chiq-gtvu65/debloat.txt"
+        },
+        {
+          "title": "Android TV 平台菜单参考（不代表该机型实测）",
+          "url": "https://developer.android.com/training/tv/get-started/create#run-tv-apps"
+        }
+      ],
+      "steps": [
+        "仅当实际设置符合标准 Android TV/Google TV 菜单时，在设置的关于页面对版本号按确认键七次，观察开发者提示。",
+        "返回开发者选项，按需开启实际存在的 USB 调试；找不到时停止，不进入工厂菜单。"
+      ],
+      "limitations": [
+        "原用户报告 USB 调试开启后可直接网络连接；与 DVB93CQ 的 Android TV 11 固件不同。",
+        "原型号资料说明调试行为但没有完整逐级菜单；这里的菜单仅是平台通用参考，找不到时不能证明该机不支持。",
+        "来源中的操作由外部作者报告，本资料库未独立实测；不采用原文中无关的系统修改。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-jmgo-n1s-holan",
+      "brands": [
+        "坚果",
+        "JMGO"
+      ],
+      "title": "坚果 N1S：澳洲版无线调试记录",
+      "scope": "只对应来源所述型号、系统和固件；不按品牌推断其他设备适用",
+      "models": [
+        "N1S",
+        "K80A"
+      ],
+      "context": {
+        "system": "Google TV 14",
+        "firmware": "UKNV.260401.001",
+        "region": "澳大利亚"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "型号原始记录或原作者资料",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/jmgo-n1s-holan/debloat.txt"
+        },
+        {
+          "title": "Android TV 平台菜单参考（不代表该机型实测）",
+          "url": "https://developer.android.com/training/tv/get-started/create#run-tv-apps"
+        }
+      ],
+      "steps": [
+        "在实际开发者选项中打开 Wireless debugging（无线调试）；若入口被隐藏，先查询对应系统的开发者设置说明。",
+        "原用户报告该版无线开关同时开放传统网络入口且无需配对；若实际出现配对或授权提示，必须按实际提示处理。"
+      ],
+      "limitations": [
+        "原用户报告重启后网络入口仍开放，使用后应在投影仪端关闭调试；不适用于未经核对的国内版。",
+        "原型号资料说明调试行为但没有完整逐级菜单；这里的菜单仅是平台通用参考，找不到时不能证明该机不支持。",
+        "来源中的操作由外部作者报告，本资料库未独立实测；不采用原文中无关的系统修改。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-oneplus-tv-cebu",
+      "brands": [
+        "一加",
+        "OnePlus"
+      ],
+      "title": "一加 C00：印度版 USB 调试网络行为",
+      "scope": "只对应来源所述型号、系统和固件；不按品牌推断其他设备适用",
+      "models": [
+        "C00"
+      ],
+      "context": {
+        "system": "Android TV 10",
+        "firmware": "QTG3.201207.001",
+        "region": "印度"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "型号原始记录或原作者资料",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/oneplus-tv-cebu/debloat.txt"
+        },
+        {
+          "title": "Android TV 平台菜单参考（不代表该机型实测）",
+          "url": "https://developer.android.com/training/tv/get-started/create#run-tv-apps"
+        }
+      ],
+      "steps": [
+        "仅当实际设置符合标准 Android TV/Google TV 菜单时，在设置的关于页面对版本号按确认键七次，观察开发者提示。",
+        "返回开发者选项，按需开启实际存在的 USB 调试；找不到时停止，不进入工厂菜单。"
+      ],
+      "limitations": [
+        "原用户报告 USB 调试同时开放网络入口，重启后持续到手动关闭；操作结束要在设备端关闭。",
+        "原型号资料说明调试行为但没有完整逐级菜单；这里的菜单仅是平台通用参考，找不到时不能证明该机不支持。",
+        "来源中的操作由外部作者报告，本资料库未独立实测；不采用原文中无关的系统修改。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-sharp-2t-c32gh3000i",
+      "brands": [
+        "夏普"
+      ],
+      "title": "夏普 2T-C32GH3000I：无线配对入口",
+      "scope": "只对应来源所述型号、系统和固件；不按品牌推断其他设备适用",
+      "models": [
+        "2T-C32GH3000I"
+      ],
+      "context": {
+        "system": "Google TV 14",
+        "firmware": "UKN6.260116.061",
+        "region": "印度尼西亚"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "型号原始记录或原作者资料",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sharp-2t-c32gh3000i/debloat.txt"
+        },
+        {
+          "title": "Android TV 平台菜单参考（不代表该机型实测）",
+          "url": "https://developer.android.com/training/tv/get-started/create#run-tv-apps"
+        }
+      ],
+      "steps": [
+        "在实际开发者选项中打开 Wireless debugging（无线调试）；若入口被隐藏，先查询对应系统的开发者设置说明。",
+        "若电视显示“使用配对码配对”，使用电视当次显示的配对码和端口；连接端口与配对端口可能不同。"
+      ],
+      "limitations": [
+        "来源报告初次只有无线调试入口；本库仅保留配对流程，不采用后续改成传统固定端口的命令。",
+        "原型号资料说明调试行为但没有完整逐级菜单；这里的菜单仅是平台通用参考，找不到时不能证明该机不支持。",
+        "来源中的操作由外部作者报告，本资料库未独立实测；不采用原文中无关的系统修改。"
+      ],
+      "transport": "wireless",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-toshiba-cosmos-android-tv",
+      "brands": [
+        "东芝"
+      ],
+      "title": "东芝 Cosmos170：西班牙版调试与待机行为",
+      "scope": "只对应来源所述型号、系统和固件；不按品牌推断其他设备适用",
+      "models": [
+        "Cosmos170"
+      ],
+      "context": {
+        "system": "Android TV 11",
+        "firmware": "RTOC.251019.001",
+        "region": "西班牙"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "型号原始记录或原作者资料",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/toshiba-cosmos-android-tv/debloat.txt"
+        },
+        {
+          "title": "Android TV 平台菜单参考（不代表该机型实测）",
+          "url": "https://developer.android.com/training/tv/get-started/create#run-tv-apps"
+        }
+      ],
+      "steps": [
+        "仅当实际设置符合标准 Android TV/Google TV 菜单时，在设置的关于页面对版本号按确认键七次，观察开发者提示。",
+        "返回开发者选项，按需开启实际存在的 USB 调试；找不到时停止，不进入工厂菜单。"
+      ],
+      "limitations": [
+        "原用户报告 USB 调试授权后可网络连接，没有独立配对菜单；待机关闭 Wi-Fi 导致失联，不能据此认定入口失效。",
+        "原型号资料说明调试行为但没有完整逐级菜单；这里的菜单仅是平台通用参考，找不到时不能证明该机不支持。",
+        "来源中的操作由外部作者报告，本资料库未独立实测；不采用原文中无关的系统修改。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-wanbo-x5-pro",
+      "brands": [
+        "万播",
+        "Wanbo"
+      ],
+      "title": "万播 X5 Pro：内置 Google TV 棒的调试行为",
+      "scope": "只对应来源所述型号、系统和固件；不按品牌推断其他设备适用",
+      "models": [
+        "X5 Pro"
+      ],
+      "context": {
+        "system": "Google TV 14",
+        "firmware": "UKG3.260128.001.C3.3.5_20260723",
+        "region": "澳大利亚"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "型号原始记录或原作者资料",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/wanbo-x5-pro/debloat.txt"
+        },
+        {
+          "title": "Android TV 平台菜单参考（不代表该机型实测）",
+          "url": "https://developer.android.com/training/tv/get-started/create#run-tv-apps"
+        }
+      ],
+      "steps": [
+        "仅当实际设置符合标准 Android TV/Google TV 菜单时，在设置的关于页面对版本号按确认键七次，观察开发者提示。",
+        "返回开发者选项，按需开启实际存在的 USB 调试；找不到时停止，不进入工厂菜单。"
+      ],
+      "limitations": [
+        "记录对应内置的 SkyworthDigital YYT 电视棒；原用户报告 USB 打开网络入口、重启后可能关闭，另有随机端口无线配对方式。",
+        "原型号资料说明调试行为但没有完整逐级菜单；这里的菜单仅是平台通用参考，找不到时不能证明该机不支持。",
+        "来源中的操作由外部作者报告，本资料库未独立实测；不采用原文中无关的系统修改。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-anker-nebula-d2426",
+      "brands": [
+        "Anker Nebula",
+        "安克"
+      ],
+      "title": "Anker Nebula D2426：原始调试状态记录",
+      "scope": "只对应来源所述型号、系统和固件；不按品牌推断其他设备适用",
+      "models": [
+        "D2426"
+      ],
+      "context": {
+        "system": "Android TV 14",
+        "firmware": "UKNV.260603.001",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "型号原始记录或原作者资料",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/anker-nebula-d2426/debloat.txt"
+        },
+        {
+          "title": "Android TV 平台菜单参考（不代表该机型实测）",
+          "url": "https://developer.android.com/training/tv/get-started/create#run-tv-apps"
+        }
+      ],
+      "steps": [
+        "在实际开发者选项中打开 Wireless debugging（无线调试）；若入口被隐藏，先查询对应系统的开发者设置说明。",
+        "先查看实际开关状态和授权方式，不因原记录声称出厂开启就假定自己的设备已经开启；使用后关闭不必要的调试。"
+      ],
+      "limitations": [
+        "原作者报告该台设备无线调试及网络端口已开启；地区、销售批次和是否保持出厂状态未充分说明。",
+        "原型号资料说明调试行为但没有完整逐级菜单；这里的菜单仅是平台通用参考，找不到时不能证明该机不支持。",
+        "来源中的操作由外部作者报告，本资料库未独立实测；不采用原文中无关的系统修改。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-epson-ls800",
+      "brands": [
+        "爱普生"
+      ],
+      "title": "爱普生 LS800：HA90 模块无线配对",
+      "scope": "只对应来源所述型号、系统和固件；不按品牌推断其他设备适用",
+      "models": [
+        "LS800",
+        "HA90"
+      ],
+      "context": {
+        "system": "Android TV 14",
+        "firmware": "UKG3.250826.001 / u-2.05-U-0",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "型号原始记录或原作者资料",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/epson-ls800/debloat.txt"
+        },
+        {
+          "title": "Android TV 平台菜单参考（不代表该机型实测）",
+          "url": "https://developer.android.com/training/tv/get-started/create#run-tv-apps"
+        }
+      ],
+      "steps": [
+        "在实际开发者选项中打开 Wireless debugging（无线调试）；若入口被隐藏，先查询对应系统的开发者设置说明。",
+        "若电视显示“使用配对码配对”，使用电视当次显示的配对码和端口；连接端口与配对端口可能不同。"
+      ],
+      "limitations": [
+        "来源对应 Askey HA90 Android TV 模块；仅保留 TLS 配对，不采用改变端口的命令，也不改变投影机画面参数。",
+        "原型号资料说明调试行为但没有完整逐级菜单；这里的菜单仅是平台通用参考，找不到时不能证明该机不支持。",
+        "来源中的操作由外部作者报告，本资料库未独立实测；不采用原文中无关的系统修改。"
+      ],
+      "transport": "wireless",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "tmall-m13-remote",
+      "brands": [
+        "天猫魔盒"
+      ],
+      "title": "天猫魔盒 M13：普通设置中的远程调试",
+      "scope": "只对应来源所述型号、系统和固件；不按品牌推断其他设备适用",
+      "models": [
+        "M13"
+      ],
+      "context": {
+        "system": "原文未注明",
+        "firmware": "原文未注明（2016 年教程）",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "型号原始记录或原作者资料",
+          "url": "https://www.znds.com/tv-397279-1-1.html"
+        }
+      ],
+      "steps": [
+        "进入盒子的系统设置，选择通用设置，再进入开发者模式。",
+        "找到远程调试模式，用遥控器左键或右键切换为开启；只在菜单与原文相符时参考。"
+      ],
+      "limitations": [
+        "原帖明确以 M13 举例，年代较早，其他魔盒和后续固件不保证相同。",
+        "打开远程调试开关不等于电脑已连接或获得授权；原文未给出完整协议和端口验证。",
+        "来源中的操作由外部作者报告，本资料库未独立实测；不采用原文中无关的系统修改。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "dangbei-f3-missing-toggle",
+      "brands": [
+        "当贝"
+      ],
+      "title": "当贝 F3：普通入口反馈冲突，待确认",
+      "scope": "只对应来源所述型号、系统和固件；不按品牌推断其他设备适用",
+      "models": [
+        "F3"
+      ],
+      "context": {
+        "system": "未注明",
+        "firmware": "未注明（2021 年反馈）",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "unresolved",
+      "sources": [
+        {
+          "title": "型号原始记录或原作者资料",
+          "url": "https://www.znds.com/tv-1204787-1-1.html"
+        }
+      ],
+      "steps": [],
+      "limitations": [
+        "原帖用户报告没有 ADB 开关，且明确反驳回复给出的通用连续确认键方法。",
+        "用户还报告远程连接与安装能力不一致；不能把网络可达当作具备完整操作权限，也不能由此认定全部 F3 不支持。",
+        "来源中的操作由外部作者报告，本资料库未独立实测；不采用原文中无关的系统修改。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "xgimi-z7x-gmui611",
+      "brands": [
+        "极米"
+      ],
+      "title": "极米 Z7X：GMUI 6.11 普通入口缺失记录",
+      "scope": "只对应来源所述型号、系统和固件；不按品牌推断其他设备适用",
+      "models": [
+        "Z7X"
+      ],
+      "context": {
+        "system": "Android 9 / GMUI",
+        "firmware": "6.11.101.01_499（PG0017V6.12.68）",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "unresolved",
+      "sources": [
+        {
+          "title": "型号原始记录或原作者资料",
+          "url": "https://github.com/pengchujin/aerial-tv/issues/107"
+        }
+      ],
+      "steps": [],
+      "limitations": [
+        "原始问题报告普通设置和版本号点击未打开调试入口，后续依赖第三方 APK。",
+        "本库未审查该 APK 的发布签名、权限与恢复行为，因此不提供安装或运行步骤；不是已验证不支持。",
+        "来源中的操作由外部作者报告，本资料库未独立实测；不采用原文中无关的系统修改。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "xiaoming-q2-entry-research",
+      "brands": [
+        "小明"
+      ],
+      "title": "小明 Q2：需要额外软件的个人记录",
+      "scope": "只对应来源所述型号、系统和固件；不按品牌推断其他设备适用",
+      "models": [
+        "Q2"
+      ],
+      "context": {
+        "system": "未注明",
+        "firmware": "未注明（2023 年文章）",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "unresolved",
+      "sources": [
+        {
+          "title": "型号原始记录或原作者资料",
+          "url": "https://blog.jichun29.cn/2178.html"
+        }
+      ],
+      "steps": [],
+      "limitations": [
+        "原作者报告缺少普通调试入口，替代过程依赖额外桌面软件，尚未纳入已审核教程。",
+        "原文包含删除原厂桌面后启动异常的经历；本库不转为操作建议，不复制或分发其图片、APK。",
+        "来源中的操作由外部作者报告，本资料库未独立实测；不采用原文中无关的系统修改。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "letv-q85-cv560-research",
+      "brands": [
+        "乐视"
+      ],
+      "title": "乐视 Q85：CV560-C75 固件的特殊菜单记录",
+      "scope": "只对应来源所述型号、系统和固件；不按品牌推断其他设备适用",
+      "models": [
+        "Q85",
+        "CV560-C75"
+      ],
+      "context": {
+        "system": "Android 12",
+        "firmware": "2024-11-12（来源所述固件日期）",
+        "region": "中国大陆"
+      },
+      "evidence": "community",
+      "status": "unresolved",
+      "sources": [
+        {
+          "title": "型号原始记录或原作者资料",
+          "url": "https://github.com/sanshengai/sansheng-tv-adb/pull/1"
+        }
+      ],
+      "steps": [],
+      "limitations": [
+        "原贡献者报告经工厂菜单开启调试；本项目不提供工厂菜单、口令或系统持久属性修改步骤。",
+        "外部贡献者实测不能升级为本资料库实测，也不能推广为所有乐视或同板卡设备可用。",
+        "来源中的操作由外部作者报告，本资料库未独立实测；不采用原文中无关的系统修改。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "obe-aurora-hidden-entry",
+      "brands": [
+        "大眼橙"
+      ],
+      "title": "大眼橙 极光UI：缺少明确型号的隐藏入口线索",
+      "scope": "只对应来源所述型号、系统和固件；不按品牌推断其他设备适用",
+      "models": [],
+      "context": {
+        "system": "定制 Android / 极光UI",
+        "firmware": "未知",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "unresolved",
+      "sources": [
+        {
+          "title": "型号原始记录或原作者资料",
+          "url": "https://github.com/ChiKaWa3077/ADBHelper"
+        }
+      ],
+      "steps": [],
+      "limitations": [
+        "项目作者的辅助 APK 只跳转页面，不能直接打开调试开关；未给出明确型号和固件范围。",
+        "本库未审核或分发其调试 APK，也不将 README 宣称当作实际机型验证。",
+        "来源中的操作由外部作者报告，本资料库未独立实测；不采用原文中无关的系统修改。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "hisense-vidaa-helper-setting",
+      "brands": [
+        "海信",
+        "Vidda"
+      ],
+      "title": "海信 VIDAA 助手：普通调试授权入口参考",
+      "scope": "只对应来源所述型号、系统和固件；不按品牌推断其他设备适用",
+      "models": [],
+      "context": {
+        "system": "需先确认实际系统",
+        "firmware": "未知",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "型号原始记录或原作者资料",
+          "url": "https://help.qsyservice.cn/?page_id=1982"
+        }
+      ],
+      "steps": [
+        "仅当电视实际装有 VIDAA 助手时，从我的应用打开它。",
+        "进入该应用的设置，查看是否存在电视调试授权；先阅读实际提示，按本次需要授权。"
+      ],
+      "limitations": [
+        "仅采用原资料中的方法四，不采用同页工厂、维修菜单或其他系统参数修改。",
+        "来源未指定型号、固件和端口；应用内授权不证明网络服务开放，也不证明海外 VIDAA Linux 设备支持 Android ADB。",
+        "来源中的操作由外部作者报告，本资料库未独立实测；不采用原文中无关的系统修改。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-haier-android-tv-dvb2k",
+      "brands": [
+        "海尔"
+      ],
+      "title": "海尔 DVB2K：已有型号资料，入口仍待补",
+      "scope": "只对应来源所述型号、系统和固件；不按品牌推断其他设备适用",
+      "models": [
+        "DVB2K"
+      ],
+      "context": {
+        "system": "Android TV 11",
+        "firmware": "RTMA.250416.179",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "unresolved",
+      "sources": [
+        {
+          "title": "型号原始记录或原作者资料",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/haier-android-tv-dvb2k/debloat.txt"
+        }
+      ],
+      "steps": [],
+      "limitations": [
+        "原资料有设备与固件信息，但没有足够的开启入口说明；不直接套用其他海尔型号菜单。",
+        "来源中的操作由外部作者报告，本资料库未独立实测；不采用原文中无关的系统修改。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-formovie-mprojm05",
+      "brands": [
+        "峰米",
+        "Formovie"
+      ],
+      "title": "峰米 MiProjM05：已有机型来源，入口待补",
+      "scope": "只对应来源所述型号、系统和固件；不按品牌推断其他设备适用",
+      "models": [
+        "MiProjM05"
+      ],
+      "context": {
+        "system": "Android TV 9",
+        "firmware": "PQ3B.190705.003.2102",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "unresolved",
+      "sources": [
+        {
+          "title": "型号原始记录或原作者资料",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/formovie-mprojm05/debloat.txt"
+        }
+      ],
+      "steps": [],
+      "limitations": [
+        "已有 ADB 使用相关资料，但不等于给出了用户初次如何开启调试的入口。",
+        "来源中的操作由外部作者报告，本资料库未独立实测；不采用原文中无关的系统修改。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "case-ktc-4k-smart-tv-hongkong",
+      "brands": [
+        "KTC",
+        "康冠"
+      ],
+      "title": "KTC 4K Smart TV：台湾版入口仍待补",
+      "scope": "只对应来源所述型号、系统和固件；不按品牌推断其他设备适用",
+      "models": [],
+      "context": {
+        "system": "Google TV 14",
+        "firmware": "UKNV.260626.001",
+        "region": "台湾"
+      },
+      "evidence": "community",
+      "status": "unresolved",
+      "sources": [
+        {
+          "title": "型号原始记录或原作者资料",
+          "url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/ktc-4k-smart-tv-hongkong/debloat.txt"
+        }
+      ],
+      "steps": [],
+      "limitations": [
+        "hongkong 是来源中的设备代号，不是已确认零售型号；未找到足够的初次开启入口说明。",
+        "来源中的操作由外部作者报告，本资料库未独立实测；不采用原文中无关的系统修改。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
     }
   ]
 }

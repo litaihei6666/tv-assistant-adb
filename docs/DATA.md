@@ -7,3 +7,9 @@
 静态页面由脚本从 JSON 生成；通过 `python scripts/build.py --check` 检查提交的页面与数据一致。使用者应核验资料版本、范围及自己设备实际菜单。
 
 可选 `context` 对象包含 `system`、`firmware`、`region` 三个非空字符串，记录的是来源中设备的系统、固件及地区，未知填“未知”。它不是程序实际检测结果，也不代表相同固件已在本项目验证。没有该字段的旧条目保持兼容；页面会显示已有信息并允许搜索固件字符串。
+
+## 待审查来源索引
+
+`data/research-index.json` 单独存放 `schema_version`、固定仓库/提交/目录哈希的 `source` 和 `records`。每条仅允许 `id`、`brand`、`title`、`system`、`source_url`、`metadata_sha256`、`status`。状态必须为 `unreviewed`，禁止 `steps` 或任何实测、授权字段。机型目录可能用系统自报型号、板卡代号或零售名称，不能自动视为独立零售型号。
+
+`data/brand-aliases.json` 只提供检索词的中英文对应，不改变来源品牌字段、证据或设备匹配能力。页面对两种资料分别计数，索引默认折叠；其外部链接也不构成操作建议。审查后须人工写入 `entries.json`，附实际来源、边界和限制；不能自动把索引转换成教程。

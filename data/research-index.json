@@ -1,0 +1,2351 @@
+{
+  "schema_version": 1,
+  "source": {
+    "repository": "Gathin23/cleanyourtv",
+    "commit": "ab7a89e7",
+    "index_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/README.md",
+    "index_sha256": "39c79f0f082acfabcd2fba9bf436a22fbc8ac7f923bf465f57cb2514fc020488"
+  },
+  "records": [
+    {
+      "id": "acer-ar55ar2851udpro",
+      "brand": "Acer",
+      "title": "Acer AR55AR2851UDPRO 55\" (SCBC R4, Realtek rtd2851m), India",
+      "system": "Android TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/acer-ar55ar2851udpro/debloat.txt",
+      "metadata_sha256": "6e9900b562a41a812cee064bdb4a6aeb91bfc9398f1ed719c31dd6f0b0638afe",
+      "status": "unreviewed"
+    },
+    {
+      "id": "aipro2k",
+      "brand": "AiPro2K",
+      "title": "AiPro2K (Expressluck, dongnae; Changhong AI PONT family)",
+      "system": "Android TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/aipro2k/debloat.txt",
+      "metadata_sha256": "556df7759e5587dcaedd440134778de1225df98f31275b773101c48026f64910",
+      "status": "unreviewed"
+    },
+    {
+      "id": "aiwa-ai-pont-sa",
+      "brand": "AIWA",
+      "title": "AIWA AI PONT SA (Changhong, osaka, ISDB86AW)",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/aiwa-ai-pont-sa/debloat.txt",
+      "metadata_sha256": "5ab8e3caeb5c293ad521afd3a40bce9ce126a8cead0a4894bc1e43daec5d14a7",
+      "status": "unreviewed"
+    },
+    {
+      "id": "amazon-fire-tv-aftdec012e",
+      "brand": "Amazon Fire TV",
+      "title": "Amazon Fire TV, AFTDEC012E (ginza), Android 11",
+      "system": "Android 11 / Fire OS",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/amazon-fire-tv-aftdec012e/debloat.txt",
+      "metadata_sha256": "5203fa0786b71dc3686c10a31c4619b5ceec8ec707734c76109577aa6e9342fa",
+      "status": "unreviewed"
+    },
+    {
+      "id": "amazon-fire-tv-afteu014",
+      "brand": "Amazon Fire TV",
+      "title": "Amazon Fire TV smart TV (AFTEU014, greta, MediaTek m7322), Germany",
+      "system": "Fire OS 7.6.8.5 / Android 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/amazon-fire-tv-afteu014/debloat.txt",
+      "metadata_sha256": "6584cfb705a109289abca931a545edf92e1b392f8ef0b8d4ce2412d17588f47e",
+      "status": "unreviewed"
+    },
+    {
+      "id": "amazon-fire-tv-afttiff43",
+      "brand": "Amazon Fire TV",
+      "title": "Amazon Fire TV 50\" 4K smart TV (AFTTIFF43, brandenburg)",
+      "system": "Fire OS 7.7.1.7 / Android 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/amazon-fire-tv-afttiff43/debloat.txt",
+      "metadata_sha256": "eb0424cd321242c00f48b163fc5de073e27f90401a4640cd0ec24c0e4298d1a2",
+      "status": "unreviewed"
+    },
+    {
+      "id": "amazon-fire-tv-stick-4k-2018",
+      "brand": "Amazon Fire TV",
+      "title": "Amazon Fire TV Stick 4K, 1st gen 2018 (AFTMM, mantis)",
+      "system": "Fire OS 6.7.1.1 / Android 7.1",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/amazon-fire-tv-stick-4k-2018/debloat.txt",
+      "metadata_sha256": "2966ad071f786f573c55efd243e81f01d1d9f4a702b6b852902d23fd35944905",
+      "status": "unreviewed"
+    },
+    {
+      "id": "amazon-fire-tv-stick-4k-2023",
+      "brand": "Amazon Fire TV",
+      "title": "Amazon Fire TV Stick 4K, 2nd gen 2023 (AFTKM, karat), Brazil",
+      "system": "Fire OS 8.1.8.5 / Android 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/amazon-fire-tv-stick-4k-2023/debloat.txt",
+      "metadata_sha256": "2d1e3bcd107472edc00a2736233b1e83d70c17ba47e3afc6e675ea26552d6e79",
+      "status": "unreviewed"
+    },
+    {
+      "id": "amazon-fire-tv-stick-4k-max-2021",
+      "brand": "Amazon Fire TV",
+      "title": "Amazon Fire TV Stick 4K Max, 1st gen 2021 (AFTKA, kara), Colombia",
+      "system": "Fire OS 7.7.1.3 / Android 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/amazon-fire-tv-stick-4k-max-2021/debloat.txt",
+      "metadata_sha256": "d17a594f28b93fc2af2399bf8f718cdfe381bccf3fe777bcca72a3ada2d57403",
+      "status": "unreviewed"
+    },
+    {
+      "id": "amazon-fire-tv-stick-lite-2020",
+      "brand": "Amazon Fire TV",
+      "title": "Amazon Fire TV Stick Lite, 1st gen 2020 (AFTSS, sheldon)",
+      "system": "Fire OS 7.7.1.7 / Android 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/amazon-fire-tv-stick-lite-2020/debloat.txt",
+      "metadata_sha256": "d84991fc60587f58255de4fd4838846baeb070c652791c83007010c974f6ebbf",
+      "status": "unreviewed"
+    },
+    {
+      "id": "anker-nebula-d2140",
+      "brand": "Anker Nebula",
+      "title": "Anker Nebula Cosmos projector D2140 (D2140-Cosmos, SDMC/Amlogic, 2 GB), Vietnam",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/anker-nebula-d2140/debloat.txt",
+      "metadata_sha256": "362cb98a5a018ccafacb8c72a3ebcf62415ab10c7b771d5146375db3e0d40660",
+      "status": "unreviewed"
+    },
+    {
+      "id": "anker-nebula-d2426",
+      "brand": "Anker Nebula",
+      "title": "Anker Nebula projector D2426 (D2426_CapsuleIIIPro, baekdu, SDMC/MediaTek m7632, 1.7 GB), Brazil",
+      "system": "Android TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/anker-nebula-d2426/debloat.txt",
+      "metadata_sha256": "8448e6361014d1d48bdeee40f57f2d0d02528daa6377901d957c5e76fbb9876b",
+      "status": "unreviewed"
+    },
+    {
+      "id": "artel-cvte-mt5863",
+      "brand": "Artel",
+      "title": "Artel smart TV (CVTE TP.MT5510S.PB782, cvt_mt5863_eu, SMART_TV), Uzbekistan",
+      "system": "Android 7.0",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/artel-cvte-mt5863/debloat.txt",
+      "metadata_sha256": "109cce263594f8e7e345a31eb2b4dd7636de5504dc55abe97c11464f7dbdac4c",
+      "status": "unreviewed"
+    },
+    {
+      "id": "benq-e55-735",
+      "brand": "BenQ",
+      "title": "BenQ E55-735 (Changhong AI PONT, DVB96BQ)",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/benq-e55-735/debloat.txt",
+      "metadata_sha256": "3fec1a80762f1ed56eeb210b284af4368ecc6d4ef78a4299cc7f59d9b42e1fe0",
+      "status": "unreviewed"
+    },
+    {
+      "id": "benq-e55-750",
+      "brand": "BenQ",
+      "title": "BenQ E55-750 (Changhong AI PONT, DVB96BQ)",
+      "system": "Google TV (Android 11)",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/benq-e55-750/debloat.txt",
+      "metadata_sha256": "69af1c653000b1aeec525f3b71924286fbc90321394339b6e11fb7376fdf1c52",
+      "status": "unreviewed"
+    },
+    {
+      "id": "benq-gv32",
+      "brand": "BenQ",
+      "title": "BenQ GV32 portable projector (SDMC, BenQ_GV01, himalaya, MediaTek m7332)",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/benq-gv32/debloat.txt",
+      "metadata_sha256": "002a2d1e50c02f92b2b0120d5125c95044d51f66b54391d81fb63d35ebbd8ee0",
+      "status": "unreviewed"
+    },
+    {
+      "id": "byintek-t5-max",
+      "brand": "BYINTEK",
+      "title": "BYINTEK T5 Max projector (built-in Google TV stick: SkyworthDigital YYT, Amlogic), Brazil",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/byintek-t5-max/debloat.txt",
+      "metadata_sha256": "30a5f43b5c24b797e005f191ab1ef830222fbb4db4a7bc4b698b9935857fdabe",
+      "status": "unreviewed"
+    },
+    {
+      "id": "byintek-u4",
+      "brand": "BYINTEK",
+      "title": "BYINTEK Love U4 projector, 1080P (Skyworth RG_HS352, HiSilicon Hi3751V350, 1 GB), Brazil",
+      "system": "Android 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/byintek-u4/debloat.txt",
+      "metadata_sha256": "385ada14f49004cb621375d04169b6ac61943c430408f64fdf70af5f0d9d6cc4",
+      "status": "unreviewed"
+    },
+    {
+      "id": "caxium-58-realtek-rtk2851p",
+      "brand": "Caxium",
+      "title": "Caxium 58\" 147 cm UHD Smart TV (Realtek RTD285O, RTK2851P, TopTech + Zeasn), Colombia",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/caxium-58-realtek-rtk2851p/debloat.txt",
+      "metadata_sha256": "42f5ac42a1a0e45922b031c08220b40f690683a13a7c332de37a890563a7ab05",
+      "status": "unreviewed"
+    },
+    {
+      "id": "cecotec-shandao",
+      "brand": "Cecotec",
+      "title": "Cecotec VQU10065S 65\" QLED (Vestel-built, shandao, MediaTek), Spain",
+      "system": "Android TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/cecotec-shandao/debloat.txt",
+      "metadata_sha256": "0361664fcb1531c000d8737488297cc091d8ab5076ffad5b4286e1ee873db95d",
+      "status": "unreviewed"
+    },
+    {
+      "id": "challenger-32t22bt",
+      "brand": "Challenger",
+      "title": "Challenger 32T22 BT (cvt_mt5863_col, board TP.MT5510.PB781, MediaTek MT5659, 1 GB RAM), Colombia",
+      "system": "Android 7.0",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/challenger-32t22bt/debloat.txt",
+      "metadata_sha256": "edf5ac45ebfd68749cf54efaaab04442f6d2b2bb2957f873493ad9988d12565b",
+      "status": "unreviewed"
+    },
+    {
+      "id": "chiq-ai-pont",
+      "brand": "CHiQ",
+      "title": "CHiQ AI PONT (DVB93CQ)",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/chiq-ai-pont/debloat.txt",
+      "metadata_sha256": "30d81b7a725a048f6515781e41e3a01d45371b837797f80f38bf405bd6b998b6",
+      "status": "unreviewed"
+    },
+    {
+      "id": "chiq-gtvu65",
+      "brand": "CHiQ",
+      "title": "CHiQ AI PONT (Changhong GTVU65, dangni, MediaTek mt5867)",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/chiq-gtvu65/debloat.txt",
+      "metadata_sha256": "85d26b88b27c2fe5d8fcab33e7dc8f256021ffe7f7ad0b6877506e0cc397eec7",
+      "status": "unreviewed"
+    },
+    {
+      "id": "compac-atv-r2",
+      "brand": "Compac",
+      "title": "Compac ATV R2 (SCBC R2, Realtek RTD285O)",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/compac-atv-r2/debloat.txt",
+      "metadata_sha256": "5eaeb9c172c318e386de5637f0ae841efd29e1effa0cdf07aea940a2d413664e",
+      "status": "unreviewed"
+    },
+    {
+      "id": "coocaa-k3-pro-90p3d-max",
+      "brand": "Skyworth",
+      "title": "Skyworth Coocaa K3 Pro 90P3D Max (8R145_P3DM, Realtek RTD2885N), China market",
+      "system": "Android 11 (Coocaa OS)",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/coocaa-k3-pro-90p3d-max/debloat.txt",
+      "metadata_sha256": "3cf0fecbc2941ea848d76b0bf6aa95e967a8feea76324eba8da03be74cd4b1a1",
+      "status": "unreviewed"
+    },
+    {
+      "id": "dialog-viu-sei103dl",
+      "brand": "Dialog",
+      "title": "Dialog ViU (SEI Robotics SEI103DL, Amlogic, NES middleware), Sri Lanka",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/dialog-viu-sei103dl/debloat.txt",
+      "metadata_sha256": "7f606898d23c7bc5b9a5090023a19f205d03c832b6e8ec92528d6b69eb32b792",
+      "status": "unreviewed"
+    },
+    {
+      "id": "eko-2k-google-tv-tennoji",
+      "brand": "EKO",
+      "title": "EKO 2K Google TV (MTC-built, tennoji, MediaTek mt5867 / T56)",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/eko-2k-google-tv-tennoji/debloat.txt",
+      "metadata_sha256": "8179b803f4476bde210aa1e3b61823b8a004c93a8afca52ee3545312a9b77437",
+      "status": "unreviewed"
+    },
+    {
+      "id": "epson-ls800",
+      "brand": "Epson",
+      "title": "Epson LS800 laser projector (Askey HA90 module, sti6202d101, Amlogic)",
+      "system": "Android TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/epson-ls800/debloat.txt",
+      "metadata_sha256": "3ba41a3ba78cbdceaf98993317722fb2cbf2408ee8f98553bd9f82b81699b491",
+      "status": "unreviewed"
+    },
+    {
+      "id": "ffalcon-65s585c-pro",
+      "brand": "FFalcon",
+      "title": "FFalcon (雷鸟) 鹤6 PRO 65S585C Pro (China, tcl_mt5879_cn, MediaTek MT9653)",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/ffalcon-65s585c-pro/debloat.txt",
+      "metadata_sha256": "d02c5a2f04036eabae0f52fd915b0a84914dea85849c272f66e4787bf0812be2",
+      "status": "unreviewed"
+    },
+    {
+      "id": "ffalcon-r34a0-cn",
+      "brand": "FFalcon",
+      "title": "FFalcon (雷鸟) r34a0, China (V8-A920T01-LF1V147, Amlogic T920), 1 GB",
+      "system": "Android 5.1.1",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/ffalcon-r34a0-cn/debloat.txt",
+      "metadata_sha256": "ab4976a84d43e0d3c68b88b80b830edd6667f0baf60d0e6dc96573606552a6af",
+      "status": "unreviewed"
+    },
+    {
+      "id": "formovie-laser-4k-hanlla",
+      "brand": "Formovie",
+      "title": "Formovie Laser 4K projector (hanlla, MediaTek T31 / m7632, 1.8 GB)",
+      "system": "Android TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/formovie-laser-4k-hanlla/debloat.txt",
+      "metadata_sha256": "c5445db4005a5bdf19e8460d0f8a33ee14b5b45c0286a4b63eee8d80980c63fb",
+      "status": "unreviewed"
+    },
+    {
+      "id": "formovie-mprojm05",
+      "brand": "Formovie",
+      "title": "Formovie / Fengmi projector MiProjM05 (eva, Amlogic)",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/formovie-mprojm05/debloat.txt",
+      "metadata_sha256": "f72bab61ab0ee2b95ec460b6a4bb5f093fd33d9a29aabb5ac0bec7c5c71f82c4",
+      "status": "unreviewed"
+    },
+    {
+      "id": "freebox-player-pop",
+      "brand": "Freebox",
+      "title": "Freebox Player POP (Free, fbx8am, Amlogic), IPTV/DVB-T box",
+      "system": "Android TV 10",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/freebox-player-pop/debloat.txt",
+      "metadata_sha256": "a0eff41e32bfb4adc94ca48d6e802052e92307e06c636565f876274d99b115ae",
+      "status": "unreviewed"
+    },
+    {
+      "id": "gadnic-proj100w",
+      "brand": "Gadnic",
+      "title": "Gadnic PROJ100W projector (built-in Google TV stick: SkyworthDigital YYT, Amlogic HP46B), Argentina",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/gadnic-proj100w/debloat.txt",
+      "metadata_sha256": "ae74ce9a248577e3517382fde6922eeb5534966e7837603b911ab3c96aff090c",
+      "status": "unreviewed"
+    },
+    {
+      "id": "google-chromecast-gtv-4k",
+      "brand": "Google",
+      "title": "Google Chromecast with Google TV 4K (sabrina)",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/google-chromecast-gtv-4k/debloat.txt",
+      "metadata_sha256": "915d303e3c785cc7725fdfbc598712e43db4e6818fa138a009cbbe8a453ea534",
+      "status": "unreviewed"
+    },
+    {
+      "id": "google-chromecast-gtv-hd",
+      "brand": "Google",
+      "title": "Google Chromecast with Google TV HD (boreal)",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/google-chromecast-gtv-hd/debloat.txt",
+      "metadata_sha256": "ada22d23a43fa296c25217af6fe7c091ea682c2b76f9bc21fef6a94ae02a73a2",
+      "status": "unreviewed"
+    },
+    {
+      "id": "google-tv-streamer-4k-kirkwood",
+      "brand": "Google",
+      "title": "Google TV Streamer 4K (kirkwood, GZRNL)",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/google-tv-streamer-4k-kirkwood/debloat.txt",
+      "metadata_sha256": "9d309ee2dc505b3d9dfe4e6ab50405389b808c71ad45934dac704f87439e387c",
+      "status": "unreviewed"
+    },
+    {
+      "id": "grundig-kunyang",
+      "brand": "Grundig",
+      "title": "Grundig Android UHD TV (Arçelik, GxGrNM, kunyang, MediaTek), Turkey",
+      "system": "Android TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/grundig-kunyang/debloat.txt",
+      "metadata_sha256": "a6d9ecd57b04cb01df5c70e086d44fb17ca07f8261a6605d9de60e47c5974246",
+      "status": "unreviewed"
+    },
+    {
+      "id": "haier-android-tv-dvb2k",
+      "brand": "Haier",
+      "title": "Haier Android TV DVB2K (broadway, HaierATVT56DVB)",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/haier-android-tv-dvb2k/debloat.txt",
+      "metadata_sha256": "172c13bad49cbdcc83a78d29ecba17e7b8686374e93e7dde258477803541346a",
+      "status": "unreviewed"
+    },
+    {
+      "id": "haier-h32s80efx",
+      "brand": "Haier",
+      "title": "Haier H32S80EFX (MatrixTV CE, HRT56EU, deto, MediaTek), Thailand",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/haier-h32s80efx/debloat.txt",
+      "metadata_sha256": "822896447ee65cddba3231c2b00d02dd37b36c626cf48d8fc68e4633d6087686",
+      "status": "unreviewed"
+    },
+    {
+      "id": "haier-hr9216eu",
+      "brand": "Haier",
+      "title": "Haier MatrixTV GE (HR9216EU, haeundae, MediaTek), EU",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/haier-hr9216eu/debloat.txt",
+      "metadata_sha256": "9bce539772207ab9e374d85290b5baae3f075e592eee688b94c6312952b9e3ab",
+      "status": "unreviewed"
+    },
+    {
+      "id": "hisense-65d62qh",
+      "brand": "Hisense",
+      "title": "Hisense 65D62QH (VIDAA_TV, MediaTek MT9653), China",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/hisense-65d62qh/debloat.txt",
+      "metadata_sha256": "083b4e6a730eb7d2833f4171a9590dad492e9d8f74c597b1971ffb606d468d72",
+      "status": "unreviewed"
+    },
+    {
+      "id": "hisense-e5q-pro",
+      "brand": "Hisense",
+      "title": "Hisense E5Q Pro (VIDAA_TV, MediaTek MT9653), China",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/hisense-e5q-pro/debloat.txt",
+      "metadata_sha256": "42c4045c5fcaf0a7bea92b965460cd19fef7278219d7bc4b6cab8b8a3574c9fe",
+      "status": "unreviewed"
+    },
+    {
+      "id": "hisense-fire-tv-aftcibfbd1",
+      "brand": "Hisense",
+      "title": "Hisense Fire TV (AFTCIBFBD1, coyote, MediaTek), US",
+      "system": "Fire OS 8.0 / Android 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/hisense-fire-tv-aftcibfbd1/debloat.txt",
+      "metadata_sha256": "51905f8d196292f31bc7a3533da4eae598a51796ecf33af106ad3ca5451172ab",
+      "status": "unreviewed"
+    },
+    {
+      "id": "hisense-hg9",
+      "brand": "Hisense",
+      "title": "Hisense HG9 (HiSmart 4K A4FFM)",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/hisense-hg9/debloat.txt",
+      "metadata_sha256": "dbdac4cadbec5a37482d1d8882c52a87df4481ac6efa6c51a07178f8aadef2d5",
+      "status": "unreviewed"
+    },
+    {
+      "id": "hisense-hismarttv-a4",
+      "brand": "Hisense",
+      "title": "Hisense HiSmartTV A4 (xiaoyushan, MStar m7322), India",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/hisense-hismarttv-a4/debloat.txt",
+      "metadata_sha256": "cd6886dacfc22160d4e0a747907606c48a5f2d61842240cebbff9c85a70a97d1",
+      "status": "unreviewed"
+    },
+    {
+      "id": "hisense-hismarttv-a4-android11",
+      "brand": "Hisense",
+      "title": "Hisense HiSmartTV A4 (xiaoyushan, MStar m7322), Android 11 firmware RTT2.221108.001",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/hisense-hismarttv-a4-android11/debloat.txt",
+      "metadata_sha256": "7cc33842a88c316f06db3d9f28a5ca3bf0c5d52deaad6706c0d24427431602c2",
+      "status": "unreviewed"
+    },
+    {
+      "id": "hisense-smarttv-4k-ffm",
+      "brand": "Hisense",
+      "title": "Hisense SmartTV 4K FFM (huangshan, MediaTek), Latin America; also the US Hisense U9DG",
+      "system": "Android TV 10",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/hisense-smarttv-4k-ffm/debloat.txt",
+      "metadata_sha256": "7c54484a378b3f3bd7002570e861e7035cf6b56be5603a82d8f74f0ca31202be",
+      "status": "unreviewed"
+    },
+    {
+      "id": "hisense-smarttv-4k-ffm-android11",
+      "brand": "Hisense",
+      "title": "Hisense SmartTV 4K FFM (songshan, MediaTek m7632)",
+      "system": "Android 11 (SDK 30)",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/hisense-smarttv-4k-ffm-android11/debloat.txt",
+      "metadata_sha256": "2afac491944e0c8c970846eac54d5ead76fc5e93f174c7b85a93eb087dd00ea3",
+      "status": "unreviewed"
+    },
+    {
+      "id": "hisense-smarttv-4k-ffm-lushan",
+      "brand": "Hisense",
+      "title": "Hisense SmartTV 4K FFM (lushan, MediaTek MT9676), Mongolia",
+      "system": "Google TV 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/hisense-smarttv-4k-ffm-lushan/debloat.txt",
+      "metadata_sha256": "4c6a9524b994faf345419a2467eea72a618ab3acb252a995397beedbea604be6",
+      "status": "unreviewed"
+    },
+    {
+      "id": "hisense-u75-hengshan",
+      "brand": "Hisense",
+      "title": "Hisense U75 / 75U75N (hengshan, MediaTek), Latin America and US",
+      "system": "Google TV 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/hisense-u75-hengshan/debloat.txt",
+      "metadata_sha256": "93c0c0357d57f716d7cc3ccdfe33f1174d88a28598bfc2da1c1b22be9493880c",
+      "status": "unreviewed"
+    },
+    {
+      "id": "hitachi-65qledsm20",
+      "brand": "Hitachi",
+      "title": "Hitachi 65QLEDSM20 (MTC, bangbae, MediaTek m7322), Australia",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/hitachi-65qledsm20/debloat.txt",
+      "metadata_sha256": "469f48eccf92f968214622bd91ae881c23248f66eef31caec55f7c968cc3b36a",
+      "status": "unreviewed"
+    },
+    {
+      "id": "hitachi-cdh-le32smart21",
+      "brand": "Hitachi",
+      "title": "Hitachi CDH-LE32SMART21 (TCL-built C06, C06_2K_GB, MediaTek MT9221, 1 GB), Argentina",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/hitachi-cdh-le32smart21/debloat.txt",
+      "metadata_sha256": "7a8d296eea4a0f86aa6dd257029e1647c5e08efdf6cbadbce939bd139633accb",
+      "status": "unreviewed"
+    },
+    {
+      "id": "hotack-smart2kpjt",
+      "brand": "HOTACK",
+      "title": "HOTACK SMART2KPJT projector, \"Whale TV 95C8\" (Amlogic am30b8, WhaleOS S8E, Zeasn firmware)",
+      "system": "Android 13",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/hotack-smart2kpjt/debloat.txt",
+      "metadata_sha256": "00fb17874ea2ebc6d51e2784910e9b3a0d8a71ccd5de8d6c49994fd6471a87a0",
+      "status": "unreviewed"
+    },
+    {
+      "id": "inclo-google-tv-4k",
+      "brand": "INCLO",
+      "title": "INCLO Google TV 4K (KTC, Realtek, khardi, KTC_INCLO_4K_EU_23GV1), Taiwan",
+      "system": "Google TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/inclo-google-tv-4k/debloat.txt",
+      "metadata_sha256": "d5de5136f3991b496dcb852f98e563403d076c8a3b027f99295adc4765fadf00",
+      "status": "unreviewed"
+    },
+    {
+      "id": "insignia-ns55f301na25",
+      "brand": "Insignia Fire TV",
+      "title": "Insignia 55\" F30 4K Fire TV (NS-55F301NA25, AFTDCT31, duckie)",
+      "system": "Fire OS 7 / Android 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/insignia-ns55f301na25/debloat.txt",
+      "metadata_sha256": "76dcc5ae956ed8cd5825c01590552673498d521357cc740ed2448c12214515e2",
+      "status": "unreviewed"
+    },
+    {
+      "id": "jmgo-n1s-holan",
+      "brand": "JMGO",
+      "title": "JMGO N1S projector (K80A, holan, MediaTek m7332), Australia",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/jmgo-n1s-holan/debloat.txt",
+      "metadata_sha256": "3a1ce4b1a6e5e6fa36a0d6bf9b95962a119af5c2b18b7f466fbc227fc4a6b643",
+      "status": "unreviewed"
+    },
+    {
+      "id": "jvc-android-tv-menlo",
+      "brand": "JVC",
+      "title": "JVC Android TV (Vestel-built, BARTU_Jvc, menlo, MediaTek mt5867), Spain",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/jvc-android-tv-menlo/debloat.txt",
+      "metadata_sha256": "ceda35db91bf0eb3ec2845df9971eda4b704f3e1a97945e6d15fcb28ade13c73",
+      "status": "unreviewed"
+    },
+    {
+      "id": "kalley-43g200",
+      "brand": "Kalley",
+      "title": "Kalley 43G200 (device R3_GTV, MOKA, Realtek RTD2841A), Latin America",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/kalley-43g200/debloat.txt",
+      "metadata_sha256": "d1556374f05b107d60aab207f259304ba1743b97c51fcef0203c6b4da90ef2d3",
+      "status": "unreviewed"
+    },
+    {
+      "id": "kalley-r10g",
+      "brand": "Kalley",
+      "title": "Kalley R10G (device R10G, product ACER_FFM, MOKA, Realtek RTD2875P), Latin America",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/kalley-r10g/debloat.txt",
+      "metadata_sha256": "be616f22c041d51b74f2ad9177e997ef1c82efb51d4554cb5c349732739f0531",
+      "status": "unreviewed"
+    },
+    {
+      "id": "karbonn-swtv-20ae",
+      "brand": "Karbonn",
+      "title": "Karbonn SWTV-20AE (Skyworth OEM, SW4H, MediaTek), India",
+      "system": "Android TV 10",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/karbonn-swtv-20ae/debloat.txt",
+      "metadata_sha256": "9d410d869f3482a762c2dcacc2d6b4ed050b752b152f16c5fd83d0a04b72889a",
+      "status": "unreviewed"
+    },
+    {
+      "id": "kogan-gtvu65kg",
+      "brand": "Kogan",
+      "title": "Kogan Google TV (Changhong CHiQ AI PONT, GTVU65KG, dangni, MediaTek mt5867), Australia",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/kogan-gtvu65kg/debloat.txt",
+      "metadata_sha256": "ba898e79785f4378bea222bdd173e8737b2f4a4019b5b91fe7411fcd32691e3e",
+      "status": "unreviewed"
+    },
+    {
+      "id": "ktc-4k-smart-tv-hongkong",
+      "brand": "KTC",
+      "title": "KTC 4K Smart TV (device hongkong, MediaTek), Taiwan",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/ktc-4k-smart-tv-hongkong/debloat.txt",
+      "metadata_sha256": "aad94e32eca359cf2e0f2d368d8849d3e27c4bfe78d98b770aa9333bb4c6a428",
+      "status": "unreviewed"
+    },
+    {
+      "id": "liberton-ltv-24h01at",
+      "brand": "Liberton",
+      "title": "Liberton LTV 24H01AT (Liberton, built by Changhong, device redwood), Ukraine",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/liberton-ltv-24h01at/debloat.txt",
+      "metadata_sha256": "cf14f61baa0e3abc32fb88a3bbbb927ff6319525e1470810cc3c3cc26ac7d026",
+      "status": "unreviewed"
+    },
+    {
+      "id": "lumio-vision-7",
+      "brand": "Lumio",
+      "title": "Lumio Vision 7 55\" (KTC ODM, Realtek, khardi, KTC_LUMIO_4K_EU_23GV1), India",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/lumio-vision-7/debloat.txt",
+      "metadata_sha256": "7bba22a41204e9214625bed65ec433e4bc9eee20110ea79c707f531776cb781c",
+      "status": "unreviewed"
+    },
+    {
+      "id": "magcubic-hy300-pro",
+      "brand": "Magcubic",
+      "title": "Magcubic HY300 Pro projector (rk3566_rgo, device adt3, Askey)",
+      "system": "Android 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/magcubic-hy300-pro/debloat.txt",
+      "metadata_sha256": "5b5197540b9765730b75b6602304a97bf483aa487ef3e47b7a4c1ba91a86180c",
+      "status": "unreviewed"
+    },
+    {
+      "id": "master-g-mga3200",
+      "brand": "Master-G",
+      "title": "Master-G MGA3200 (SCBC R1, Realtek; Android reports model `ATV R1`), Chile",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/master-g-mga3200/debloat.txt",
+      "metadata_sha256": "54accfdbf7995cda11514d1fdfe10a3809fb7562feaeefc65751f02d9228eefb",
+      "status": "unreviewed"
+    },
+    {
+      "id": "motorola-mt4310",
+      "brand": "Motorola",
+      "title": "Motorola MT4310 (Newsan; Hisense board, hayward, MediaTek), Argentina",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/motorola-mt4310/debloat.txt",
+      "metadata_sha256": "5e8b9a95664a91190ac6db80e733623989905a04b8db4d929d638352724be4d5",
+      "status": "unreviewed"
+    },
+    {
+      "id": "motorola-swtv-24ae-fhd",
+      "brand": "Motorola",
+      "title": "Motorola SWTV-24AE-FHD (Skyworth OEM, beomil, MediaTek), India/Global",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/motorola-swtv-24ae-fhd/debloat.txt",
+      "metadata_sha256": "eb358da8fa754bd85c8b1b5c94e7546a0276118e3e0322b7ffe2bb223f1b39cc",
+      "status": "unreviewed"
+    },
+    {
+      "id": "mtc-uk-2k-android-tv",
+      "brand": "MTC",
+      "title": "MTC UK 2K Android TV (tabata, MediaTek m5621; JVC-family firmware, `android.autoinstalls.config.JVC` present), UK",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/mtc-uk-2k-android-tv/debloat.txt",
+      "metadata_sha256": "8da4795c51a95acfc9368146e4a22632c25f5c1331b21fd07115e4ba02850aec",
+      "status": "unreviewed"
+    },
+    {
+      "id": "noblex-shinjuku",
+      "brand": "Noblex",
+      "title": "Noblex NoblexTV (Skyworth-built, shinjuku, MediaTek m5621), Argentina",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/noblex-shinjuku/debloat.txt",
+      "metadata_sha256": "9e23ec4e682a6446de2b061be1c71e0726b2b4bdd99488c44f7ed0f239760c87",
+      "status": "unreviewed"
+    },
+    {
+      "id": "nokia-streaming-box-8000",
+      "brand": "Nokia",
+      "title": "Nokia Streaming Box 8000 (Sagemcom/NES, SEI600NK4, HND, Amlogic)",
+      "system": "Android TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/nokia-streaming-box-8000/debloat.txt",
+      "metadata_sha256": "c516381fe194c36be92a0f41bffcc675f33947b264d0664963611039f25a36ed",
+      "status": "unreviewed"
+    },
+    {
+      "id": "nokia-streaming-box-8010",
+      "brand": "Nokia",
+      "title": "Nokia Streaming Box 8010 (Sagemcom/NES, SEI804NK, YYJ, Amlogic)",
+      "system": "Android TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/nokia-streaming-box-8010/debloat.txt",
+      "metadata_sha256": "952475398d74e6e3437abf4beb301ff7f833f5fcdf0bdbbded4c69766153abdf",
+      "status": "unreviewed"
+    },
+    {
+      "id": "nvidia-shield-tv-2019",
+      "brand": "NVIDIA Shield",
+      "title": "NVIDIA SHIELD TV 2019 tube (P3430, sif)",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/nvidia-shield-tv-2019/debloat.txt",
+      "metadata_sha256": "bb497d8d97ee10ce44479a66c5dd4992e5aa7158075f629981ccf3d7662212c5",
+      "status": "unreviewed"
+    },
+    {
+      "id": "nvidia-shield-tv-pro-2019",
+      "brand": "NVIDIA Shield",
+      "title": "NVIDIA SHIELD TV Pro 2019 (P2897, mdarcy)",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/nvidia-shield-tv-pro-2019/debloat.txt",
+      "metadata_sha256": "e2adb4cd89f3c767657a3715c7a8a6df8803a74727bd37040d95bc4140e43918",
+      "status": "unreviewed"
+    },
+    {
+      "id": "ok-ai-pont-ikebukuro",
+      "brand": "OK.",
+      "title": "OK. AI PONT (Changhong, ikebukuro, MediaTek), Italy",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/ok-ai-pont-ikebukuro/debloat.txt",
+      "metadata_sha256": "b1940cf2cf2fc886d58c60f4436aaea7e0892f46eb60812ef9b6cb23d8ecb515",
+      "status": "unreviewed"
+    },
+    {
+      "id": "oneplus-tv-cebu",
+      "brand": "OnePlus",
+      "title": "OnePlus TV (C00, Cebu, MediaTek m7632), India",
+      "system": "Android TV 10",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/oneplus-tv-cebu/debloat.txt",
+      "metadata_sha256": "7a56af7790e858e5beecd77391f3195d1cad2c5f4def55325219e64e3a663c4e",
+      "status": "unreviewed"
+    },
+    {
+      "id": "oneplus-tv-dubai",
+      "brand": "OnePlus",
+      "title": "OnePlus TV (D00, Dubai)",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/oneplus-tv-dubai/debloat.txt",
+      "metadata_sha256": "45dbddeb93f4c59d4c8b8c93350665a55c907c45ba5e20968be84924cbd65dbd",
+      "status": "unreviewed"
+    },
+    {
+      "id": "oneplus-tv-y1",
+      "brand": "OnePlus",
+      "title": "OnePlus Y1 43\" (Y Series, shibuya)",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/oneplus-tv-y1/debloat.txt",
+      "metadata_sha256": "140dd0f4d48293ec19e79f67481917f54c15738dedde65bc741be93fc5221968",
+      "status": "unreviewed"
+    },
+    {
+      "id": "onn-4k-plus-2025",
+      "brand": "onn",
+      "title": "onn. 4K Plus Streaming (2025, Walmart; coffey, Amlogic S905X5M), US",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/onn-4k-plus-2025/debloat.txt",
+      "metadata_sha256": "40b8c561f5eb2d5eb8a652b43623e5d671a79d5fca3853345e5f50cc5bd67a06",
+      "status": "unreviewed"
+    },
+    {
+      "id": "onn-4k-streaming-box-2023",
+      "brand": "onn",
+      "title": "onn 4K Streaming Box (2023, Walmart; YOC, Amlogic), US",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/onn-4k-streaming-box-2023/debloat.txt",
+      "metadata_sha256": "153e38e26ac9a696dab7e2b18f52566672b377f8bfafebbd62c0c655a4a4d9dc",
+      "status": "unreviewed"
+    },
+    {
+      "id": "panasonic-4ktv-0su",
+      "brand": "Panasonic",
+      "title": "Panasonic 4KTV-0SU (Skyworth-built SW4H, MediaTek m7332), Gulf region",
+      "system": "Android TV 10",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/panasonic-4ktv-0su/debloat.txt",
+      "metadata_sha256": "7f0382a394c449ecd417b875aeaf1e0b24bd562527d76265c65beba8ebe35aee",
+      "status": "unreviewed"
+    },
+    {
+      "id": "panasonic-4ktv-jup",
+      "brand": "Panasonic",
+      "title": "Panasonic 4KTV-JUP (Jupiter_PA, MediaTek)",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/panasonic-4ktv-jup/debloat.txt",
+      "metadata_sha256": "9cf123fe8b0ff94d4f4223c5c1cb431c4b1d8f510f329ffa1a65cf94b6999682",
+      "status": "unreviewed"
+    },
+    {
+      "id": "panasonic-th-40hs550k",
+      "brand": "Panasonic",
+      "title": "Panasonic TH-40HS550K (Skyworth-built, GS655 shibuya, MediaTek)",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/panasonic-th-40hs550k/debloat.txt",
+      "metadata_sha256": "49151383b9581ab5807b0af1f6141fef1bb217bdbfdfcb940666048210bb4106",
+      "status": "unreviewed"
+    },
+    {
+      "id": "peaq-ptv43aqu-5023c",
+      "brand": "PEAQ",
+      "title": "PEAQ PTV 43AQU-5023C (Changhong, reports OK. AI PONT, dundas, MediaTek m7332)",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/peaq-ptv43aqu-5023c/debloat.txt",
+      "metadata_sha256": "31e46d52ad74d207b5136381a248ba6b2fadb3b29c6fc788976b1537524891db",
+      "status": "unreviewed"
+    },
+    {
+      "id": "philips-50pud7406",
+      "brand": "Philips",
+      "title": "Philips 50PUD7406/43 (TPV, PH0M_EA_T32, MStar/MediaTek), Chile; 55PUS7906/12, Lithuania",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/philips-50pud7406/debloat.txt",
+      "metadata_sha256": "c3a239854705aef4cd8f19d2741abb941f2f40b0d60adab948f045a0af33ecd8",
+      "status": "unreviewed"
+    },
+    {
+      "id": "philips-50pus8517",
+      "brand": "Philips",
+      "title": "Philips 50PUS8517/12 (TP Vision, PH1M_EA_9970A, MediaTek MT5895), Europe",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/philips-50pus8517/debloat.txt",
+      "metadata_sha256": "37174d5170c723e4e28d307a58d92905b5cf261e17cdd9cad1985cfa8b1feaee",
+      "status": "unreviewed"
+    },
+    {
+      "id": "philips-55oled707",
+      "brand": "Philips",
+      "title": "Philips 55OLED707/12 (TP Vision, PH1M_EA_9970A, MediaTek MT5895), UK",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/philips-55oled707/debloat.txt",
+      "metadata_sha256": "8e21352ec8ab3643cceeea98903eda60452fa3b1b2f2dcf8f2e299aa9453df94",
+      "status": "unreviewed"
+    },
+    {
+      "id": "philips-55oled708",
+      "brand": "Philips",
+      "title": "Philips 55OLED708/12 (TPV, PH1M_WW_9972, MediaTek), Poland",
+      "system": "Google TV 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/philips-55oled708/debloat.txt",
+      "metadata_sha256": "4d277d77f431e6ba2c02ef7e9f83b13cdc3c3b954ef4756661ba047a122853d5",
+      "status": "unreviewed"
+    },
+    {
+      "id": "philips-55pus7503",
+      "brand": "Philips",
+      "title": "Philips 55PUS7503/12 (TP Vision TPM171E, PH7M_EU_5596, MediaTek MT5891), Europe",
+      "system": "Android TV 8.0",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/philips-55pus7503/debloat.txt",
+      "metadata_sha256": "32e36d94e992369fc5584226fd7a96b89464af1d0f5f826e8e951211e607638f",
+      "status": "unreviewed"
+    },
+    {
+      "id": "philips-65oled706",
+      "brand": "Philips",
+      "title": "Philips 65OLED706/12 (TP Vision, PH1M_EA_9970A, MediaTek MT5895), France",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/philips-65oled706/debloat.txt",
+      "metadata_sha256": "a103267b75c2e9b5f68bd4613eee6fce6ffb39f7035d59e2a5f1706bbf1e1137",
+      "status": "unreviewed"
+    },
+    {
+      "id": "philips-65pml9506",
+      "brand": "Philips",
+      "title": "Philips 65PML9506/12 (TP Vision, PH1M_EA_9970A, MediaTek), Spain",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/philips-65pml9506/debloat.txt",
+      "metadata_sha256": "53c85602f616073a442616b574cf66e0804acf09c097fc54743b14274b74347f",
+      "status": "unreviewed"
+    },
+    {
+      "id": "philips-65pus8102",
+      "brand": "Philips",
+      "title": "Philips 65PUS8102/12 (TP Vision TPM171E, PH7M_EU_5596, MediaTek MT5891), Europe",
+      "system": "Android TV 8.0",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/philips-65pus8102/debloat.txt",
+      "metadata_sha256": "1c3d9ab0365cbedbe165a7514a0a635be14052e0b8e962084654ee0b34218d54",
+      "status": "unreviewed"
+    },
+    {
+      "id": "philips-65pus9435",
+      "brand": "Philips",
+      "title": "Philips 65PUS9435/12 (TP Vision TPM191E, PH9M_EA_5599, MediaTek MT5887), Germany",
+      "system": "Android TV 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/philips-65pus9435/debloat.txt",
+      "metadata_sha256": "441aa2e9e735dc850a03d5c80a519d21a97b70ac1868a35ed34f8d301e7b2299",
+      "status": "unreviewed"
+    },
+    {
+      "id": "philips-75pus8505",
+      "brand": "Philips",
+      "title": "Philips 75PUS8505/12 (TP Vision TPM191E, PH9M_EA_5599, MediaTek MT5887), Europe",
+      "system": "Android TV 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/philips-75pus8505/debloat.txt",
+      "metadata_sha256": "4303e88d11e48951ef4610029b01120d79532b8e420298cffa0f2523d91dea64",
+      "status": "unreviewed"
+    },
+    {
+      "id": "philips-google-tv-ta7",
+      "brand": "Philips",
+      "title": "Philips Google TV TA7 (TPV, PH3M_AL_T32, MediaTek), Brazil",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/philips-google-tv-ta7/debloat.txt",
+      "metadata_sha256": "b7f2f7aefd66a82fed84e104d3a619531d741242bf2a41d2e9d44c7eda42e2b3",
+      "status": "unreviewed"
+    },
+    {
+      "id": "philips-r8g-google-tv",
+      "brand": "Philips",
+      "title": "Philips R8G Google TV (MOKA, whitefield, Realtek RTD2851F), US",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/philips-r8g-google-tv/debloat.txt",
+      "metadata_sha256": "c744102b69186ae2fc4397b6cd977ed29e87612c3256626c9103ed3daa80b981",
+      "status": "unreviewed"
+    },
+    {
+      "id": "philips-smart-4k-google-tv",
+      "brand": "Philips",
+      "title": "Philips Smart 4K TV (Skyworth, eleonas, MediaTek), India",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/philips-smart-4k-google-tv/debloat.txt",
+      "metadata_sha256": "7a79c90a6617fa973b19c7fee6327093b8e447a79c0b72c5bc3577ca93458886",
+      "status": "unreviewed"
+    },
+    {
+      "id": "philips-tpm191e",
+      "brand": "Philips",
+      "title": "Philips TPM191E (TP Vision, PH9M_EA_5599, MediaTek mt5887), Europe",
+      "system": "Android TV 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/philips-tpm191e/debloat.txt",
+      "metadata_sha256": "7990f5753cae38eaa1257e044d23d86b3ce88228787f1babe3fe20cbe239a24f",
+      "status": "unreviewed"
+    },
+    {
+      "id": "polytron-2k-hayward",
+      "brand": "Polytron",
+      "title": "Polytron 2K (WLTV POLYTRON2K, hayward; Hisense/CVTE board, MediaTek mt5867), Indonesia",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/polytron-2k-hayward/debloat.txt",
+      "metadata_sha256": "7db8a3bf90c3cc706cb3c524579e533a60050ae157b0567d8ee63a5217e98c19",
+      "status": "unreviewed"
+    },
+    {
+      "id": "portronics-beem-470",
+      "brand": "Portronics",
+      "title": "Portronics Beem 470 Smart LED Projector (Allwinner H713, 1 GB), India",
+      "system": "Android 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/portronics-beem-470/debloat.txt",
+      "metadata_sha256": "a40235eb7510363cae7032c410c401280d2223b79ef2a86a0dfe581f6471fa25",
+      "status": "unreviewed"
+    },
+    {
+      "id": "prismplus-q65-ultra-r10g",
+      "brand": "PRISM+",
+      "title": "PRISM+ Q65 Ultra 2026 QLED 4K AI Google TV (R10G, PRISMPLUS_FFM, MOKA, Realtek RTD2875 SoC, RTD6748 platform)",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/prismplus-q65-ultra-r10g/debloat.txt",
+      "metadata_sha256": "fe4d22675f8888d42529f9e5d15d0e70db266bdf13a2abea34a9d87a1b76bbb2",
+      "status": "unreviewed"
+    },
+    {
+      "id": "rca-ai-pont",
+      "brand": "RCA",
+      "title": "RCA AI PONT SA (Changhong, redwood, ISDB92RC; also sold as realme 40-inch and AIWA AW32B4SMG)",
+      "system": "Android 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/rca-ai-pont/debloat.txt",
+      "metadata_sha256": "4f447ee8a415eeaee800030c599a321da64d0d1d78ad45e29056396060c884ae",
+      "status": "unreviewed"
+    },
+    {
+      "id": "rca-rc50a21s-4ksm",
+      "brand": "RCA",
+      "title": "RCA RC50A21S-4KSM, Zeasn home (Toptech firmware RTK2851P, Realtek RTD2851P, board mac6p)",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/rca-rc50a21s-4ksm/debloat.txt",
+      "metadata_sha256": "fa5455d4b18a3445a4aa85391ae3bd231873a154baf56e5e2cc457bf80faa5a5",
+      "status": "unreviewed"
+    },
+    {
+      "id": "redmi-mitv-antl0",
+      "brand": "Redmi",
+      "title": "Redmi TV (MiTV-ANTL0, starwars)",
+      "system": "Android 5.1.1 (not Android TV)",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/redmi-mitv-antl0/debloat.txt",
+      "metadata_sha256": "1f95cad9b13ed627de42ffb92725cdd56df0c5ffae78a284edab27b0c1185591",
+      "status": "unreviewed"
+    },
+    {
+      "id": "redmi-mitv-mftp0",
+      "brand": "Redmi",
+      "title": "Redmi TV (MiTV-MFTP0, alita), China firmware 23.2.10.6129",
+      "system": "Android TV 9 (CN build)",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/redmi-mitv-mftp0/debloat.txt",
+      "metadata_sha256": "5f14cc2e1ee5fe7d30319168060e41ac3e074a407681b0080bf31a2c51d13763",
+      "status": "unreviewed"
+    },
+    {
+      "id": "rocktek-gb1",
+      "brand": "RockTek",
+      "title": "RockTek GB1",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/rocktek-gb1/debloat.txt",
+      "metadata_sha256": "dbe2f5f6719ed822ca772c1ceab016f6eeafcd82ac7981d08176fd9c56a35629",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sankey-smart-tv-hi3751v350",
+      "brand": "Sankey",
+      "title": "Sankey SMART_TV (CVTE, HiSilicon Hi3751V350, 1 GB)",
+      "system": "Android 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sankey-smart-tv-hi3751v350/debloat.txt",
+      "metadata_sha256": "14f9af8d899408609c0d53a5c7fe2733b2fd60d15b1da95a7ae47364c7f6189b",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sankey-smart2ktvse",
+      "brand": "Sankey",
+      "title": "Sankey SMART2KTVSE (Whale OS, SiliconPlayer am30bm)",
+      "system": "Android TV 13",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sankey-smart2ktvse/debloat.txt",
+      "metadata_sha256": "741e49c9b673d46148f136b99a1e0b27eba74c171fa411fdb117efd2fc930f85",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sanyo-atv-r2",
+      "brand": "SANYO",
+      "title": "SANYO ATV R2 (SCBC, Realtek RTD285O)",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sanyo-atv-r2/debloat.txt",
+      "metadata_sha256": "450a936063549cc12828ed7c32bc05c7b1fa7973d243d19aea29703213828e42",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sber-salute-tv-at30a6",
+      "brand": "Sber",
+      "title": "Sber Salute TV 43\" (CVTE TP.T962D4.PC756, Amlogic T962D4, at30a6, 2 GB), Russia",
+      "system": "StarOS 1.101 / Android 13",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sber-salute-tv-at30a6/debloat.txt",
+      "metadata_sha256": "90c252845adc7c9099c305d7dcac5e33a6c6bf4dc30a359e7f2168ce1b95f57f",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sharp-2t-c32gh3000i",
+      "brand": "SHARP",
+      "title": "SHARP 2T-C32GH3000I (SHARP 2K Smart TV-A; Skyworth-built, beomil, MediaTek mt5867), Indonesia",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sharp-2t-c32gh3000i/debloat.txt",
+      "metadata_sha256": "95be0e15664b6bad5a9802e5256c2b27abe831783b2590df7cde957c16401112",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sharp-aquos-tve21f",
+      "brand": "SHARP",
+      "title": "SHARP AQUOS TVE21F (AQUOS-TVE21F, banqiao, CVTE/MediaTek), UK",
+      "system": "Android TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sharp-aquos-tve21f/debloat.txt",
+      "metadata_sha256": "a8b2bc72e87704e91df68b5f3d166bec0a28ec921f6f609fcadc3e678b24d246",
+      "status": "unreviewed"
+    },
+    {
+      "id": "skyworth-65a3f",
+      "brand": "Skyworth",
+      "title": "Skyworth 65A3F (7T641_A3F, MediaTek MT9633), China",
+      "system": "Android 13 (CCOS 10.01.250328)",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/skyworth-65a3f/debloat.txt",
+      "metadata_sha256": "6b6c4b304babf5b3bef9be6304121936eff80321f142b7100902d86e1e3714f2",
+      "status": "unreviewed"
+    },
+    {
+      "id": "skyworth-7s60-a5",
+      "brand": "Skyworth",
+      "title": "Skyworth 7S60_A5 (sky8S34, 1.9 GB), China market",
+      "system": "Coocaa OS / Android 8",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/skyworth-7s60-a5/debloat.txt",
+      "metadata_sha256": "9856291f6c0d5e3b94047b907785751aec6028b7cc04760d04ae9dc0ee3bc3c6",
+      "status": "unreviewed"
+    },
+    {
+      "id": "skyworth-8r40-k5c",
+      "brand": "Skyworth",
+      "title": "Skyworth / Coocaa 8R40_K5C (Realtek rtd285x, 1 GB, 32-bit), China domestic firmware",
+      "system": "Android 8.0 (not Google TV)",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/skyworth-8r40-k5c/debloat.txt",
+      "metadata_sha256": "cae8798e4e3acb8aa670ac096fc0b02b8e27cbe164970d2dde1521e4e87f1e78",
+      "status": "unreviewed"
+    },
+    {
+      "id": "skyworth-sw-22sa",
+      "brand": "Skyworth",
+      "title": "Skyworth SW-22SA (SW6H, MediaTek), ~1.9 GB",
+      "system": "Android TV 14 (Google TV home)",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/skyworth-sw-22sa/debloat.txt",
+      "metadata_sha256": "41efed547d89134ef17c1907f0c45697b265bbdc51dcfcc0bba3ecfa6a275b57",
+      "status": "unreviewed"
+    },
+    {
+      "id": "skyworth-swtv-21ae",
+      "brand": "Skyworth",
+      "title": "Skyworth SWTV-21AE (sunnyvale, MediaTek)",
+      "system": "Android TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/skyworth-swtv-21ae/debloat.txt",
+      "metadata_sha256": "c5bc6100fa58f9c16213f201fed536886e06e18f9fc41006cf7871df151407b8",
+      "status": "unreviewed"
+    },
+    {
+      "id": "skyworth-swtv-22ae-fhd",
+      "brand": "Skyworth",
+      "title": "Skyworth SWTV-22AE-FHD (umeda, MediaTek), Vietnam/Global",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/skyworth-swtv-22ae-fhd/debloat.txt",
+      "metadata_sha256": "264d41d633d09728550ed3a72830facb52c40271f345e2c7acfdca3cd6514708",
+      "status": "unreviewed"
+    },
+    {
+      "id": "skyworth-swtv-24ae-4k-nf",
+      "brand": "Skyworth",
+      "title": "Skyworth SWTV-24AE-4K NF (eleonas, MediaTek mt5896), South Africa/Global",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/skyworth-swtv-24ae-4k-nf/debloat.txt",
+      "metadata_sha256": "e7b0edb409683c11469a9763939f2705907fcba18117f940cde4ae5f89c83dd9",
+      "status": "unreviewed"
+    },
+    {
+      "id": "skyworth-swtv-24na-4k-nf",
+      "brand": "Skyworth",
+      "title": "Skyworth SWTV-24NA-4K NF (eleonas, MediaTek mt5896), US",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/skyworth-swtv-24na-4k-nf/debloat.txt",
+      "metadata_sha256": "8e792a5c1de4d492b5c402e984ac936694f9d622d6962cd3f183960cbecff56d",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-bravia-4k-gb",
+      "brand": "Sony",
+      "title": "Sony BRAVIA 4K GB (BRAVIA_ATV2_EU, BRAVIA_ATV2)",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-bravia-4k-gb/debloat.txt",
+      "metadata_sha256": "6811a157b639e2c40b5c9a1a84da11b76cda147b6d1f034f1f4df63c2372e203",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-bravia-4k-gb-us",
+      "brand": "Sony",
+      "title": "Sony BRAVIA 4K GB (BRAVIA_ATV2_UC, MediaTek mt5891)",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-bravia-4k-gb-us/debloat.txt",
+      "metadata_sha256": "01a79af3c79062c8d446c62ff7dc6e6a52a2560cccd60203b59aec0a5029aecb",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-bravia-4k-ur2",
+      "brand": "Sony",
+      "title": "Sony BRAVIA 4K UR2 (BRAVIA_UR2_4K, MediaTek)",
+      "system": "Android TV 10",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-bravia-4k-ur2/debloat.txt",
+      "metadata_sha256": "0cebff7f089819d933db03800dfd4398c85214aa6f74f1539e6c7b79bcdf38f9",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-bravia-4k-ur3",
+      "brand": "Sony",
+      "title": "Sony BRAVIA 4K UR3 (BRAVIA_UR3, MediaTek mt5893), EU",
+      "system": "Android TV 10",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-bravia-4k-ur3/debloat.txt",
+      "metadata_sha256": "57911b32128b4ffbb4015d8aa8ff10b8a77deebcfe5656ce541c10aa385bcd20",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-bravia-4k-vh1",
+      "brand": "Sony",
+      "title": "Sony BRAVIA 4K VH1 (KD-55XH9096, BRAVIA_VH1, MediaTek MT5895), EU",
+      "system": "Google TV 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-bravia-4k-vh1/debloat.txt",
+      "metadata_sha256": "8d9b21cbbd74dd82385c3de5da72be705a0e8c7f019ebb54e3107a17910c9d28",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-bravia-4k-vh2",
+      "brand": "Sony",
+      "title": "Sony BRAVIA 4K VH2 (KD-55X80J, BRAVIA_VH2, MediaTek), EU and North America",
+      "system": "Google TV 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-bravia-4k-vh2/debloat.txt",
+      "metadata_sha256": "8a8aa20a0285855764fefe4e0215b813324e94cc67135d04eba1cbd963b14833",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-bravia-4k-vh21",
+      "brand": "Sony",
+      "title": "Sony BRAVIA 4K VH21 (KD-65X85K, 2022, BRAVIA_VH21, MediaTek MT5895), Australia",
+      "system": "Google TV 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-bravia-4k-vh21/debloat.txt",
+      "metadata_sha256": "0ea941f1feec746ec7a86926a07c269ff6e6849ffbeac0cf2a7e8c146dbb89e5",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-bravia-4k-vh21-eu",
+      "brand": "Sony",
+      "title": "Sony BRAVIA 4K VH21 (XR-55A80K, 2022, BRAVIA_VH21, MediaTek mt5895), EU",
+      "system": "Google TV 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-bravia-4k-vh21-eu/debloat.txt",
+      "metadata_sha256": "5d584ba9ecbd44d5ad059835a51efded788fefe9182d8c6e2f6972d888c6385b",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-bravia-9-ii",
+      "brand": "Sony",
+      "title": "Sony BRAVIA 9 II (K-65XR90M2, BRAVIA_AE3, MediaTek MT5838)",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-bravia-9-ii/debloat.txt",
+      "metadata_sha256": "b4f8a55efa22b80f4384073e9b2b03dfa265608c63e953a02a12ad6256925943",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-bravia-ae1",
+      "brand": "Sony",
+      "title": "Sony BRAVIA 4K AE1 (BRAVIA_AE_M6L, MediaTek MT5897), EU",
+      "system": "Google TV 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-bravia-ae1/debloat.txt",
+      "metadata_sha256": "952493968d122af60e5ba627100fe0cd760da8ce2abc8f3cc5d2f0f328a50e7a",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-bravia-ae2",
+      "brand": "Sony",
+      "title": "Sony BRAVIA 4K AE2 (BRAVIA_AE2, MediaTek MT5897), North America",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-bravia-ae2/debloat.txt",
+      "metadata_sha256": "d6fe7a91d0574466586f8fdbad89e06e774490af58c30aa2e321844502f8ef5f",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-bravia-bf1",
+      "brand": "Sony",
+      "title": "Sony BRAVIA BF1 (BRAVIA 2 II class, BRAVIA_BF1_4K_A, MediaTek)",
+      "system": "Google TV 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-bravia-bf1/debloat.txt",
+      "metadata_sha256": "c363a8bccde2a1da53c42e43ce03dd9f65be830a21f7968475c284754492829d",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-bravia-tl2",
+      "brand": "Sony",
+      "title": "Sony BRAVIA TL2 (OD0M_EA_T32, TPV-built, MediaTek), Europe",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-bravia-tl2/debloat.txt",
+      "metadata_sha256": "5c27c7efeb259072ba97b28062956fbba8d9239a8da40ce7b0e3803d7e89a9e5",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-bravia-vu31",
+      "brand": "Sony",
+      "title": "Sony BRAVIA VU31 4K (BRAVIA_VU31_4K, Realtek), India",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-bravia-vu31/debloat.txt",
+      "metadata_sha256": "91ad89ec27622f13b8d6470c2969885144c3d874649759d1f4e75446e0fad8d9",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-kd-43x80l",
+      "brand": "Sony",
+      "title": "Sony BRAVIA KD-43X80L (2023, BRAVIA_VH22, MediaTek MT5895), EU",
+      "system": "Google TV 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-kd-43x80l/debloat.txt",
+      "metadata_sha256": "dc8222a13e9a499ca93fc6569705c3e9cd210626c8c3e3d9caca37b979036239",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-kd-49x8307c",
+      "brand": "Sony",
+      "title": "Sony BRAVIA KD-49X8307C (2015, \"BRAVIA 4K 2015\", SVP-DTV15, MediaTek), EU firmware",
+      "system": "Android TV 7.0",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-kd-49x8307c/debloat.txt",
+      "metadata_sha256": "5f6bdd94d4045e4d3d0a389a1b30513238fe8198ebf87e71c1d0cf93e60daec5",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-kd-55x8000c",
+      "brand": "Sony",
+      "title": "Sony BRAVIA KD-55X8000C (2015, \"BRAVIA 4K 2015\", SVP-DTV15, MediaTek), China firmware",
+      "system": "Android TV 7.0",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-kd-55x8000c/debloat.txt",
+      "metadata_sha256": "d32f7350d0414dd01e7b7cb849bbd74f2b7b0a60325702dd32d01d9b3e07f7b4",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-kd-55x8509c",
+      "brand": "Sony",
+      "title": "Sony BRAVIA KD-55X8509C (2015, \"BRAVIA 4K 2015\", SVP-DTV15, MediaTek), EU firmware",
+      "system": "Android TV 7.0",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-kd-55x8509c/debloat.txt",
+      "metadata_sha256": "63f0e23cda9145e6ece35ffc6468346764796aacdd05511d85f5c23538b2b91b",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-kd-55x85j",
+      "brand": "Sony",
+      "title": "Sony BRAVIA KD-55X85J (2021, BRAVIA_VH2, MediaTek MT5895), South America",
+      "system": "Google TV 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-kd-55x85j/debloat.txt",
+      "metadata_sha256": "d0832ab3eeb0fefa660b2f603e0fddc8f26fc125028732ff47cb184701d08b65",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-kd-55xe8596",
+      "brand": "Sony",
+      "title": "Sony BRAVIA KD-55XE8596 (2017, \"BRAVIA 4K GB\", BRAVIA_ATV2_EU, MediaTek MT5891), UK",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-kd-55xe8596/debloat.txt",
+      "metadata_sha256": "e4ad86d4aaa4621d8a23f0f88b414b722c21bc1a59b01318d50f04b0b4b17316",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-kd-55xf7596",
+      "brand": "Sony",
+      "title": "Sony BRAVIA KD-55XF7596 (2018, \"BRAVIA 4K GB ATV3\", BRAVIA_ATV3_4K_EU, MediaTek MT5891), EU",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-kd-55xf7596/debloat.txt",
+      "metadata_sha256": "db39bd9921e95bc63f320ac13b377dbecc1128a233472d310bbc2e9199a2f0d2",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-kd-55xf8096",
+      "brand": "Sony",
+      "title": "Sony BRAVIA KD-55XF8096 (2018, \"BRAVIA 4K GB ATV3\", BRAVIA_ATV3_4K_EU, MediaTek MT5891), Spain",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-kd-55xf8096/debloat.txt",
+      "metadata_sha256": "74e3e937f20ca611f4480b004a79007783515e1fd90769334147689220413a57",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-kd-65x80j",
+      "brand": "Sony",
+      "title": "Sony BRAVIA KD-65X80J (2021, BRAVIA_VH2, MediaTek), India",
+      "system": "Google TV 10",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-kd-65x80j/debloat.txt",
+      "metadata_sha256": "41bdd18aaac55011a048d2230b17d2ea26bbdfc174467813908c8e36fb423648",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-kd-65x82l",
+      "brand": "Sony",
+      "title": "Sony BRAVIA KD-65X82L (2023, BRAVIA_VH22, MediaTek), India",
+      "system": "Google TV 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-kd-65x82l/debloat.txt",
+      "metadata_sha256": "36a55beaaf0d4b5558491078064364660ea53674c7ee5e2d2461d122eabfada7",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-kd-65x9300d",
+      "brand": "Sony",
+      "title": "Sony BRAVIA KD-65X9300D (2016, SVP-DTV15, MediaTek), Asia-Pacific",
+      "system": "Android TV 8.0",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-kd-65x9300d/debloat.txt",
+      "metadata_sha256": "02030b013019423ad3c9e730964c283678110e2a3684d800430e6b0122033784",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-x9000h-cn",
+      "brand": "Sony",
+      "title": "Sony BRAVIA X9000H (2020, BRAVIA_VH1_CN, MediaTek MT5895), China",
+      "system": "Android TV 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-x9000h-cn/debloat.txt",
+      "metadata_sha256": "cd8e1e96dbedbfb329e1926d0460bb0d4d77b9827fd7a9489dd7b5a3cf980809",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-xbr-55x850c",
+      "brand": "Sony",
+      "title": "Sony BRAVIA XBR-55X850C (2015, \"BRAVIA 4K 2015\", SVP-DTV15, MediaTek), US firmware",
+      "system": "Android TV 8.0",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-xbr-55x850c/debloat.txt",
+      "metadata_sha256": "cc3e69c38049a0344c3003a5ee60520a9f6ea7c8f98ea6989999dbc624182f85",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-xbr-55x850d",
+      "brand": "Sony",
+      "title": "Sony BRAVIA XBR-55X850D (Android model \"BRAVIA 4K 2015\"), firmware 6.827",
+      "system": "Android TV 8.0.0",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-xbr-55x850d/debloat.txt",
+      "metadata_sha256": "f365aca962c41ec8902e65fa28f414ec106a041311f81ea3930ef4e395b80dc0",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-xbr-65x900f",
+      "brand": "Sony",
+      "title": "Sony BRAVIA XBR-65X900F (2018, BRAVIA_ATV3_4K, MediaTek MT5891), US/Canada",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-xbr-65x900f/debloat.txt",
+      "metadata_sha256": "82386f77c56e41e70321d84d05339beab747a4e138ef04589ecedf6423f8efa7",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-xbr-x900e",
+      "brand": "Sony",
+      "title": "Sony BRAVIA XBR-65X900E (2017, BRAVIA_ATV2)",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-xbr-x900e/debloat.txt",
+      "metadata_sha256": "d52a0802d2bf49335d220a0c750366e70fe08a7fb58b6b5d2947d038d5992e36",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-xr-65a80j",
+      "brand": "Sony",
+      "title": "Sony XR-65A80J (65-inch OLED, 2021, BRAVIA_VH2), EU",
+      "system": "Google TV 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-xr-65a80j/debloat.txt",
+      "metadata_sha256": "5a8ae3940d72c9ade66529ccd94be5f12a52878a72381c1cd210d5d38089201a",
+      "status": "unreviewed"
+    },
+    {
+      "id": "sony-xr-65x90j-cn",
+      "brand": "Sony",
+      "title": "Sony XR-65X90J (2021, BRAVIA_VH2, MediaTek MT5895), China",
+      "system": "Android TV 10",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/sony-xr-65x90j-cn/debloat.txt",
+      "metadata_sha256": "42543a5f81124cfd41deb07be880c8be5de105a8f22067cf780ab80f8f827733",
+      "status": "unreviewed"
+    },
+    {
+      "id": "stellamore-t950s",
+      "brand": "Stellamore",
+      "title": "Stellamore T950S projector (Droidlogic be30a3, Amlogic txhd2)",
+      "system": "Android 13",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/stellamore-t950s/debloat.txt",
+      "metadata_sha256": "58770c265e9380229f0278ba43a1b82b497d21cf177250a11dad1dc6d3fe9a04",
+      "status": "unreviewed"
+    },
+    {
+      "id": "super-general-cvte-t972",
+      "brand": "Super General",
+      "title": "Super General 55\" 4K (CVTE TP.SK708D.PC821, Amlogic T972, x30a4, 1 GB), Saudi Arabia",
+      "system": "Android 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/super-general-cvte-t972/debloat.txt",
+      "metadata_sha256": "59905686aa409190872ccb4c64ff4335692d955dd91151e8826416accf1f39dd",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-32l5a",
+      "brand": "TCL",
+      "title": "TCL 32L5A (C06, model \"Smart TV\", 1 GB)",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-32l5a/debloat.txt",
+      "metadata_sha256": "14b9332861a43cec13c125ecf9aaf82b8edea0bb12efcb79e992cbceebc75241",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-32s5400a",
+      "brand": "TCL",
+      "title": "TCL 32S5400A (C06, C06_2K_GB, MediaTek MT9221, 1 GB), 2023",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-32s5400a/debloat.txt",
+      "metadata_sha256": "342890c922a641cb3c40e80dc9ce3143e2e7d783eca0aeb604b8481b0e62d303",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-32s5k",
+      "brand": "TCL",
+      "title": "TCL 32S5K (C06, C06_2K_GB, MediaTek MT9221, 918 MB), EU",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-32s5k/debloat.txt",
+      "metadata_sha256": "87bedeaebe2dcd10db7fcbb852e802c3ffedf1f7805464c9bcd46e3480b3005a",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-40s5400a",
+      "brand": "TCL",
+      "title": "TCL 40S5400A (C06, C06_2K_GB, MediaTek MT9221, 1 GB)",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-40s5400a/debloat.txt",
+      "metadata_sha256": "f60b68aee6065d00c2c79bbe08bd421fd11c881a7d86d54a3af26347d0f24793",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-43c645",
+      "brand": "TCL",
+      "title": "TCL 43C645 (Smart TV Pro, Realtek RTD2851 / R51MT05, V8-R51MT05-LF1V652); also TCL 60C635 (G03_4K_GB, Realtek rtd288o), Spain",
+      "system": "Google TV launcher on Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-43c645/debloat.txt",
+      "metadata_sha256": "b250fe13fbebffd4672403e12829dca28150559c8f2ece41077ceadab21980ca",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-43ep660",
+      "brand": "TCL",
+      "title": "TCL 43EP660 (Europe, BeyondTV, Realtek rtd285o, V8-R851T02-LF1V378)",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-43ep660/debloat.txt",
+      "metadata_sha256": "bfcce32039b1c01b840c2ae1bb4ecbc375f1bec1a901e883373946e1887ff69e",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-43p615",
+      "brand": "TCL",
+      "title": "TCL 43P615 (Europe, BeyondTV, Realtek RTD2851, AR06)",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-43p615/debloat.txt",
+      "metadata_sha256": "72f2a607145a40fa0ff9a849a397e1d70b44f242961c4c31dc770e4cc1fcb73b",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-43s450f-ca",
+      "brand": "TCL",
+      "title": "TCL 43S450F-CA (S4 Fire TV Edition, AFTDEC012E, ginza, MediaTek), Canada",
+      "system": "Fire OS 8.1.8.5 / Android 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-43s450f-ca/debloat.txt",
+      "metadata_sha256": "709d5aff836e7a5d03eb3b58050e31b581a28320135914cf451977f74b93a39b",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-43s5400a",
+      "brand": "TCL",
+      "title": "TCL 43S5400A (C06, C06_2K_GB, MediaTek MT9221, 1 GB)",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-43s5400a/debloat.txt",
+      "metadata_sha256": "5e6b5bf7f68ad97ab009a3e4650d83d61bb33400679c63315bd86357b9a79c74",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-43s5k",
+      "brand": "TCL",
+      "title": "TCL 43S5K / 32V5C (G13, G13_2K_GB, MediaTek MT9221/MT5867, 1 GB), India",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-43s5k/debloat.txt",
+      "metadata_sha256": "f4cbd0cb499f192ddac380ebcf17f3ddb3ce3b8242f3ae0d3081afd0acd78c23",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-50c725k",
+      "brand": "TCL",
+      "title": "TCL 50C725K (Smart TV Pro, BeyondTV4/BeyondTV6, RTD2851M, Realtek rtd288o, 2 GB), AR10 build",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-50c725k/debloat.txt",
+      "metadata_sha256": "e0577cb4f0516576b3848c1968aebdc4be26e333b44313a30b533426d73e7d85",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-50dp660",
+      "brand": "TCL",
+      "title": "TCL 50DP660 (Europe, \"Percee TV\", MediaTek MT5658 / board mt5891, V8-T658T01-LF1V602)",
+      "system": "Android TV 8.0",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-50dp660/debloat.txt",
+      "metadata_sha256": "951f8ba655024924a63fe1605495501815806b197017e0ce9c4fb77481cdd54b",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-50ep680",
+      "brand": "TCL",
+      "title": "TCL 50EP680 (Europe, BeyondTV, Realtek rtd285o)",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-50ep680/debloat.txt",
+      "metadata_sha256": "3062a29050cfb1f24b7cdc148262c6d7af84134665b662867c196e2b1e8996ac",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-50p615",
+      "brand": "TCL",
+      "title": "TCL 50P615 (Greece, BeyondTV, Realtek RTD2851 / rtd285o, AR05)",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-50p615/debloat.txt",
+      "metadata_sha256": "d1e9977b001155b4b664927096b0fe56f9b8ccbaf58cbe7bc228dd186133d296",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-50p735",
+      "brand": "TCL",
+      "title": "TCL 50P735 (BeyondTV4, Smart TV Pro)",
+      "system": "Google TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-50p735/debloat.txt",
+      "metadata_sha256": "c53998d04449a35014e8de6fbc27f047731a2ab30833d027e60f2efe787d6cc5",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-55c715",
+      "brand": "TCL",
+      "title": "TCL 55C715 QLED (Europe, BeyondTV2, Realtek RTD2851, V8-R851T02-LF1V606)",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-55c715/debloat.txt",
+      "metadata_sha256": "4f76774f46296485a160a54a83a15e5989461867a737efd82ca1e0fdd8431bdf",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-55c725",
+      "brand": "TCL",
+      "title": "TCL 55C725 (Smart TV Pro, BeyondTV4, G03_4K_GB, Realtek R51MT05, V8-R51MT05-LF1V620), Italy; also TCL 65C655 Pro (same build)",
+      "system": "Google TV launcher on Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-55c725/debloat.txt",
+      "metadata_sha256": "b0ee28c2d7faabd168273f1d500b351d481b9841de42e9e6c87222396bdc3e60",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-55c745",
+      "brand": "TCL",
+      "title": "TCL 55C745, 2023 (G08, G08_4K_GB, MediaTek tcl9618)",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-55c745/debloat.txt",
+      "metadata_sha256": "94d17d836adfc078daef20933857c192a34e276b2da46d7c6b1468d68246a076",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-55c7k-uk",
+      "brand": "TCL",
+      "title": "TCL 55C7K QD-Mini LED, 2025, UK (G08, MediaTek tcl9618)",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-55c7k-uk/debloat.txt",
+      "metadata_sha256": "db3fc6f71efdca16dc5d0e8f537bcb8cb05f2ae4c0a167f3c8b8f648b83aa8b3",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-55c815",
+      "brand": "TCL",
+      "title": "TCL 55C815 (2020, Europe/Denmark, BeyondTV2, Realtek rtd285o)",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-55c815/debloat.txt",
+      "metadata_sha256": "4e9595315d8822a1f53318ceb110c66ca3a6b93ebb8aa271dc3b8c4bc7cdcf54",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-55ep640",
+      "brand": "TCL",
+      "title": "TCL 55EP640 (Greece, BeyondTV, Realtek RTD2851 / rtd285o, AR04)",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-55ep640/debloat.txt",
+      "metadata_sha256": "4afae4e73d51dcdce164f78faa9326cfc9aeccc746d39c3cee762c4083c34ae3",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-55p638",
+      "brand": "TCL",
+      "title": "TCL 55P638 (Smart TV, BeyondTV4)",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-55p638/debloat.txt",
+      "metadata_sha256": "cb57d5b47a1277bf0786986e4ba5b86e13e2781fe43467cc36542fdbe92eaba7",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-55p7k",
+      "brand": "TCL",
+      "title": "TCL 55P7K, Middle East (G10, G10_4K_GB, Realtek RTD2875P)",
+      "system": "Google TV 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-55p7k/debloat.txt",
+      "metadata_sha256": "d8b35e49d6d2f51df226032d35e43ef3ed1b6ec4a88848a12d4ac46bf9debe0e",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-55p8ls",
+      "brand": "TCL",
+      "title": "TCL 55P8LS QD-Mini LED, Vietnam (G10, G10_4K_GB_32BIT, Realtek rtd6748)",
+      "system": "Google TV 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-55p8ls/debloat.txt",
+      "metadata_sha256": "8b1ce0c7b9ef080a659c0eb6f3c758e48350ce4afc718821651545ae9853cf29",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-55s470g",
+      "brand": "TCL",
+      "title": "TCL 55S470G (G10, G10_4K_US_NF, Realtek), US",
+      "system": "Google TV 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-55s470g/debloat.txt",
+      "metadata_sha256": "02bd99dfe9fb211225ba82cc101781648343d277f64e023dbd1d2355f9d4da78",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-55s546-us",
+      "brand": "TCL",
+      "title": "TCL 55S546 (5-Series, G03_4K_US, BeyondTV4, GTV93), US",
+      "system": "Google TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-55s546-us/debloat.txt",
+      "metadata_sha256": "1669026f299b1cb58ef5175012380dac7006dd5fe7fb1b71cfe36f77c652b467",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-58s571f-fire-tv",
+      "brand": "TCL",
+      "title": "TCL 58S571F (TCL Fire TV, AFTDEC012E, ginza, MediaTek mt5896), US",
+      "system": "Fire OS 8 / Android 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-58s571f-fire-tv/debloat.txt",
+      "metadata_sha256": "adf6785965d87a80f8018e0f532f6a524543967a3c19c91c320e60c77c966a96",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-65c725",
+      "brand": "TCL",
+      "title": "TCL 65C725 (Smart TV Pro, BeyondTV4)",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-65c725/debloat.txt",
+      "metadata_sha256": "833ef192db58c633fd61790215c301f62a379ee5af2c6eb45bfdcacffbc5250b",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-65c735",
+      "brand": "TCL",
+      "title": "TCL 65C735 (Smart TV Pro, G05, MediaTek), France; also TCL 55C728, Turkey, TCL 65C935, France, and TCL 65C745, France",
+      "system": "Google TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-65c735/debloat.txt",
+      "metadata_sha256": "453cef7a0ea287b3a633e900b9b6dee3217af2f1fcc491785928003f3bb59387",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-65c7k-google-tv",
+      "brand": "TCL",
+      "title": "TCL 65C7K (Smart TV Pro, G08, G08_4K_GB, MediaTek mt5896), Brazil",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-65c7k-google-tv/debloat.txt",
+      "metadata_sha256": "de5656eb5a39fe9c2c33670c3d767c0d2170572cccabf006675dbb79cf606d98",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-65c7l-google-tv",
+      "brand": "TCL",
+      "title": "TCL 65C7L (Smart TV Pro, G08, G08_4K_GB, MediaTek tcl9618), 2025, Australia",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-65c7l-google-tv/debloat.txt",
+      "metadata_sha256": "cc0bd96c78fe5a8d01f55ea4640a49ddd684eda4a7e29a8d699e0a47f53beaca",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-65q550g",
+      "brand": "TCL",
+      "title": "TCL 65Q550G (TCL Smart TV, Google TV 11, V8-R51MT08-LF1V095.021344)",
+      "system": "Google TV",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-65q550g/debloat.txt",
+      "metadata_sha256": "ee46fe5007aceb65348c59101466fcbe519ac419ea9d6a9f7310097dcb151bb3",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-65q650g",
+      "brand": "TCL",
+      "title": "TCL 65Q650G (US Q6 2023, BeyondTV4, Realtek RTD2851 / R51MT08, V8-R51MT08-LF1V095, 2 GB)",
+      "system": "Google TV launcher on Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-65q650g/debloat.txt",
+      "metadata_sha256": "ef42b5d594b6f5fc74d2e9965af062168d77240f20853398c5735d915bd55840",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-85rm7l-google-tv",
+      "brand": "TCL",
+      "title": "TCL 85RM7L (G08, G08_4K_GB, MediaTek tcl9618)",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-85rm7l-google-tv/debloat.txt",
+      "metadata_sha256": "46e50d49d02c0bf68ed0043661829c0d56227a00f02ad9ebd8be4cc614a6cc4b",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-ak30a5",
+      "brand": "TCL",
+      "title": "TCL ak30a5 (China, Amlogic)",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-ak30a5/debloat.txt",
+      "metadata_sha256": "7eafe67b4e2558374a22b27a2c0988d15d2a72bc27ddbe3c85f7584947b07787",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-beyondtv",
+      "brand": "TCL",
+      "title": "TCL BeyondTV (India)",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-beyondtv/debloat.txt",
+      "metadata_sha256": "2af6a13a54adb9fc68d68e7865da19a565d44cbb7f867dfb21f4e816eee1fb1a",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-beyondtv-pl",
+      "brand": "TCL",
+      "title": "TCL BeyondTV, Poland (Realtek RTD2851, AP03, 2 GB)",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-beyondtv-pl/debloat.txt",
+      "metadata_sha256": "5fb74a37b23e508087fcb38d0d5439ad622b83b79a6a034a5528446d9d59bbd9",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-beyondtv-rt2851",
+      "brand": "TCL",
+      "title": "TCL BeyondTV, EU/Nordic (Realtek RTD2851, V8-R851T02-LF1V606)",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-beyondtv-rt2851/debloat.txt",
+      "metadata_sha256": "38b96eaeacdeb79f85a26a4823ce8cd2daf764f1d1fc036f57d038e43eb729af",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-beyondtv2-android-11",
+      "brand": "TCL",
+      "title": "TCL BeyondTV2, Android 11 build (AR05, Realtek rtd285o)",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-beyondtv2-android-11/debloat.txt",
+      "metadata_sha256": "2a9c668b1382e2d739e6560ac3dcc5086c8cf599f3fde2c72c3a910d7a2034fa",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-beyondtv2-latin-america",
+      "brand": "TCL",
+      "title": "TCL BeyondTV2 (Latin America / Brazil, Realtek RTD2851)",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-beyondtv2-latin-america/debloat.txt",
+      "metadata_sha256": "7dbc2dd02e3990bf3037e8fbeb948fc1506ccff451d092dea2aec605f1e70f68",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-c755-google-tv",
+      "brand": "TCL",
+      "title": "TCL C755 QD-Mini LED, 2024, Australia (G08, MediaTek tcl9618)",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-c755-google-tv/debloat.txt",
+      "metadata_sha256": "7b752e717cfce0ea3dea13126f02b7475b48d479daae0807e89020b6ad2fe2fc",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-c845x2-google-tv",
+      "brand": "TCL",
+      "title": "TCL 75C845X2, UK/Europe (G08_4K_GB, MediaTek tcl9618)",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-c845x2-google-tv/debloat.txt",
+      "metadata_sha256": "0ff29b321a01623b58addfeb3d77754d4f87e3999df85cde64243e64040400a0",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-c89b-google-tv",
+      "brand": "TCL",
+      "title": "TCL C89B 85\", 2024, a local variant of the C855 (G08, G08_4K_GB, MediaTek tcl9618)",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-c89b-google-tv/debloat.txt",
+      "metadata_sha256": "07361922d05d2882772b36352ca9ae9560bb7bcfa8669ef4c787ab7bb5fcbf3e",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-g03-google-tv",
+      "brand": "TCL",
+      "title": "TCL Smart TV Pro (G03, G03_4K_GB, BeyondTV4, Realtek R51MT05, V8-R51MT05-LF1V620), Middle East firmware",
+      "system": "Google TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-g03-google-tv/debloat.txt",
+      "metadata_sha256": "ca74aab7d8aeabfe860c8d92e75c69be59c702edfba3f189ee2e1597d2e0246c",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-g05-google-tv",
+      "brand": "TCL",
+      "title": "TCL Smart TV Pro (G05, G05_4K_US, MediaTek MT5889); also TCL 55Q750G",
+      "system": "Google TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-g05-google-tv/debloat.txt",
+      "metadata_sha256": "a00b339bef145c8fc1a09a6bcfbc8fce0765e4405621645cb5e178296598db2d",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-g07-google-tv",
+      "brand": "TCL",
+      "title": "TCL Smart TV (G07, G07_4K_GB_NF, Realtek RTD2851A, 2 GB)",
+      "system": "Google TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-g07-google-tv/debloat.txt",
+      "metadata_sha256": "6a1a9898fda873cce61dc13b89bf4b2847ce419ac8bb868f0cbcdd22e2891815",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-g08-au-android12",
+      "brand": "TCL",
+      "title": "TCL Smart TV Pro (G08, G08_4K_GB, MediaTek), Australian firmware",
+      "system": "Google TV 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-g08-au-android12/debloat.txt",
+      "metadata_sha256": "ca16f22c1eab90e8d83ba00446ee8c9acfd7e5e7bbaf4408ab66a9c17940890d",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-g08-eu-android12",
+      "brand": "TCL",
+      "title": "TCL Smart TV Pro (G08, G08_4K_GB, MediaTek), Europe/UK firmware",
+      "system": "Android TV 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-g08-eu-android12/debloat.txt",
+      "metadata_sha256": "8cd18bc9b4d6ca2b37dd22e8c2b26a014f1bc35e74450b32c2174b8ff62d7a37",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-g08-us-google-tv",
+      "brand": "TCL",
+      "title": "TCL 75T7 (Smart TV Pro, G08, G08_4K_US, MediaTek tcl9618), US firmware",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-g08-us-google-tv/debloat.txt",
+      "metadata_sha256": "4ed3f8e717daaea7c44dc3d30bd053abacfe1c6cec8be171997dadb9450fa193",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-g09-google-tv",
+      "brand": "TCL",
+      "title": "TCL Smart TV Pro (G09, G09_4K_GB, Amlogic T5M, 2 GB), UK firmware, Brazil",
+      "system": "Google TV 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-g09-google-tv/debloat.txt",
+      "metadata_sha256": "569af3cf7286e5326ea91356b3cec07e081e3dfb6067a122b322df2096910ca2",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-g10-google-tv",
+      "brand": "TCL",
+      "title": "TCL 55\" 4K Google TV, 2023 (G10, G10_4K_US_NF); also TCL 55P6K, Spain and TCL 43P69K, Netherlands (G10_4K_GB_NF_32BIT)",
+      "system": "Google TV 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-g10-google-tv/debloat.txt",
+      "metadata_sha256": "03bbe5a5b11ddd0d029d1b47356f423375c9641bd038c22881b62f0f0947b775",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-l40s66e",
+      "brand": "TCL",
+      "title": "TCL L40S66E (C06, C06_2K_GB, MediaTek MT9221, 1 GB), Argentina",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-l40s66e/debloat.txt",
+      "metadata_sha256": "c96438ab190bb94746cb32dd44b4e3d55f46df46d1a28234a988832a44886b51",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-mt9655-cn-android14",
+      "brand": "TCL",
+      "title": "TCL / FFalcon China (tcl9655_cn, MediaTek MT9655 \"merak\", UTT2.250416.001 AU01)",
+      "system": "Android 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-mt9655-cn-android14/debloat.txt",
+      "metadata_sha256": "bacd812830d9f545e4bd00fe1ba1a10fde8c5a13ccadb09f9385d9a9781109e4",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-q10g-pro",
+      "brand": "TCL",
+      "title": "TCL 55Q10G Pro (China, tcl_mt5879_cn, MediaTek MT9952)",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-q10g-pro/debloat.txt",
+      "metadata_sha256": "9e95d81cc3a30ce3f800c16350acf56f80585653559d7fb4d955c30d2a22c6eb",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-q7c-google-tv",
+      "brand": "TCL",
+      "title": "TCL Q7C (Smart TV Pro, G08, G08_4K_GB, MediaTek tcl9618), European firmware",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-q7c-google-tv/debloat.txt",
+      "metadata_sha256": "015e654de64f6993b30c0db44deea7100d2d251a00fb8ad012aa42906320bce9",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-qm6k-google-tv",
+      "brand": "TCL",
+      "title": "TCL QM6K Pro, 2025 (G08, MediaTek tcl9618)",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-qm6k-google-tv/debloat.txt",
+      "metadata_sha256": "852d37c4acf3c864798b6bd4dd29017b1606de37425b49b046408347aa0012c4",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tcl-uniontv-latin-america",
+      "brand": "TCL",
+      "title": "TCL UnionTV, Latin America (TCL-built like Thomson 32HE5800, Realtek RT2841)",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tcl-uniontv-latin-america/debloat.txt",
+      "metadata_sha256": "76fe571e4137f7ac18ef5a5dca5141a189f73e6ff4983ddf513bcd5a03688b97",
+      "status": "unreviewed"
+    },
+    {
+      "id": "telesystem-ont2hd",
+      "brand": "Tele System",
+      "title": "Tele System TS ON T2/HD (ONT2HD, SDMC, Amlogic), Italy",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/telesystem-ont2hd/debloat.txt",
+      "metadata_sha256": "44fba26721f2cbce44c497ef19d1fc15f793b6a8c9c04544af3af82a191c6826",
+      "status": "unreviewed"
+    },
+    {
+      "id": "thomson-32he5800",
+      "brand": "Thomson",
+      "title": "Thomson 32HE5800 (TCL-built UnionTV, Realtek RT2841), Spain",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/thomson-32he5800/debloat.txt",
+      "metadata_sha256": "81af6816424cd9f54b41ea547ae2c348b78ee6a55002ee4526c7d5e5b664933f",
+      "status": "unreviewed"
+    },
+    {
+      "id": "thomson-43rt1055",
+      "brand": "Thomson",
+      "title": "Thomson 43RT1055 FA Series (SPPL-built, sauve, Realtek RTD2841A), India",
+      "system": "Android TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/thomson-43rt1055/debloat.txt",
+      "metadata_sha256": "1d15ccdd4178e1cf097931103017caf91c8a563a991f64653d63732dbf8fd620",
+      "status": "unreviewed"
+    },
+    {
+      "id": "thomson-sppl-4k-sw6h",
+      "brand": "Thomson",
+      "title": "Thomson SPPL 4K Google TV (Skyworth SW6H, MediaTek, same board as `skyworth-sw-22sa/`), India, ~1.9 GB",
+      "system": "Android TV 14 (Google TV home)",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/thomson-sppl-4k-sw6h/debloat.txt",
+      "metadata_sha256": "95b751e48684f1e05e38bbc9d8ff7fa2b9fecbe1a7931a1f3a753fa81a682616",
+      "status": "unreviewed"
+    },
+    {
+      "id": "thomson-t32rtl6000",
+      "brand": "Thomson",
+      "title": "Thomson T32RTL6000 (SCBC, Realtek; Android reports model `ATV R1`)",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/thomson-t32rtl6000/debloat.txt",
+      "metadata_sha256": "60b386bce9b46a1490c62ec7d67d3e30ff8e17504ae82a6ad3b54f78fad121fa",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tivo-stream-4k",
+      "brand": "TiVo",
+      "title": "TiVo Stream 4K (SEI Robotics IPA1104HDW, SEI400TV, Amlogic S905Y2, NES)",
+      "system": "Android TV 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tivo-stream-4k/debloat.txt",
+      "metadata_sha256": "308f1d2d9ba4ec7eb7cf011c218fa4585776d82a12e4ce219d3a81a031f77c70",
+      "status": "unreviewed"
+    },
+    {
+      "id": "tornado-65ua1400e",
+      "brand": "Tornado",
+      "title": "Tornado 65UA1400E (El Araby, Skyworth-built SW4H, MediaTek m7332), Egypt",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/tornado-65ua1400e/debloat.txt",
+      "metadata_sha256": "36c977137bd457efa288ea76ef0bb00a115221045d81472681c961a6df51249b",
+      "status": "unreviewed"
+    },
+    {
+      "id": "toshiba-cosmos-android-tv",
+      "brand": "Toshiba",
+      "title": "Toshiba (Vestel Cosmos170, yeoksam, MediaTek), Spain",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/toshiba-cosmos-android-tv/debloat.txt",
+      "metadata_sha256": "359d4937b7a55ba7c377d91e9da7a49ce72534065532662b96c074966b7c4e15",
+      "status": "unreviewed"
+    },
+    {
+      "id": "toshiba-fire-tv-aftha004",
+      "brand": "Toshiba",
+      "title": "Toshiba Fire TV (AFTHA004, hazel)",
+      "system": "Fire OS 7 / Android 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/toshiba-fire-tv-aftha004/debloat.txt",
+      "metadata_sha256": "06cff5081b5870fbc482ce4406bc746d21a7923c1d981e6c922a58199e67db73",
+      "status": "unreviewed"
+    },
+    {
+      "id": "turkcell-tv-plus-4k-box-dv6069y",
+      "brand": "Turkcell",
+      "title": "Turkcell TV+ 4K Box (SDMC DV6069Y, Amlogic), Turkey, operator streaming box",
+      "system": "Android TV 10",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/turkcell-tv-plus-4k-box-dv6069y/debloat.txt",
+      "metadata_sha256": "60dd514bc9f649ea14762d11ddbbedc8956b1769b73615af171001cefbaea855",
+      "status": "unreviewed"
+    },
+    {
+      "id": "verizon-stream-tv",
+      "brand": "Verizon",
+      "title": "Verizon Stream TV, 1st gen (WNC JS8V, Amlogic), US",
+      "system": "Android 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/verizon-stream-tv/debloat.txt",
+      "metadata_sha256": "22179004c9a04245cc55f5fcce4d0826c7081ec29d776113e254131e2f292c73",
+      "status": "unreviewed"
+    },
+    {
+      "id": "vidda-mt9653",
+      "brand": "Vidda",
+      "title": "Vidda VIDAA_TV (Hisense sub-brand; device MT9653, board mt5879), China JuUI",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/vidda-mt9653/debloat.txt",
+      "metadata_sha256": "7fdb66d631a70c1da973c1f5b02a6ad569a6de41d403d49d1e93b93107a8b300",
+      "status": "unreviewed"
+    },
+    {
+      "id": "vision-2024vision43stv",
+      "brand": "Vision",
+      "title": "Vision 2024VISION43STV (CVTE TP.T950D4T.PB751, Amlogic T950D4, 1 GB), Europe",
+      "system": "Android 13",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/vision-2024vision43stv/debloat.txt",
+      "metadata_sha256": "87ae6709992eda6d5e00d671a53ae26f0cb73a916f6d1d4d2a000e8e0d5cd2db",
+      "status": "unreviewed"
+    },
+    {
+      "id": "vu-4k-lushan",
+      "brand": "Vu",
+      "title": "Vu 4K (HVCL, lushan, MediaTek), India",
+      "system": "Google TV 12",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/vu-4k-lushan/debloat.txt",
+      "metadata_sha256": "1b738be659c25c30835b799a66d292750d04223ce4ca20098ac4b28108e2393f",
+      "status": "unreviewed"
+    },
+    {
+      "id": "vu-premium-fhd-43-hamamatsucho",
+      "brand": "Vu",
+      "title": "Vu Premium FHD 43-inch (Smart 2K ATV4, hamamatsucho), India",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/vu-premium-fhd-43-hamamatsucho/debloat.txt",
+      "metadata_sha256": "b00cfc71ef9001582082f828ebd1dbcde68d7b9a557d3f0c41b2efb55b9c332b",
+      "status": "unreviewed"
+    },
+    {
+      "id": "wanbo-x5-pro",
+      "brand": "Wanbo",
+      "title": "Wanbo X5 Pro projector (built-in Google TV stick: SkyworthDigital YYT, Amlogic), Australia",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/wanbo-x5-pro/debloat.txt",
+      "metadata_sha256": "aa559585d4c94d7119441b9db1c607853675ecf1220a3510b8bb135c03796178",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xgimi-horizon-s-pro",
+      "brand": "XGIMI",
+      "title": "XGIMI Horizon S Pro projector (XK03H, xgimigalileo, MediaTek)",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xgimi-horizon-s-pro/debloat.txt",
+      "metadata_sha256": "dca79512f0df537891eaee359a5adb2378a9c16f4423fa71e1fb7119da1f262d",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xgimi-mogo-2",
+      "brand": "XGIMI",
+      "title": "XGIMI MoGo 2 projector (MoGo, xgimiapollo, pokemon)",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xgimi-mogo-2/debloat.txt",
+      "metadata_sha256": "d7f907bf305e69d8b65b36f24845a332ff8d53818b8e7ac6aedfb710ca6529a7",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xgimi-mogo-3-pro",
+      "brand": "XGIMI",
+      "title": "XGIMI MoGo 3 Pro projector (G0035, altai, MediaTek)",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xgimi-mogo-3-pro/debloat.txt",
+      "metadata_sha256": "0e0c7d6a14e3026dc0aab77b5078d78adfc304f292d364964932967bee35e43b",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mi-box-3",
+      "brand": "Xiaomi",
+      "title": "Xiaomi Mi Box 3 (MIBOX3, once), streaming box",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mi-box-3/debloat.txt",
+      "metadata_sha256": "1022ffd1cd12a85d239be5fc183627174cbd16382e42e0ea38cdbdc66c10e732",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mi-box-s",
+      "brand": "Xiaomi",
+      "title": "Xiaomi Mi Box S (MIBOX4, oneday), streaming box",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mi-box-s/debloat.txt",
+      "metadata_sha256": "10757dbec9eda1fd104cc1286d9d941242b5dfc06d8db28d9fd4c9e50f64cc63",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mi-box-s-2nd-gen",
+      "brand": "Xiaomi",
+      "title": "Xiaomi Mi Box S 2nd gen (MiTV-AFKR0, jaws), streaming box",
+      "system": "Google TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mi-box-s-2nd-gen/debloat.txt",
+      "metadata_sha256": "3a8d7f4902da9b1db8ba39fb373e7d52559d52c0484fe1e9247857512142c0eb",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mi-tv-4a",
+      "brand": "Xiaomi",
+      "title": "Xiaomi Mi TV 4A (MiTV-MOOQ1)",
+      "system": "Android TV 10",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mi-tv-4a/debloat.txt",
+      "metadata_sha256": "6fcf644f72a8144ce4d8f442ec3db31f47c4c9b92b3f321c675b163e41449db6",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mitv-aesp0",
+      "brand": "Xiaomi",
+      "title": "Xiaomi MiTV-AESP0 stick (aquaman, 1 GB)",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mitv-aesp0/debloat.txt",
+      "metadata_sha256": "38edc3c5e06e31c0656b3dd009841be2d3525255973c9c288ed4a87ecc5683ae",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mitv-afmu0",
+      "brand": "Xiaomi",
+      "title": "Xiaomi TV Box S 3rd gen (MiTV-AFMU0, twilight, Amlogic), streaming box",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mitv-afmu0/debloat.txt",
+      "metadata_sha256": "b24729f1bbb33712c2ba4a07e2660626fcb4e51c27c08b2742af704b5eb89bd1",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mitv-afmu1",
+      "brand": "Xiaomi",
+      "title": "Xiaomi TV Stick 4K 2nd gen (MiTV-AFMU1, twilight, adastra, Amlogic), streaming stick",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mitv-afmu1/debloat.txt",
+      "metadata_sha256": "bd2af839ad2ad12e81acc6c9804aaca663c531e0617b0b1593beee9977a45d10",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mitv-ansp0",
+      "brand": "Xiaomi",
+      "title": "Xiaomi MiTV-ANSP0 (小米电视5 Pro 65\", jobs, Amlogic), China firmware 23.6.5.3226, 4 GB RAM",
+      "system": "Android TV 9 (CN build)",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mitv-ansp0/debloat.txt",
+      "metadata_sha256": "59301e35cfc8bc82d51543eb38f4569a5e4ef9f91c33e6c3111f12a503f227ff",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mitv-astp0",
+      "brand": "Xiaomi",
+      "title": "Xiaomi MiTV-ASTP0 (mulan, sold as L55M7-EA), China firmware 22.12.2.1630, 1.5 GB RAM",
+      "system": "Android TV 9 (CN build)",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mitv-astp0/debloat.txt",
+      "metadata_sha256": "a0196ec1b9ffb42f77e0ddc2f8ea93830e1fd455792984bb79ab8613d407f67b",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mitv-astp1",
+      "brand": "Xiaomi",
+      "title": "Xiaomi MiTV-ASTP1 (maverick), China firmware 2.40.641.0514.cn, 1 GB RAM, 720p",
+      "system": "Android TV 9 (CN build)",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mitv-astp1/debloat.txt",
+      "metadata_sha256": "53236c732ca602c3aca8323ab62e60b008709d8b4fcfe1117049cacac5db1398",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mitv-astr0",
+      "brand": "Xiaomi",
+      "title": "Xiaomi Redmi Smart TV A Pro 55\" 2025 Energy-saving (MiTV-ASTR0, blueplanet, Amlogic), China firmware OS3.0.106.0.USTAATV, 3 GB RAM",
+      "system": "Android 14 (HyperOS 3, CN build)",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mitv-astr0/debloat.txt",
+      "metadata_sha256": "2533c3e3e877b5d6c8a25a7433192425db89e9d02c7dc4767c2908d04d6567b3",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mitv-axfr1",
+      "brand": "Xiaomi",
+      "title": "Xiaomi MiTV-AXFR1 (rango, Amlogic, 1 GB), India",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mitv-axfr1/debloat.txt",
+      "metadata_sha256": "831daba01289a2b36cd8a5d731b451a5c2f8f25f5bbf0b136cf6bd2b82d197d6",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mitv-axso0",
+      "brand": "Xiaomi",
+      "title": "Xiaomi MiTV-AXSO0 (dangal; Mi TV 4C Pro 2019 / 4A Pro)",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mitv-axso0/debloat.txt",
+      "metadata_sha256": "4ad928211e8492337acda75c640880c2c5ab3e173ed0cbf486cb9bc9a8611c35",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mitv-axso2",
+      "brand": "Xiaomi",
+      "title": "Xiaomi MiTV-AXSO2 (dangalUHD, India, 2 GB)",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mitv-axso2/debloat.txt",
+      "metadata_sha256": "5bf4672f47a45e85c8996546742c166d1e646b2b6929bf5a85990b42da38aa66",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mitv-ayfr0",
+      "brand": "Xiaomi",
+      "title": "Xiaomi TV Stick 4K (MiTV-AYFR0, soul, Amlogic), streaming stick",
+      "system": "Android TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mitv-ayfr0/debloat.txt",
+      "metadata_sha256": "999e4d1071cdc3e15f53d02abcf5fc78622a91e78029e06d9dce800e8a2a0175",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mitv-mffu0",
+      "brand": "Xiaomi",
+      "title": "Xiaomi TV S Pro 100 Mini LED 2025 (小米电视 S Pro 100, L100MB-SP, MiTV-MFFU0, finch, MediaTek), China firmware OS3.0.115.0.UFFMATV, 4 GB RAM",
+      "system": "Android 14 (HyperOS 3, CN build)",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mitv-mffu0/debloat.txt",
+      "metadata_sha256": "31cf136a62f876da1dd70ee19c95320003bd3d4c0393e84852c0a5c7728683a2",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mitv-mftr0",
+      "brand": "Xiaomi",
+      "title": "Xiaomi MiTV-MFTR0 (freeguy, MediaTek mt9653), China firmware OS2.0.23.0.RFTMATV (HyperOS TV 2)",
+      "system": "Android 11 (HyperOS TV 2, CN build)",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mitv-mftr0/debloat.txt",
+      "metadata_sha256": "7a2f87a54c1c0895b8063017937dc90a371a065eb7d2c8069d2ccbff0d252651",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mitv-moeu0",
+      "brand": "Xiaomi",
+      "title": "Xiaomi TV S Mini LED 75 2025 (MiTV-MOEU0, ladybird, MediaTek)",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mitv-moeu0/debloat.txt",
+      "metadata_sha256": "3d43f67ad1cab25e4519ffb949967d7a4b2892031c60a9655233e66f6eaaaa08",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mitv-mooq0",
+      "brand": "Xiaomi",
+      "title": "Xiaomi Mi TV (MiTV-MOOQ0, croods; includes P1 43\" EU variant)",
+      "system": "Android TV 10 and 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mitv-mooq0/debloat.txt",
+      "metadata_sha256": "6997e66f8c80c396744a4474c3e6a061712f5001725e8988270c45697602ca7d",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mitv-mooq2",
+      "brand": "Xiaomi",
+      "title": "Xiaomi Mi TV P1 43\" (MiTV-MOOQ2, croods)",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mitv-mooq2/debloat.txt",
+      "metadata_sha256": "d4d6a6df847b1949a3adbec3be6e1a9e825d1848e9265e1bbfc6392ba44ac8e9",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mitv-moor2",
+      "brand": "Xiaomi",
+      "title": "Xiaomi MiTV-MOOR2 / MOOR4 (venom, MediaTek)",
+      "system": "Google TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mitv-moor2/debloat.txt",
+      "metadata_sha256": "a2ff12813b3b0e0867b0023f8970b24f96ed159b1f9c11c13d460cf2fc035551",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mitv-mosr4",
+      "brand": "Xiaomi",
+      "title": "Xiaomi MiTV-MOSR4 (irobot, MediaTek)",
+      "system": "Google TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mitv-mosr4/debloat.txt",
+      "metadata_sha256": "4a6ca4b7865d60d8560bf629eee23914d0405b6bdf37ce3b7320505ad4dc7ee9",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mitv-mssp0",
+      "brand": "Xiaomi",
+      "title": "Xiaomi MiTV-MSSP0 / Xiaomi Mi TV 4A 32 (amelie), firmware PI.5926",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mitv-mssp0/debloat.txt",
+      "metadata_sha256": "3bdc5948319a2a0f71c28b75aa76a0d8a3acb2988528d2628c199a91ab7d9279",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mitv-mssp1",
+      "brand": "Xiaomi",
+      "title": "Xiaomi MiTV-MSSP1 (nino), firmware PI.5925",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mitv-mssp1/debloat.txt",
+      "metadata_sha256": "90fa25dda519189090468cc6165a57f68c991dd90c7ffe156b0aeccf7b3e7456",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mitv-mssp2",
+      "brand": "Xiaomi",
+      "title": "Xiaomi MiTV-MSSP2 (volver, MediaTek), firmware PI.4621, low-RAM",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mitv-mssp2/debloat.txt",
+      "metadata_sha256": "fd86cfc7a34277253a3ebbaf1754018f28ccb1a7d35cf52f4a42c257adc4f5c4",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mitv-mssp3",
+      "brand": "Xiaomi",
+      "title": "Xiaomi MiTV-MSSP3 (machuca, MediaTek)",
+      "system": "Android TV 11",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mitv-mssp3/debloat.txt",
+      "metadata_sha256": "87af12ac4a6b0e469c959d74b46b153dcefd17129e0626f48eff9b7abc86708e",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mitv-mssp3-android9",
+      "brand": "Xiaomi",
+      "title": "Xiaomi MiTV-MSSP3 (machuca, MediaTek), Android 9 firmware PI.7524",
+      "system": "Android TV 9",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mitv-mssp3-android9/debloat.txt",
+      "metadata_sha256": "ff7465e96a8691b2249ba9661cf6d4ce9a5c3d7a115580be030c06949dcbb194",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-mitv-mteq0",
+      "brand": "Xiaomi",
+      "title": "Xiaomi TV EA Pro 55\" (MiTV-MTEQ0, baymax, MediaTek), China firmware 23.6.26.4028",
+      "system": "Android TV 10 (CN build)",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-mitv-mteq0/debloat.txt",
+      "metadata_sha256": "7115f68a049a8b6b423d637d887999f7e349729a10851411abf3e64f145ab1e7",
+      "status": "unreviewed"
+    },
+    {
+      "id": "xiaomi-tv-a-pro-2026",
+      "brand": "Xiaomi",
+      "title": "Xiaomi TV A Pro 75\" 2026 (MiTV-MZTU0, river, MediaTek)",
+      "system": "Google TV 14",
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/ab7a89e7/examples/xiaomi-tv-a-pro-2026/debloat.txt",
+      "metadata_sha256": "0879e6c91272585ea5f97797055e15f4d80b8a8efea3788434eec91db1c8eaf6",
+      "status": "unreviewed"
+    }
+  ]
+}

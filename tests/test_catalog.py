@@ -13,7 +13,7 @@ class CatalogTests(unittest.TestCase):
     def setUp(self): self.entries = build.load_records()
     def test_source_catalog_and_generated_index_are_consistent(self):
         self.assertGreaterEqual(len(self.entries), 1)
-        self.assertEqual((ROOT / "index.html").read_text(encoding="utf-8"), build.render(self.entries))
+        self.assertEqual((ROOT / "index.html").read_text(encoding="utf-8"), build.render(self.entries, build.load_research()))
     def test_unknown_factory_paths_do_not_contain_steps(self):
         for e in self.entries:
             if e["status"] == "unresolved": self.assertEqual(e["steps"], [])
@@ -46,5 +46,26 @@ class CatalogTests(unittest.TestCase):
             e = copy.deepcopy(self.entries[0]); e["context"] = context
             with patch.object(Path, "read_text", return_value=json.dumps({"schema_version": 1, "entries": [e]})):
                 with self.assertRaises(ValueError): build.load_records()
+    def test_research_cannot_gain_steps_or_verified_status(self):
+        commit = "ab7a89e7"
+        row = {"id": "test-model", "brand": "test", "title": "Test model", "system": "unknown", "source_url": f"https://github.com/Gathin23/cleanyourtv/blob/{commit}/examples/test-model/debloat.txt", "metadata_sha256": "a"*64, "status": "unreviewed"}
+        for changes in ({"status": "verified"}, {"steps": ["an instruction"]}, {"source_url": "https://example.org/"}):
+            invalid = {**row, **changes}
+            raw = {"schema_version": 1, "source": {"repository": "Gathin23/cleanyourtv", "commit": commit, "index_url": f"https://github.com/Gathin23/cleanyourtv/blob/{commit}/examples/README.md", "index_sha256": "a"*64}, "records": [invalid]}
+            with patch.object(Path, "exists", return_value=True), patch.object(Path, "read_text", return_value=json.dumps(raw)):
+                with self.assertRaises(ValueError): build.load_research()
+    def test_research_brand_aliases_are_searchable_without_adding_steps(self):
+        row = {"brand": "Haier", "title": "H32S80EFX", "system": "Google TV 14", "source_url": "https://example.org/model"}
+        content = build.render([], [row])
+        self.assertIn('data-search="haier 海尔 h32s80efx google tv 14"', content)
+        self.assertIn("未审查 · 无操作步骤", content)
+        self.assertNotIn("<ol>", content)
+        self.assertIn("Sony", build.brand_terms(["索尼"], build.load_aliases()))
+    def test_research_metadata_is_escaped(self):
+        row = {"brand": "<img src=x onerror=alert(1)>", "title": "<script>alert(1)</script>", "system": "unknown", "source_url": "https://example.org/model"}
+        content = build.render([], [row])
+        self.assertNotIn("<img src=x", content)
+        self.assertNotIn("<script>alert(1)</script>", content)
+        self.assertIn("&lt;script&gt;alert(1)&lt;/script&gt;", content)
 
 if __name__ == "__main__": unittest.main()
