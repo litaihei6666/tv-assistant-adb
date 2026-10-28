@@ -2595,6 +2595,758 @@
       ],
       "transport": "unknown",
       "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "konka-led55m2-v2209",
+      "brands": [
+        "康佳"
+      ],
+      "title": "康佳 LED55M2：生产信息页与 Wi-Fi ADB 记录",
+      "scope": "仅参考来源明确点名的设备和当时系统；未说明的地区、版本及后续固件保持未知",
+      "models": [
+        "LED55M2"
+      ],
+      "context": {
+        "system": "Android 5.1.1 / API 22",
+        "firmware": "V2.2.09-2793",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "原作者分日期更新：康佳 LED55M2 如何打开 ADB",
+          "url": "https://www.znds.com/archiver/tid-1164586.html"
+        }
+      ],
+      "steps": [
+        "从电视系统进入关于，再打开生产信息页面；先核对是否为记录中的系统版本。",
+        "原作者使用有线或无线鼠标，在该页的系统版本上连续点击五次以上，报告可开启 Wi-Fi ADB；只在相同普通设置中参考。",
+        "核对实际调试状态与连接授权；不要把界面提示、联网或工具显示状态直接当作连接成功。"
+      ],
+      "limitations": [
+        "原作者另称该固件联网后会自动打开调试，早期更新又称默认已开；这些是该台设备的观察，不能保证所有 LED55M2 一样。",
+        "原帖也提到 LED49M2、LED60M2S、LED65M2 的说明书系列名称，但没有分别测试，不将它们计入本条适用型号。",
+        "不采用原文的恢复模式、清除数据或技术演示操作；使用后应查看电视端调试是否仍然开放。",
+        "本条是公开资料整理，不是本项目真机测试；未采用原文中与调试入口无关的系统修改或安装包。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-29"
+    },
+    {
+      "id": "konka-70u5d-special-debug",
+      "brands": [
+        "康佳"
+      ],
+      "title": "康佳 70U5D：涉及工厂和 root 调试的记录",
+      "scope": "仅参考来源明确点名的设备和当时系统；未说明的地区、版本及后续固件保持未知",
+      "models": [
+        "70U5D"
+      ],
+      "context": {
+        "system": "未知",
+        "firmware": "未知（2024 年文章）",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "unresolved",
+      "sources": [
+        {
+          "title": "原作者：康佳电视更换系统桌面记录",
+          "url": "https://wangduola.com/archives/227.html"
+        }
+      ],
+      "steps": [],
+      "limitations": [
+        "原文需要工厂菜单，并同时开启允许以 root 方式调试；本库不提供该流程。",
+        "不能把这篇更换桌面的文章解释成只开普通 ADB 就足够；不采用写入系统分区、删除原厂桌面等后续操作。",
+        "本条是公开资料整理，不是本项目真机测试；未采用原文中与调试入口无关的系统修改或安装包。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-29"
+    },
+    {
+      "id": "honor-x1-adb-reply",
+      "brands": [
+        "荣耀"
+      ],
+      "title": "荣耀智慧屏 X1：社区答复与调试入口限制",
+      "scope": "仅参考来源明确点名的设备和当时系统；未说明的地区、版本及后续固件保持未知",
+      "models": [
+        "X1"
+      ],
+      "context": {
+        "system": "原帖未给出完整系统版本",
+        "firmware": "未知；答复日期 2024-10-21",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "unresolved",
+      "sources": [
+        {
+          "title": "荣耀俱乐部原帖与带“荣耀答答团”标识账号的回复",
+          "url": "https://club.honor.com/cn/thread-28910839-1-1.html"
+        },
+        {
+          "title": "X1 用户关于升级后 HDC 开关消失的原帖",
+          "url": "https://club.honor.com/cn/thread-28480490-1-1.html"
+        }
+      ],
+      "steps": [],
+      "limitations": [
+        "原帖用户找不到 ADB 入口，带“荣耀答答团”标识的账号答复智慧屏系列不支持 ADB 命令；保留原答复及时间，不升级为本项目实测不支持。",
+        "论坛账号答复不同于覆盖所有固件的厂商技术规范；不能把手机/平板 USB 调试或 HDC 说明套用到智慧屏。",
+        "另有 X1 用户报告升级后 HDC 开关消失，完整升级前后固件不足；HDC、HDB 和 ADB 不得混为同一种协议。",
+        "本条是公开资料整理，不是本项目真机测试；未采用原文中与调试入口无关的系统修改或安装包。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-29"
+    },
+    {
+      "id": "honor-x2-adb-reply",
+      "brands": [
+        "荣耀"
+      ],
+      "title": "荣耀智慧屏 X2：社区答复与调试入口限制",
+      "scope": "仅参考来源明确点名的设备和当时系统；未说明的地区、版本及后续固件保持未知",
+      "models": [
+        "X2"
+      ],
+      "context": {
+        "system": "原帖未给出完整系统版本",
+        "firmware": "未知；答复日期 2024-02-14",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "unresolved",
+      "sources": [
+        {
+          "title": "荣耀俱乐部原帖与带“荣耀答答团”标识账号的回复",
+          "url": "https://club.honor.com/cn/thread-28369936-1-1.html"
+        }
+      ],
+      "steps": [],
+      "limitations": [
+        "原帖用户找不到 ADB 入口，带“荣耀答答团”标识的账号答复智慧屏系列不支持 ADB 命令；保留原答复及时间，不升级为本项目实测不支持。",
+        "论坛账号答复不同于覆盖所有固件的厂商技术规范；不能把手机/平板 USB 调试或 HDC 说明套用到智慧屏。",
+        "本条是公开资料整理，不是本项目真机测试；未采用原文中与调试入口无关的系统修改或安装包。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-29"
+    },
+    {
+      "id": "xiaomi-a50-android601",
+      "brands": [
+        "小米"
+      ],
+      "title": "小米 A50：Android 6.0.1 的入口和重启反馈",
+      "scope": "仅参考来源明确点名的设备和当时系统；未说明的地区、版本及后续固件保持未知",
+      "models": [
+        "A50"
+      ],
+      "context": {
+        "system": "Android 6.0.1 / API 23",
+        "firmware": "未给出完整固件",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "原作者的小米 A50 操作记录及 Android 版本补充",
+          "url": "https://linux.do/t/topic/3064579"
+        }
+      ],
+      "steps": [
+        "打开电视设置的关于页，在产品型号上按确认键，观察是否出现开发者模式提示；原文点击次数记述不一致，不将次数固定为通用规则。",
+        "返回设置，打开账号与安全，找到安全中的 ADB 调试，按本次需要设为允许；找不到时停止。"
+      ],
+      "limitations": [
+        "原作者报告重启后 ADB 会关闭，需要再次在电视查看开关，不能把重启失联视为电脑环境故障。",
+        "原文同时开启了远程服务，未分离验证其必要性；本条不要求额外远程服务授权，也不复用其 root 尝试或性能改善数字。",
+        "本条是公开资料整理，不是本项目真机测试；未采用原文中与调试入口无关的系统修改或安装包。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-29"
+    },
+    {
+      "id": "xiaomi-tv2-1125-root-boundary",
+      "brands": [
+        "小米"
+      ],
+      "title": "小米电视2：1.1.25 旧固件来源需要 root",
+      "scope": "仅参考来源明确点名的设备和当时系统；未说明的地区、版本及后续固件保持未知",
+      "models": [
+        "小米电视2"
+      ],
+      "context": {
+        "system": "Android 版本未注明 / miTV",
+        "firmware": "1.1.25",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "unresolved",
+      "sources": [
+        {
+          "title": "2014 年原作者：小米电视2 1.1.25 的 ADB 调试",
+          "url": "https://www.znds.com/tv-88382-1-6.html"
+        }
+      ],
+      "steps": [],
+      "limitations": [
+        "原文报告该固件取消普通 ADB 调试入口，其方案要求 root 并进一步改写系统启动脚本，因此本库不提供步骤。",
+        "1.1.25 是原文的 miTV 固件号，不能据此填写 Android 4.4 或其他 Android 版本；也不据此断言其他电视2固件没有入口。",
+        "本条是公开资料整理，不是本项目真机测试；未采用原文中与调试入口无关的系统修改或安装包。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-29"
+    },
+    {
+      "id": "xiaomi-mibox3-enhanced-2019",
+      "brands": [
+        "小米"
+      ],
+      "title": "小米盒子3增强版：2019 年产品型号入口",
+      "scope": "仅参考来源明确点名的设备和当时系统；未说明的地区、版本及后续固件保持未知",
+      "models": [
+        "小米盒子3增强版"
+      ],
+      "context": {
+        "system": "原文未注明 Android 版本",
+        "firmware": "未知（2019 年教程）",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "标注原创并点名盒子3增强版的图文教程",
+          "url": "https://www.znds.com/tv-1150511-1-1.html"
+        }
+      ],
+      "steps": [
+        "从我的应用打开小米盒子设置，进入关于，选中产品型号。",
+        "原文在产品型号上按确认键五次后出现开发者模式提示；以实际提示为准，不把五次推广到所有小米设备。",
+        "返回设置的账户与安全，将 ADB 调试设为开启，并本人阅读确认提示。"
+      ],
+      "limitations": [
+        "只摘录开启调试；原文未明确端口、配对方式和重启后是否保持，不能由设置开关推断已连接。",
+        "本条是公开资料整理，不是本项目真机测试；未采用原文中与调试入口无关的系统修改或安装包。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-29"
+    },
+    {
+      "id": "xiaomi-mibox5-mob2mb5p",
+      "brands": [
+        "小米"
+      ],
+      "title": "小米盒子5 MOB2MB-5P：OS2.0.7.0 的 USB 调试入口",
+      "scope": "仅参考来源明确点名的设备和当时系统；未说明的地区、版本及后续固件保持未知",
+      "models": [
+        "MOB2MB-5P"
+      ],
+      "context": {
+        "system": "Android 14",
+        "firmware": "OS2.0.7.0 / UD2A.240505.001.W1.OS2.0.7.0.UZFAABX",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "原作者固定版本文档中的“启用 ADB 调试”独立小节",
+          "url": "https://github.com/xpxp233333/xiaomi-mibox5-guides/blob/56eae90381979a74040949790079e722e8903df0/unlock_bootloader.md#启用-adb-调试-功能"
+        }
+      ],
+      "steps": [
+        "在盒子设置中进入关于本机，连续点击产品型号，直到出现开发者模式提示。",
+        "进入账号与安全，按需要开启 ADB 调试；若刚开启开发者模式却没显示，退出并重新打开设置再查看。",
+        "退出设置应用后，再观察本次 USB 调试连接是否出现授权对话框；由本人核对所连接电脑后确认。"
+      ],
+      "limitations": [
+        "原文后续是解锁 Bootloader 教程，本条只引用在解锁前执行的独立 ADB 小节，不需要 OEM 解锁、Fastboot、root 或清除数据。",
+        "来源记录的是 USB 连接，不证明无线或网络入口可用；本库不分发其图片、线缆建议或命令输出中的序列号。",
+        "本条是公开资料整理，不是本项目真机测试；未采用原文中与调试入口无关的系统修改或安装包。"
+      ],
+      "transport": "usb",
+      "reviewed_at": "2026-10-29"
+    },
+    {
+      "id": "skyworth-e900s-other-settings",
+      "brands": [
+        "创维"
+      ],
+      "title": "创维 E900-S：其他设置中的 USB 调试",
+      "scope": "仅参考来源明确点名的设备和当时系统；未说明的地区、版本及后续固件保持未知",
+      "models": [
+        "E900-S"
+      ],
+      "context": {
+        "system": "未知",
+        "firmware": "未知（2023 年作者记录）",
+        "region": "运营商及地区未明确"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "原作者：ADB 连接创维 E900-S",
+          "url": "https://www.cnblogs.com/wutou/p/17471699.html"
+        }
+      ],
+      "steps": [
+        "按盒子遥控器设置键；若常规设置需要口令，向运营商获取自己的合法设置凭据，不尝试口令列表。",
+        "进入其他设置，按方向右键六次，观察是否出现明确的 USB 调试选项。",
+        "只开启该调试项，阅读安全提示后按本次需要确认；没有出现时停止，不改其他设置。"
+      ],
+      "limitations": [
+        "原作者报告关机或重启后 USB 调试自动关闭；原文没有完整固件范围，不能当成所有 E900-S 的统一菜单。",
+        "不采用来源中的非官方 ADB 压缩包下载或软件安装过程。",
+        "本条是公开资料整理，不是本项目真机测试；未采用原文中与调试入口无关的系统修改或安装包。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-29"
+    },
+    {
+      "id": "skyworth-e900v21d-unicom",
+      "brands": [
+        "创维"
+      ],
+      "title": "创维 E900V21D 联通版：自动待机项的入口",
+      "scope": "仅参考来源明确点名的设备和当时系统；未说明的地区、版本及后续固件保持未知",
+      "models": [
+        "E900V21D"
+      ],
+      "context": {
+        "system": "未知",
+        "firmware": "未知（2018 年原帖）",
+        "region": "联通定制；地区未明确"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "原作者实操补充：联通定制 E900V21D",
+          "url": "https://www.znds.com/tv-1121944-1-1.html"
+        }
+      ],
+      "steps": [
+        "进入盒子常规设置，再打开更多设置；若设置要求凭据，先向运营商核实。",
+        "选中自动待机这一项，连续按右方向键，观察 USB 调试菜单项是否出现；不要改变自动待机的值。",
+        "若出现明确的 USB 调试选项，按需要开启后退出；菜单不符时停止。"
+      ],
+      "limitations": [
+        "作者明确指出自己的菜单与所参考原帖不同；本条只对应自动待机这个变体，不推断 E900V21E、E900-S 或别的运营商固件适用。",
+        "后续更换桌面、设置始终等操作不属于本条调试入口资料。",
+        "本条是公开资料整理，不是本项目真机测试；未采用原文中与调试入口无关的系统修改或安装包。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-29"
+    },
+    {
+      "id": "skyworth-e900v21e-conflicting-menu",
+      "brands": [
+        "创维"
+      ],
+      "title": "创维 E900V21E：同帖菜单反馈互相矛盾",
+      "scope": "仅参考来源明确点名的设备和当时系统；未说明的地区、版本及后续固件保持未知",
+      "models": [
+        "E900V21E"
+      ],
+      "context": {
+        "system": "未知",
+        "firmware": "未知（2019 年多位用户）",
+        "region": "移动定制等；地区固件未完整对应"
+      },
+      "evidence": "community",
+      "status": "unresolved",
+      "sources": [
+        {
+          "title": "原帖中 E900V21E 使用者的成功与失败反馈",
+          "url": "https://www.znds.com/tv-1131984-1-1.html"
+        }
+      ],
+      "steps": [],
+      "limitations": [
+        "有用户在其他设置的管理应用程序处找到 USB 调试，另有多位用户表示根本没有该菜单；缺少足够固件区分，暂不提供通用步骤。",
+        "不把 E900V21D 的流程复制过来，也不把同帖的刷机或桌面更改当成入口前置条件。",
+        "本条是公开资料整理，不是本项目真机测试；未采用原文中与调试入口无关的系统修改或安装包。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-29"
+    },
+    {
+      "id": "skyworth-e900-jiangsu-2017",
+      "brands": [
+        "创维"
+      ],
+      "title": "创维 E900 江苏电信版：系统升级项旁的入口",
+      "scope": "仅参考来源明确点名的设备和当时系统；未说明的地区、版本及后续固件保持未知",
+      "models": [
+        "E900"
+      ],
+      "context": {
+        "system": "未知",
+        "firmware": "未知（2017 年教程）",
+        "region": "江苏电信"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "当贝教程中心原作者：江苏电信创维 E900",
+          "url": "https://n.znds.com/article/24583.html"
+        }
+      ],
+      "steps": [
+        "进入盒子的本地配置；如需要设置凭据，向运营商获取后再继续。",
+        "在其他设置中只选中系统升级这一项，不进入或启动升级，连续按右键观察 USB 调试是否出现。",
+        "只在明确出现 USB 调试时按需开启；菜单不符就停止。"
+      ],
+      "limitations": [
+        "只适用于原文江苏电信菜单变体，不能把“系统升级项旁按右键”和其他 E900 型号的入口合并。",
+        "不修改升级服务器、网络业务参数或 IPTV 账号，不采用后续精简与安装操作。",
+        "本条是公开资料整理，不是本项目真机测试；未采用原文中与调试入口无关的系统修改或安装包。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-29"
+    },
+    {
+      "id": "unicom-unpsja8-corrected-report",
+      "brands": [
+        "联通定制盒子"
+      ],
+      "title": "联通 UNP-SJA8：作者更正“已开启”提示的记录",
+      "scope": "仅参考来源明确点名的设备和当时系统；未说明的地区、版本及后续固件保持未知",
+      "models": [
+        "UNP-SJA8",
+        "GK6323V100C"
+      ],
+      "context": {
+        "system": "Android 9（作者跟帖明确）",
+        "firmware": "未知（2025 年原帖）",
+        "region": "联通；地区未知"
+      },
+      "evidence": "community",
+      "status": "unresolved",
+      "sources": [
+        {
+          "title": "原作者 UNP-SJA8 记录与后续修订",
+          "url": "https://www.znds.com/archiver/tid-1265725.html"
+        }
+      ],
+      "steps": [],
+      "limitations": [
+        "作者先写点击设备信息会提示 ADB 已开启，后修改为该动作仍连不上；另提出数字按键方法但表述不确定，缺少固件与独立验证。",
+        "不把最初的成功提示当成实际连接证据；原帖已明确设备为 Android 9，不能因回复讨论 4.4.2 就标成 Android 4.4。",
+        "来源另涉及 root 状态和刷机讨论，本库不采用，也不根据芯片相似推断能刷别的型号。",
+        "本条是公开资料整理，不是本项目真机测试；未采用原文中与调试入口无关的系统修改或安装包。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-29"
+    },
+    {
+      "id": "tmall-m16s-remote-2016",
+      "brands": [
+        "天猫魔盒"
+      ],
+      "title": "天猫魔盒 M16S：通用设置中的远程调试",
+      "scope": "仅参考来源明确点名的设备和当时系统；未说明的地区、版本及后续固件保持未知",
+      "models": [
+        "M16S"
+      ],
+      "context": {
+        "system": "原文未注明",
+        "firmware": "未知（2016 年教程）",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "ZNDS智能电视网发布：开启 M16S ADB 模式",
+          "url": "https://www.sohu.com/a/112594268_127694"
+        }
+      ],
+      "steps": [
+        "进入盒子的设置，在通用设置中选择开发者模式。",
+        "只在页面存在明确的远程调试模式时按需打开；找不到时停止。"
+      ],
+      "limitations": [
+        "来源由 ZNDS智能电视网账号发布在搜狐，不是天猫官方；没有给出完整系统、端口或配对信息。",
+        "不能把第三方刷入固件后 ADB 默认开启的反馈当作原厂 M16S 的行为。",
+        "本条是公开资料整理，不是本项目真机测试；未采用原文中与调试入口无关的系统修改或安装包。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-29"
+    },
+    {
+      "id": "tmall-4pro-developer-setting",
+      "brands": [
+        "天猫魔盒"
+      ],
+      "title": "天猫魔盒4Pro：我的页面中的开发者开关",
+      "scope": "仅参考来源明确点名的设备和当时系统；未说明的地区、版本及后续固件保持未知",
+      "models": [
+        "天猫魔盒4Pro"
+      ],
+      "context": {
+        "system": "原文称 YunOS；具体版本未知",
+        "firmware": "未知（2021 年教程）",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "原作者图文：天猫魔盒4Pro开启 ADB",
+          "url": "https://www.znds.com/tv-1199781-1-1.html"
+        }
+      ],
+      "steps": [
+        "从主页面进入我的，再打开左下方设置。",
+        "在通用设置一栏向右找到开发者模式，按本次需要开启；不要改其他不明确的选项。"
+      ],
+      "limitations": [
+        "来源标题声称“4Pro以上”，但没有逐个列出或验证后续型号，本条只点名4Pro，不向新款自动扩展。",
+        "开发者模式开关和电脑实际获得 ADB 授权不同；网络端口、重启保持情况仍未知。",
+        "本条是公开资料整理，不是本项目真机测试；未采用原文中与调试入口无关的系统修改或安装包。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-29"
+    },
+    {
+      "id": "tmall-6-remote-setting",
+      "brands": [
+        "天猫魔盒"
+      ],
+      "title": "天猫魔盒6：开发者模式下的远程调控记录",
+      "scope": "仅参考来源明确点名的设备和当时系统；未说明的地区、版本及后续固件保持未知",
+      "models": [
+        "天猫魔盒6"
+      ],
+      "context": {
+        "system": "原文称阿里系统；具体版本未知",
+        "firmware": "未知（2020 年教程）",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "原作者：天猫魔盒6安装软件教程中的 ADB 段落",
+          "url": "https://www.znds.com/tv-1182915-1-1.html"
+        }
+      ],
+      "steps": [
+        "从魔盒主页面打开我的，进入设置，再查找开发者模式。",
+        "核对页面中的远程调控模式（原文用词），只有明确的调试项与原文相符时按需要开启。"
+      ],
+      "limitations": [
+        "不把魔盒6与6C、6八核等相近商品名合并；完整硬件编码和固件未知。",
+        "只摘录普通调试设置，不采用原文刷机建议；菜单文字若与实际不符，应先核实设备说明。",
+        "本条是公开资料整理，不是本项目真机测试；未采用原文中与调试入口无关的系统修改或安装包。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-29"
+    },
+    {
+      "id": "tencent-skyworth-first-box",
+      "brands": [
+        "腾讯极光",
+        "创维"
+      ],
+      "title": "创维企鹅极光首款盒子：账户安全中的 ADB 模式",
+      "scope": "仅参考来源明确点名的设备和当时系统；未说明的地区、版本及后续固件保持未知",
+      "models": [],
+      "context": {
+        "system": "未知",
+        "firmware": "未知（2017 年教程）",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "原作者：创维企鹅极光盒子打开 ADB 的三步说明",
+          "url": "https://www.znds.com/tv-735047-1-1.html"
+        }
+      ],
+      "steps": [
+        "打开盒子的系统设置，再进入账户安全。",
+        "找到 ADB 模式，按本次需要开启，并阅读本人实际看到的授权或安全提示。"
+      ],
+      "limitations": [
+        "来源描述2017年首款创维企鹅极光盒子，未写明确硬件编码；不能推广到海美迪或其他代工的腾讯极光系列。",
+        "本条是公开资料整理，不是本项目真机测试；未采用原文中与调试入口无关的系统修改或安装包。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-29"
+    },
+    {
+      "id": "webox-we30-security-setting",
+      "brands": [
+        "泰捷",
+        "WEBOX"
+      ],
+      "title": "泰捷 WEBOX WE30：安全与隐私中的 ADB 调试",
+      "scope": "仅参考来源明确点名的设备和当时系统；未说明的地区、版本及后续固件保持未知",
+      "models": [
+        "WE30"
+      ],
+      "context": {
+        "system": "未知",
+        "firmware": "未知（2015 年作者经验）",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "原作者 noahbin：WEBOX WE30 使用经验",
+          "url": "https://jingyan.baidu.com/article/48b558e32e96a97f38c09aa4.html"
+        }
+      ],
+      "steps": [
+        "进入盒子设置，再打开安全与隐私，查看是否存在明确的 ADB 调试。",
+        "仅按本次调试需要开启 ADB 项；原文还提到安装未知来源，单独查看调试入口不需要照开其他权限。"
+      ],
+      "limitations": [
+        "来源没有固件号，其他年代教程还涉及额外软件打开隐藏设置；没有此普通菜单时不反复套用，也不默认 WE30C、WE30 Pro 相同。",
+        "本条是公开资料整理，不是本项目真机测试；未采用原文中与调试入口无关的系统修改或安装包。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-29"
+    },
+    {
+      "id": "himedia-q5-ambiguous-label",
+      "brands": [
+        "海美迪"
+      ],
+      "title": "海美迪 Q5：入口存在但代际和开关名称待核对",
+      "scope": "仅参考来源明确点名的设备和当时系统；未说明的地区、版本及后续固件保持未知",
+      "models": [
+        "Q5"
+      ],
+      "context": {
+        "system": "未知",
+        "firmware": "未知；Q5具体代际未说明",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "unresolved",
+      "sources": [
+        {
+          "title": "当贝教程中心：海美迪 Q5 的开发者设置段落",
+          "url": "https://www.znds.com/jc/article/321-3.html"
+        }
+      ],
+      "steps": [],
+      "limitations": [
+        "来源指向系统设置、开发者选项，但将开关文字写为“USB测试”，未明确Q5代际、固件或实际页面文字；暂不提供可照做步骤。",
+        "不能把USB测试字样直接当作调试授权，也不把只写Q5的教程扩大至Q5四核、Q5四代等其他硬件。",
+        "本条是公开资料整理，不是本项目真机测试；未采用原文中与调试入口无关的系统修改或安装包。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-29"
+    },
+    {
+      "id": "himedia-h7-gen3-apk-entry",
+      "brands": [
+        "海美迪"
+      ],
+      "title": "海美迪 H7三代：额外 ADB APK 的作者记录",
+      "scope": "仅参考来源明确点名的设备和当时系统；未说明的地区、版本及后续固件保持未知",
+      "models": [
+        "H7三代"
+      ],
+      "context": {
+        "system": "原帖未注明",
+        "firmware": "未知（2015 年原帖）",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "unresolved",
+      "sources": [
+        {
+          "title": "原作者：H7三代开启 ADB 应用的测试记录",
+          "url": "https://www.znds.com/tv-271727-1-1.html"
+        }
+      ],
+      "steps": [],
+      "limitations": [
+        "作者依赖单独的 ADB APK，且报告每次开机需要重新启动该应用；本库未审查该包的签名、权限和恢复行为。",
+        "因此不提供下载或运行步骤，也不把这种 APK 机制描述为系统自带的普通开关。",
+        "本条是公开资料整理，不是本项目真机测试；未采用原文中与调试入口无关的系统修改或安装包。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-29"
+    },
+    {
+      "id": "letv-u4-hidden-settings",
+      "brands": [
+        "乐视"
+      ],
+      "title": "乐视 U4裸机版：原生设置需要额外工具的评测",
+      "scope": "仅参考来源明确点名的设备和当时系统；未说明的地区、版本及后续固件保持未知",
+      "models": [
+        "U4"
+      ],
+      "context": {
+        "system": "EUI 5.8 / Android 6.0（评测所述）",
+        "firmware": "完整固件未知",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "unresolved",
+      "sources": [
+        {
+          "title": "原作者：乐视 U4裸机版体验",
+          "url": "https://www.jiguo.com/mb/article/article/32626.html"
+        }
+      ],
+      "steps": [],
+      "limitations": [
+        "评测称需借助额外工具打开原生设置和 USB 调试，但没有完整验证流程；本库不提供第三方助手安装或权限操作。",
+        "仅对应评测的裸机版，不能自动推广到U4 Pro、C1S或其他乐视设备。",
+        "本条是公开资料整理，不是本项目真机测试；未采用原文中与调试入口无关的系统修改或安装包。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-29"
+    },
+    {
+      "id": "prima-4s875-z25x-special-menu",
+      "brands": [
+        "PRIMA"
+      ],
+      "title": "PRIMA 4S875_Z25X：酷开系统的特殊菜单投稿",
+      "scope": "仅参考来源明确点名的设备和当时系统；未说明的地区、版本及后续固件保持未知",
+      "models": [
+        "4S875_Z25X"
+      ],
+      "context": {
+        "system": "酷开系统 / Android 8.0.0",
+        "firmware": "2020-11-17",
+        "region": "未知"
+      },
+      "evidence": "community",
+      "status": "unresolved",
+      "sources": [
+        {
+          "title": "原投稿及维护者部分采纳说明",
+          "url": "https://github.com/sanshengai/sansheng-tv-adb/issues/2"
+        }
+      ],
+      "steps": [],
+      "limitations": [
+        "投稿描述工厂菜单开启 ADB，本库不提供对应按键或操作步骤；4S875_Z25X是机芯/设备标识，不是已经确认的零售型号。",
+        "原帖品牌文字写作“夏华 PRIMA”，品牌与代工关系仍待核实；不因使用酷开系统就将其当作已验证的创维同型号。",
+        "原投稿缺少可公开核对的完整固件指纹和证据附件；对话文字及本地文件路径不当作独立验证证据。",
+        "本条是公开资料整理，不是本项目真机测试；未采用原文中与调试入口无关的系统修改或安装包。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-29"
     }
   ]
 }
