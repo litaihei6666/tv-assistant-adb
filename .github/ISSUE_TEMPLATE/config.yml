@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 先看看哪些设备需要补充
+    url: https://github.com/litaihei6666/tv-assistant-adb/blob/main/docs/HELP_WANTED.md
+    about: 待确认型号、缺失固件和适合参与的资料核对任务
+  - name: 如何拍图解、提供资料和得到署名
+    url: https://github.com/litaihei6666/tv-assistant-adb/blob/main/CONTRIBUTING.md
+    about: 不懂代码可以直接填表；不需要安装开发环境

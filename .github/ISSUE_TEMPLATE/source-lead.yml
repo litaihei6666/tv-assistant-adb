@@ -1,0 +1,36 @@
+name: 3. 提交资料线索（没有实机也可以）
+description: 提交原帖、厂商说明或某个型号的公开资料，不需要自行验证
+title: "[资料线索] 品牌和型号"
+body:
+  - type: markdown
+    attributes:
+      value: 线索会先进入待审查流程，不直接转为可用教程。请尽量提供作者原帖或厂商原始说明，避免重复转载。
+  - type: input
+    id: scope
+    attributes:
+      label: 涉及什么品牌或型号
+      description: 只有系列名也可以，明确写出哪些信息未知。
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: 可公开打开的原始链接
+      description: 不提供网盘提取码、密钥、私人文件或非公开聊天。
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: 这条资料能补什么，哪些地方不确定
+      description: 例如具体固件、菜单入口或反例。若涉及工厂、root、刷机或额外APK，只说明风险类别，不粘贴操作步骤或程序。
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: 提交前核对
+      options:
+        - label: 我没有把未测试的资料描述为本人实测，且没有提交私人信息或无授权素材。
+          required: true
+        - label: 若资料被采纳，我愿意以GitHub用户名在社区贡献名单中致谢。

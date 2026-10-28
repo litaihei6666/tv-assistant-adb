@@ -1,0 +1,42 @@
+name: 2. 纠正教程或补充固件差异
+description: 菜单不一致、升级后失效、品牌型号写错或结果有误
+title: "[纠错] 条目或品牌型号"
+body:
+  - type: markdown
+    attributes:
+      value: 不需要尝试危险操作证明问题。只记录已发生的情况；不要上传隐私、完整日志、工厂口令或额外软件。
+  - type: input
+    id: record
+    attributes:
+      label: 哪条资料有问题
+      description: 填条目标题、ID或链接，能定位即可。
+    validations:
+      required: true
+  - type: textarea
+    id: device
+    attributes:
+      label: 设备型号、系统、固件、地区
+      description: 未知请写未知；如不是本人设备请注明。
+    validations:
+      required: true
+  - type: textarea
+    id: difference
+    attributes:
+      label: 原文哪里不对，你实际看到什么
+      description: 可以只反馈找不到菜单；若有另一条普通入口，请写清前提。仅有开关提示不算实际连接成功。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 来源链接或本人图解（可选）
+      description: 可拖入已脱敏的本人图片；给每张图片配一句页面说明，不转载无授权图片。
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: 提交前核对
+      options:
+        - label: 我已区分本人观察和外部资料，并移除IP、序列号、MAC、账号、密钥等隐私。
+          required: true
+        - label: 如附有图片，我有权按本项目MIT许可提交原创部分，并已遮挡隐私；第三方内容不因此重新授权。
+        - label: 若资料被采纳，我愿意以GitHub用户名在社区贡献名单中致谢。

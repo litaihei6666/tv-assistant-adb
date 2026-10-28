@@ -13,3 +13,5 @@
 `data/research-index.json` 单独存放 `schema_version`、固定仓库/提交/目录哈希的 `source` 和 `records`。每条仅允许 `id`、`brand`、`title`、`system`、`source_url`、`metadata_sha256`、`status`。状态必须为 `unreviewed`，禁止 `steps` 或任何实测、授权字段。机型目录可能用系统自报型号、板卡代号或零售名称，不能自动视为独立零售型号。
 
 `data/brand-aliases.json` 只提供检索词的中英文对应，不改变来源品牌字段、证据或设备匹配能力。页面对两种资料分别计数，索引默认折叠；其外部链接也不构成操作建议。审查后须人工写入 `entries.json`，附实际来源、边界和限制；不能自动把索引转换成教程。
+
+`docs/HELP_WANTED.md` 同样由 `scripts/build.py` 生成，只列出 `unresolved` 条目和投稿链接，并按当前索引计算线索数量。`--check` 同时核对查询页和该清单；不要只手改生成文件。Issue表单是待审核资料，不能通过提交或自称实测自动写入结构化数据库；社区采纳与图解授权流程见贡献指南。

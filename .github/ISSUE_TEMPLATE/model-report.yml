@@ -1,32 +1,65 @@
-name: 电视型号与入口资料
-description: 提供新型号或纠正现有入口
-title: "[型号] 品牌和型号"
+name: 1. 补充我的电视或盒子
+description: 不懂代码也能提交；成功、失败、找不到入口都欢迎
+title: "[设备补充] 品牌和型号"
 body:
   - type: markdown
     attributes:
-      value: 不要提供 IP、序列号、MAC、账号、密钥、家庭地址或包含它们的截图。
+      value: |
+        感谢帮助补齐资料。只填写你已经知道的信息，未知就写“未知”，不需要为了投稿进行额外测试。
+        不要提供 IP、序列号、MAC、账号、密钥、家庭地址、完整日志或含这些信息的图片。
   - type: input
     id: model
     attributes:
       label: 品牌与完整型号
+      description: 从普通关于页面或机身铭牌查看；没有完整型号就写已知部分并说明。
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: firmware
     attributes:
-      label: 系统、固件和地区（未知请写未知）
+      label: 系统、固件和使用地区
+      placeholder: |
+        Android或电视系统版本：未知
+        完整固件或软件版本：未知
+        销售地区；运营商定制盒子请补地区和运营商：未知
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: 你实际完成到哪一步
+      options:
+        - 找不到调试入口
+        - 看到或打开调试开关，尚未连接
+        - 页面提示已开启，但连接失败
+        - 实际连接成功并确认是这台设备
+        - 没有本人测试，只提供资料线索
+        - 其他或无法判断
     validations:
       required: true
   - type: textarea
     id: observation
     attributes:
-      label: 普通设置入口和你实际看到的结果
-      description: 不要提供工厂菜单口令、刷机、root、重置或未知 APK 的操作步骤。
+      label: 普通设置入口和实际结果
+      description: 写到哪一页、点什么、看到什么；区分USB/网络/无线配对，是否弹出授权。没找到也可以直接写“没找到”。不提供工厂口令、root、刷机、重置或未审核APK步骤。
     validations:
       required: true
   - type: textarea
     id: sources
     attributes:
-      label: 可公开核验的资料来源，以及你是否本人实际操作
-    validations:
-      required: true
+      label: 来源或自己拍摄的图解（可选）
+      description: 有原始链接请贴链接；没有也可提交。可拖入已打码的本人照片，每张说明页面与操作位置；不要上传完整日志或转载他人图片。
+  - type: input
+    id: observed_at
+    attributes:
+      label: 实际观察或操作日期（可选）
+      description: 不是这次投稿日期；只写记得的日期或大致时间，忘记可留空。
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: 提交前核对
+      options:
+        - label: 我区分了本人操作、他人资料和未知信息，且已移除私人信息。
+          required: true
+        - label: 如附有图片，我有权按本项目MIT许可提交原创部分，并已遮挡隐私；画面中的第三方内容不因此重新授权。
+        - label: 若资料被采纳，我愿意以GitHub用户名在社区贡献名单中致谢。

@@ -6,6 +6,20 @@
 
 > 这是持续建设的资料库，**不宣称收录齐全或所有型号适用**。选中品牌不证明系统是 Android，打开 USB 调试也不证明无线可连接。不同地区、型号和固件可能不同。
 
+## 一起补齐各品牌、各型号的ADB入口
+
+**公开这个仓库，是希望用过这些设备的人一起补充。你不需要会写代码。** 一台电视的入口、一张自己拍的菜单图，或一次“更新后找不到了”的反馈，都能帮助后来的人少走弯路。
+
+| 你想补什么 | 点击这里 |
+| --- | --- |
+| 我的电视/盒子怎样开启，或者遇到了什么问题 | [补充我的设备](https://github.com/litaihei6666/tv-assistant-adb/issues/new?template=model-report.yml) |
+| 原教程不对、固件升级后入口变化 | [纠正教程](https://github.com/litaihei6666/tv-assistant-adb/issues/new?template=correction.yml) |
+| 我找到一份资料，还没实机测试 | [提交资料线索](https://github.com/litaihei6666/tv-assistant-adb/issues/new?template=source-lead.yml) |
+
+填写品牌型号、系统固件（未知也可以）和实际情况即可。图片不是必填，有自己拍摄且已打码的图解更好；不要求为了投稿进行额外测试。投稿先审核，再进入查询资料。
+
+[看看哪些设备正在等补充](docs/HELP_WANTED.md) · [图解和投稿说明](CONTRIBUTING.md) · [社区贡献致谢](CONTRIBUTORS.md)
+
 ## 怎么查
 
 首次使用先下载上面的ZIP并完整解压，再双击解压目录中的 `index.html`；不需要安装Python、Node.js或ADB。GitHub文件预览不是交互查询页面。
