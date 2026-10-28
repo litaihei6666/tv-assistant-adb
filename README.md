@@ -1,10 +1,14 @@
 # 电视 ADB 入口资料库
 
+项目仓库：[litaihei6666/tv-assistant-adb](https://github.com/litaihei6666/tv-assistant-adb) · [下载完整 ZIP](https://github.com/litaihei6666/tv-assistant-adb/archive/refs/heads/main.zip) · [提交型号资料](https://github.com/litaihei6666/tv-assistant-adb/issues/new/choose)
+
 收集电视和电视盒子**如何由本人开启调试**的资料，帮助用户按品牌、型号和系统查找入口。每条记录注明来源、适用范围、验证状态与未知项。离线打开 [查询页面](index.html)，或浏览 [结构化数据](data/entries.json)。
 
 > 这是持续建设的资料库，**不宣称收录齐全或所有型号适用**。选中品牌不证明系统是 Android，打开 USB 调试也不证明无线可连接。不同地区、型号和固件可能不同。
 
 ## 怎么查
+
+首次使用先下载上面的ZIP并完整解压，再双击解压目录中的 `index.html`；不需要安装Python、Node.js或ADB。GitHub文件预览不是交互查询页面。
 
 1. 在电视“关于”或铭牌查看品牌和完整型号；不要公开序列号、MAC 地址或家庭 IP。
 2. 打开 `index.html`，输入品牌或型号；核对记录的型号、系统、地区及固件范围。
