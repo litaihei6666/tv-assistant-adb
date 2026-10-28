@@ -1,0 +1,575 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "android-tv-standard",
+      "brands": [
+        "其他"
+      ],
+      "title": "Android TV 标准开发者选项",
+      "scope": "标准 Android TV，实际菜单与文档相符",
+      "models": [],
+      "evidence": "official",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "Google Android TV 开发指南",
+          "url": "https://developer.android.com/training/tv/get-started/create#run-tv-apps"
+        }
+      ],
+      "steps": [
+        "在实际 Android TV 的设置中打开关于页面。",
+        "选中内部版本号（Build），连续按确认键直到出现开发者提示。",
+        "回到实际出现的开发者选项，只开启需要的调试开关。"
+      ],
+      "limitations": [
+        "只适用于实际为 Android TV 的设备，菜单随固件变化。",
+        "官方资料描述 USB 调试；USB 开启不证明网络调试可用。"
+      ],
+      "transport": "usb",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "tcl-65v6d",
+      "brands": [
+        "TCL"
+      ],
+      "title": "TCL 65V6D：用户一次操作记录",
+      "scope": "用户提供的外部型号 65V6D，固件未知",
+      "models": [
+        "65V6D"
+      ],
+      "evidence": "firsthand_report",
+      "status": "user_report",
+      "sources": [
+        {
+          "title": "Aerial 社区品牌入口参考",
+          "url": "https://github.com/pengchujin/aerial-tv/blob/cf2d4a710a81cd959e77996cc2cb98f5d8b234ce/docs/devices/adb-by-brand.md"
+        }
+      ],
+      "steps": [
+        "打开普通设置中的关于、本机信息。",
+        "在本机信息页面按上、下、左、右；社区资料提示一秒内完成。",
+        "出现“更多”后只查找并打开明确的 ADB 开关；发起连接后由本人确认实际授权弹窗。"
+      ],
+      "limitations": [
+        "一次用户反馈来自非公开历史会话，尚无可公开的实测记录；链接仅支持社区按键参考，不证明该反馈。",
+        "本项目会话中用户报告该路径有效，未取得固件标识；不要扩展至其他设备。",
+        "若进入工厂、维修、校准或商场模式，请退出；不要更改其他项目。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "tcl-thunderbird",
+      "brands": [
+        "TCL",
+        "雷鸟"
+      ],
+      "title": "TCL / 雷鸟：本机信息中的更多",
+      "scope": "部分定制固件，不能按品牌保证",
+      "models": [],
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "Aerial 社区品牌入口",
+          "url": "https://github.com/pengchujin/aerial-tv/blob/cf2d4a710a81cd959e77996cc2cb98f5d8b234ce/docs/devices/adb-by-brand.md"
+        }
+      ],
+      "steps": [
+        "普通设置进入关于和本机信息。",
+        "在本机信息页一秒内依次按上、下、左、右。",
+        "如果出现“更多”，只查找明确的 ADB 开关。"
+      ],
+      "limitations": [
+        "社区参考，具体型号及固件需核对。",
+        "部分资料提到商场模式，本库不引导改变它；看不到明确开关时停止。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "tcl-t7k",
+      "brands": [
+        "TCL"
+      ],
+      "title": "TCL T7K：外部项目记录",
+      "scope": "型号 T7K；具体固件未知",
+      "models": [
+        "T7K"
+      ],
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "Android TV Toolkit 品牌机型表",
+          "url": "https://github.com/VictorTran1023/android-tv-toolkit/blob/main/docs/brands.md"
+        },
+        {
+          "title": "Aerial 社区品牌入口",
+          "url": "https://github.com/pengchujin/aerial-tv/blob/cf2d4a710a81cd959e77996cc2cb98f5d8b234ce/docs/devices/adb-by-brand.md"
+        }
+      ],
+      "steps": [
+        "在普通设置查找关于、本机信息。",
+        "社区资料建议在信息页一秒内按上、下、左、右，若出现“更多”则查找 ADB 开关。"
+      ],
+      "limitations": [
+        "其他项目自称在 T7K 测试过，不是本资料库独立实测；具体型号后缀及固件未知。",
+        "遇到工厂菜单或商场模式请退出。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "xiaomi-redmi",
+      "brands": [
+        "小米",
+        "Redmi"
+      ],
+      "title": "小米 / Redmi 部分电视：账户与安全",
+      "scope": "部分小米/Redmi 电视；固件不同入口可能不同",
+      "models": [],
+      "evidence": "mixed",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "小米旧版开发者文档",
+          "url": "https://dev.mi.com/docs/mitv/user_guide/"
+        },
+        {
+          "title": "Aerial 社区品牌入口",
+          "url": "https://github.com/pengchujin/aerial-tv/blob/cf2d4a710a81cd959e77996cc2cb98f5d8b234ce/docs/devices/adb-by-brand.md"
+        }
+      ],
+      "steps": [
+        "在普通设置的账户与安全中查找 ADB 调试。",
+        "若无该项，社区资料提示部分机型可在关于页选中产品型号并多次按确认键，随后返回账户与安全查看。"
+      ],
+      "limitations": [
+        "小米官方旧文有 ADB 设置；连续按键及具体适用机型来自社区参考。",
+        "不需要为开启 ADB 同时打开未知来源。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "oppo-s1",
+      "brands": [
+        "OPPO"
+      ],
+      "title": "OPPO S1 及部分 ColorOS TV",
+      "scope": "社区资料包含 S1；其他型号和固件待核实",
+      "models": [
+        "S1"
+      ],
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "Aerial 社区品牌入口",
+          "url": "https://github.com/pengchujin/aerial-tv/blob/cf2d4a710a81cd959e77996cc2cb98f5d8b234ce/docs/devices/adb-by-brand.md"
+        }
+      ],
+      "steps": [
+        "普通设置进入系统、关于本机、设备型号。",
+        "按上、上、右、右、确认，观察是否出现开发者提示。",
+        "如实际出现开发者选项，查看明确的 USB 或 ADB 调试开关。"
+      ],
+      "limitations": [
+        "S1 为社区资料点名机型，不是本资料库实测。",
+        "USB 调试不代表无线调试可用；步骤不符时停止。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "fire-tv",
+      "brands": [
+        "Amazon Fire TV"
+      ],
+      "title": "Fire TV 开发者选项",
+      "scope": "部分 Fire TV / Fire OS；实际界面为准",
+      "models": [],
+      "evidence": "official",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "Amazon Fire TV 调试说明",
+          "url": "https://developer.amazon.com/docs/fire-tv/connecting-adb-to-device.html"
+        }
+      ],
+      "steps": [
+        "打开 Settings、My Fire TV、Developer Options。",
+        "找到 ADB Debugging 并开启；若开发者选项隐藏，查看官方文档中对应系统版本的说明。"
+      ],
+      "limitations": [
+        "这是 Amazon 官方 Fire TV 路径，不代表所有 Android 电视均相同。",
+        "不需要开启安装未知应用；实际连接方式以设备页面为准。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "sony-android",
+      "brands": [
+        "索尼"
+      ],
+      "title": "索尼 BRAVIA：Android TV 普通入口",
+      "scope": "仅实际运行 Android TV / Google TV 且菜单相符的机型",
+      "models": [
+        "X900E",
+        "X900F"
+      ],
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "Google Android TV 开发指南",
+          "url": "https://developer.android.com/training/tv/get-started/create#run-tv-apps"
+        },
+        {
+          "title": "社区设备系列索引",
+          "url": "https://sanshengai.top/tools/tv-adb/"
+        }
+      ],
+      "steps": [
+        "在实际 Android TV 的设置中打开关于页面。",
+        "选中内部版本号（Build），连续按确认键直到出现开发者提示。",
+        "回到实际出现的开发者选项，只开启需要的调试开关。"
+      ],
+      "limitations": [
+        "只适用于实际为 Android TV 的设备，菜单随固件变化。",
+        "官方资料描述 USB 调试；USB 开启不证明网络调试可用。",
+        "X900E / X900F 为社区系列线索，地区与固件未知，未逐台验证。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "hisense-android",
+      "brands": [
+        "海信",
+        "Vidda"
+      ],
+      "title": "海信 / Vidda：标准 Android TV 情况",
+      "scope": "仅实际运行标准 Android TV 且菜单相符",
+      "models": [],
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "Google Android TV 开发指南",
+          "url": "https://developer.android.com/training/tv/get-started/create#run-tv-apps"
+        },
+        {
+          "title": "Aerial 社区参考",
+          "url": "https://github.com/pengchujin/aerial-tv/blob/cf2d4a710a81cd959e77996cc2cb98f5d8b234ce/docs/devices/adb-by-brand.md"
+        }
+      ],
+      "steps": [
+        "在实际 Android TV 的设置中打开关于页面。",
+        "选中内部版本号（Build），连续按确认键直到出现开发者提示。",
+        "回到实际出现的开发者选项，只开启需要的调试开关。"
+      ],
+      "limitations": [
+        "只适用于实际为 Android TV 的设备，菜单随固件变化。",
+        "官方资料描述 USB 调试；USB 开启不证明网络调试可用。",
+        "不能由海信或 Vidda 品牌推断操作系统；国产定制固件可能没有该路径。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "skyworth-android",
+      "brands": [
+        "创维",
+        "酷开"
+      ],
+      "title": "创维 / 酷开：标准 Android TV 情况",
+      "scope": "仅实际运行标准 Android TV 且菜单相符",
+      "models": [],
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "Google Android TV 开发指南",
+          "url": "https://developer.android.com/training/tv/get-started/create#run-tv-apps"
+        },
+        {
+          "title": "社区系列索引",
+          "url": "https://sanshengai.top/tools/tv-adb/"
+        }
+      ],
+      "steps": [
+        "在实际 Android TV 的设置中打开关于页面。",
+        "选中内部版本号（Build），连续按确认键直到出现开发者提示。",
+        "回到实际出现的开发者选项，只开启需要的调试开关。"
+      ],
+      "limitations": [
+        "只适用于实际为 Android TV 的设备，菜单随固件变化。",
+        "官方资料描述 USB 调试；USB 开启不证明网络调试可用。",
+        "部分社区资料需要工厂菜单，本条不提供该入口；国产定制固件可能没有标准路径。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "changhong-version",
+      "brands": [
+        "长虹"
+      ],
+      "title": "长虹部分固件：普通设置版本号",
+      "scope": "仅实际可见相关普通设置的部分固件",
+      "models": [
+        "65D8K",
+        "85D55S"
+      ],
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "社区系列索引",
+          "url": "https://sanshengai.top/tools/tv-adb/"
+        },
+        {
+          "title": "社区品牌汇总",
+          "url": "https://jishuzhan.net/article/2009434896822484993"
+        }
+      ],
+      "steps": [
+        "在普通设置中查找关于本机或关于电视。",
+        "若有版本号，连续按确认键并观察开发者提示。",
+        "实际出现开发者选项后查看明确的调试开关。"
+      ],
+      "limitations": [
+        "这些型号仅是社区列出的系列实例，没有逐型号入口实测证据。",
+        "固件可能隐藏或移除该选项；不进入工厂菜单，不推断 USB 能否无线连接。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "philips-android",
+      "brands": [
+        "飞利浦"
+      ],
+      "title": "飞利浦：标准 Android TV 情况",
+      "scope": "仅实际运行标准 Android TV 且菜单相符",
+      "models": [],
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "Google Android TV 开发指南",
+          "url": "https://developer.android.com/training/tv/get-started/create#run-tv-apps"
+        },
+        {
+          "title": "社区系列索引",
+          "url": "https://sanshengai.top/tools/tv-adb/"
+        }
+      ],
+      "steps": [
+        "在实际 Android TV 的设置中打开关于页面。",
+        "选中内部版本号（Build），连续按确认键直到出现开发者提示。",
+        "回到实际出现的开发者选项，只开启需要的调试开关。"
+      ],
+      "limitations": [
+        "只适用于实际为 Android TV 的设备，菜单随固件变化。",
+        "官方资料描述 USB 调试；USB 开启不证明网络调试可用。",
+        "飞利浦也有其他系统；不能按品牌推断系统类型。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "sharp-android",
+      "brands": [
+        "夏普"
+      ],
+      "title": "夏普：标准 Android TV 情况",
+      "scope": "仅实际运行标准 Android TV 且菜单相符",
+      "models": [],
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "Google Android TV 开发指南",
+          "url": "https://developer.android.com/training/tv/get-started/create#run-tv-apps"
+        },
+        {
+          "title": "社区系列索引",
+          "url": "https://sanshengai.top/tools/tv-adb/"
+        }
+      ],
+      "steps": [
+        "在实际 Android TV 的设置中打开关于页面。",
+        "选中内部版本号（Build），连续按确认键直到出现开发者提示。",
+        "回到实际出现的开发者选项，只开启需要的调试开关。"
+      ],
+      "limitations": [
+        "只适用于实际为 Android TV 的设备，菜单随固件变化。",
+        "官方资料描述 USB 调试；USB 开启不证明网络调试可用。",
+        "部分固件可能屏蔽入口；不要为了调试安装来源不明的 APK。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "hinlink-ht2",
+      "brands": [
+        "影火盒子"
+      ],
+      "title": "影火 HT2：个人分享的有线 USB 指南",
+      "scope": "HT2，具体系统与固件依原指南和实际页面",
+      "models": [
+        "HT2"
+      ],
+      "evidence": "community",
+      "status": "reference",
+      "sources": [
+        {
+          "title": "HT2 个人分享快速入门 PDF（第 19 页，印刷页 15）",
+          "url": "https://www.hinlink.cn/wp-content/uploads/2024/03/20240408161647259409.pdf"
+        }
+      ],
+      "steps": [
+        "打开设置、设备偏好设置、关于。",
+        "在 Android TV 操作系统版本项连续按确认键五次以上，观察开发者提示。",
+        "在实际开发者选项中查看 USB 调试。"
+      ],
+      "limitations": [
+        "该 PDF 标明个人分享，不能称为厂商官方文档。",
+        "原资料同时有其他高风险操作；本条不采纳。无线连接未知，仅 USB 不证明无线可用。"
+      ],
+      "transport": "usb",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "haier-research",
+      "brands": [
+        "海尔",
+        "模卡"
+      ],
+      "title": "海尔 / 模卡：入口待确认",
+      "scope": "部分社区教程涉及工厂菜单；具体机型和固件未知",
+      "models": [],
+      "evidence": "community",
+      "status": "unresolved",
+      "sources": [
+        {
+          "title": "Aerial 社区品牌入口",
+          "url": "https://github.com/pengchujin/aerial-tv/blob/cf2d4a710a81cd959e77996cc2cb98f5d8b234ce/docs/devices/adb-by-brand.md"
+        }
+      ],
+      "steps": [],
+      "limitations": [
+        "暂未找到可安全通用的普通设置入口。",
+        "部分资料涉及工厂菜单；本项目不引导进入或修改该菜单。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "konka-b50u-research",
+      "brands": [
+        "康佳"
+      ],
+      "title": "康佳 B50U：仅记录资料线索",
+      "scope": "B50U；固件与适用性未知",
+      "models": [
+        "B50U"
+      ],
+      "evidence": "community",
+      "status": "unresolved",
+      "sources": [
+        {
+          "title": "社区系列索引",
+          "url": "https://sanshengai.top/tools/tv-adb/"
+        }
+      ],
+      "steps": [],
+      "limitations": [
+        "公开资料涉及工厂菜单；不在本项目提供进入或修改步骤。",
+        "不是本资料库实测；可查询厂商是否提供普通设置入口。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "sharp-70su575a-research",
+      "brands": [
+        "夏普"
+      ],
+      "title": "夏普 LCD-70SU575A：仅记录资料线索",
+      "scope": "LCD-70SU575A；固件未知",
+      "models": [
+        "LCD-70SU575A"
+      ],
+      "evidence": "community",
+      "status": "unresolved",
+      "sources": [
+        {
+          "title": "社区系列索引",
+          "url": "https://sanshengai.top/tools/tv-adb/"
+        }
+      ],
+      "steps": [],
+      "limitations": [
+        "社区记录借助第三方应用，来源与安全性未审查；本项目不提供安装或使用步骤。",
+        "不能据此认定该型号没有其他入口。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "samsung-system-check",
+      "brands": [
+        "三星"
+      ],
+      "title": "三星电视：先核实操作系统",
+      "scope": "任何选择了三星品牌但系统未知的设备",
+      "models": [],
+      "evidence": "unverified",
+      "status": "unresolved",
+      "sources": [
+        {
+          "title": "Samsung Tizen 电视开发者资料（不同于 Android ADB）",
+          "url": "https://developer.samsung.com/smarttv/develop/getting-started/using-sdk/tv-device.html"
+        }
+      ],
+      "steps": [],
+      "limitations": [
+        "品牌名称不能证明操作系统或 ADB 支持情况。",
+        "先查看关于页面系统名称；其他系统的开发者功能不等于 Android ADB。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    },
+    {
+      "id": "lg-system-check",
+      "brands": [
+        "LG"
+      ],
+      "title": "LG 电视：先核实操作系统",
+      "scope": "任何选择了 LG 品牌但系统未知的设备",
+      "models": [],
+      "evidence": "unverified",
+      "status": "unresolved",
+      "sources": [
+        {
+          "title": "LG webOS 开发者资料（不同于 Android ADB）",
+          "url": "https://webostv.developer.lge.com/develop/getting-started/developer-mode-app"
+        }
+      ],
+      "steps": [],
+      "limitations": [
+        "品牌名称不能证明操作系统或 ADB 支持情况。",
+        "先查看关于页面系统名称；其他系统的开发者功能不等于 Android ADB。"
+      ],
+      "transport": "unknown",
+      "reviewed_at": "2026-10-28"
+    }
+  ]
+}

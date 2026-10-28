@@ -1,0 +1,17 @@
+const fs = require('fs');
+const vm = require('vm');
+const assert = require('assert');
+const html = fs.readFileSync('index.html', 'utf8');
+const js = html.match(/<script>([\s\S]*?)<\/script>/)[1];
+const items = [{dataset:{search:'tcl 65v6d'},hidden:false},{dataset:{search:'小米 redmi'},hidden:false}];
+let handler;
+const query = {value:'',addEventListener:(_, fn)=>handler=fn};
+const count = {textContent:''};
+const document = {getElementById: id => id==='query' ? query : count, querySelectorAll:()=>items};
+vm.runInNewContext(js,{document});
+assert.equal(count.textContent,'显示 2 条参考记录');
+query.value='65V6D'; handler();
+assert.equal(items[0].hidden,false); assert.equal(items[1].hidden,true);
+assert.equal(count.textContent,'显示 1 条参考记录');
+query.value='不存在'; handler(); assert.equal(count.textContent,'显示 0 条参考记录');
+console.log('Offline search interaction passed');

@@ -1,0 +1,32 @@
+name: 电视型号与入口资料
+description: 提供新型号或纠正现有入口
+title: "[型号] 品牌和型号"
+body:
+  - type: markdown
+    attributes:
+      value: 不要提供 IP、序列号、MAC、账号、密钥、家庭地址或包含它们的截图。
+  - type: input
+    id: model
+    attributes:
+      label: 品牌与完整型号
+    validations:
+      required: true
+  - type: input
+    id: firmware
+    attributes:
+      label: 系统、固件和地区（未知请写未知）
+    validations:
+      required: true
+  - type: textarea
+    id: observation
+    attributes:
+      label: 普通设置入口和你实际看到的结果
+      description: 不要提供工厂菜单口令、刷机、root、重置或未知 APK 的操作步骤。
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 可公开核验的资料来源，以及你是否本人实际操作
+    validations:
+      required: true
