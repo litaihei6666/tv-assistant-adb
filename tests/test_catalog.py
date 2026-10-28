@@ -1,5 +1,6 @@
 import copy
 import importlib.util
+import json
 from pathlib import Path
 import unittest
 from unittest.mock import patch
@@ -32,5 +33,18 @@ class CatalogTests(unittest.TestCase):
         e = next(x for x in self.entries if x["id"] == "tcl-65v6d")
         self.assertEqual(e["models"], ["65V6D"]); self.assertIn("固件未知", e["scope"])
         self.assertEqual(e["evidence"], "firsthand_report")
+    def test_context_is_visible_searchable_and_escaped(self):
+        e = copy.deepcopy(self.entries[0])
+        e["context"] = {"system": "Android TV 14", "firmware": "<script>alert(1)</script>", "region": "未知"}
+        content = build.render([e])
+        self.assertIn("系统：Android TV 14", content)
+        self.assertIn("地区：未知", content)
+        self.assertIn("&lt;script&gt;alert(1)&lt;/script&gt;", content)
+        self.assertNotIn("<script>alert(1)</script>", content)
+    def test_invalid_context_cannot_silently_authorize_more_fields(self):
+        for context in ({"system": "unknown"}, {"system": "unknown", "firmware": "unknown", "region": "unknown", "verified": True}):
+            e = copy.deepcopy(self.entries[0]); e["context"] = context
+            with patch.object(Path, "read_text", return_value=json.dumps({"schema_version": 1, "entries": [e]})):
+                with self.assertRaises(ValueError): build.load_records()
 
 if __name__ == "__main__": unittest.main()
